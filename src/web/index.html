@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edoo | Adaptive Learning Platform & ML Educational Intelligence</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== TOP NAVIGATION BAR ==================== -->
+  <header class="edoo-navbar">
+    <div class="nav-container">
+      <!-- Left: Logo + Category + Search -->
+      <div class="nav-left">
+        <a href="#home" class="edoo-logo">
+          <div class="logo-mark">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <span class="logo-text">Edoo</span>
+          <span class="logo-sub">AI</span>
+        </a>
+
+        <div class="category-dropdown">
+          <button class="btn-category">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <span>Category</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+        </div>
+
+        <div class="search-bar">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" placeholder="Search courses, topics, instructors..." class="search-input">
+        </div>
+      </div>
+
+      <!-- Right: Nav Links + CTA -->
+      <div class="nav-right">
+        <nav class="nav-menu">
+          <a href="#home" class="nav-item active">Home</a>
+          <a href="#services" class="nav-item">About Us</a>
+          <a href="#course" class="nav-item">Courses</a>
+          <a href="#simulator" class="nav-item nav-highlight">Simulator</a>
+          <a href="#interactive" class="nav-item">Experience</a>
+          <a href="#contact" class="nav-item">Contact</a>
+          <span class="lang-selector">EN ▾</span>
+        </nav>
+
+        <a href="#simulator" class="btn-edoo-primary">
+          <span>Get Started</span>
+          <span class="btn-arrow">→</span>
+        </a>
+
+        <button class="user-avatar-btn" title="Learner Profile">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" id="btn-mobile-nav" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="edoo-hero" id="home">
+    <div class="hero-container">
+      <!-- Full-width banner card (Figma-style) -->
+      <div class="hero-card-banner">
+        <!-- Background photo -->
+        <div class="hero-photo-bg" style="background-image: url('assets/adaptive_hero_hd.jpg');"></div>
+        <div class="hero-gradient-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-text-block">
+          <div class="hero-badge-pill">
+            <span class="badge-dot"></span>
+            OULAD Machine Learning Intelligence
+          </div>
+
+          <h1 class="hero-title">
+            Our Live Online Training Is Taught By Expert Instructors
+          </h1>
+          <p class="hero-subtitle">
+            Combines historical educational analytics, agent-based synthetic simulation, and dynamic real-time curriculum personalization for every student.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#course" class="btn-hero-primary">
+              Browse Course Catalog
+              <span>→</span>
+            </a>
+            <a href="#simulator" class="btn-hero-secondary" style="background:rgba(255,255,255,0.12); color:white; border-color:rgba(255,255,255,0.3);">
+              Launch Simulator
+            </a>
+          </div>
+
+          <!-- Trust Bar -->
+          <div class="hero-trust-bar">
+            <div class="trust-badge">
+              <span class="trust-source">Review On <strong>★ Trustpilot</strong></span>
+              <div class="star-rating">★★★★★ <span>544+ Reviews</span></div>
+            </div>
+            <div class="trust-badge">
+              <span class="trust-source"><strong class="google-g">G</strong> <strong>Google</strong></span>
+              <div class="star-rating">★★★★★ <span>4.9 / 5.0</span></div>
+            </div>
+            <div class="hero-social-links">FB • LN • IN • YT</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PARTNER LOGOS STRIP ==================== -->
+  <section class="partners-strip">
+    <div class="edoo-container">
+      <p class="partners-label">Trusted by researchers & institutions worldwide</p>
+      <div class="partners-logos">
+        <span class="partner-logo">Open University</span>
+        <span class="partner-logo">OULAD Research</span>
+        <span class="partner-logo">EdTech AI Lab</span>
+        <span class="partner-logo">Coursera</span>
+        <span class="partner-logo">Khan Academy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== THREE VALUE PROPOSITIONS ==================== -->
+  <section class="features-strip-section" id="services">
+    <div class="edoo-container">
+      <div style="text-align:center; margin-bottom: 48px;">
+        <span class="section-eyebrow">Why Choose Edoo</span>
+        <h2 class="section-heading" style="margin-top: 10px;">Everything You Need to Learn<br>Smarter &amp; Faster</h2>
+        <p class="section-subheading" style="margin: 12px auto 0; text-align: center;">Our platform uses OULAD data, ML models, and real-time simulation to personalize every learning journey.</p>
+      </div>
+
+      <div class="feature-strip-grid">
+        <!-- Card 1 -->
+        <div class="feature-strip-card">
+          <div class="strip-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div>
+            <h4 class="strip-title">Class Schedule & Intelligence</h4>
+            <p class="strip-desc">Edoo extracts engagement velocity, clickstream metrics, and assessment trends to predict academic risk before it happens.</p>
+          </div>
+        </div>
+
+        <!-- Card 2 (highlight) -->
+        <div class="feature-strip-card highlight-card">
+          <div class="strip-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div>
+            <h4 class="strip-title">Instructor-Led Online Advantage</h4>
+            <p class="strip-desc">1,000 synthetic learners modeled across multi-week checkpoints (Weeks 1, 3, 5, 8) to test adaptive guidance impact on outcomes.</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feature-strip-card">
+          <div class="strip-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <h4 class="strip-title">100% Satisfaction Guaranteed</h4>
+            <p class="strip-desc">Personalized syllabus pathways dynamically tailored to each student's baseline knowledge and unique learning speed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== LEARNER ARCHETYPES SECTION ==================== -->
+  <section class="archetypes-section" id="archetypes">
+    <div class="edoo-container">
+      <div class="section-title-row">
+        <div>
+          <span class="section-eyebrow">Student Profiles</span>
+          <h2 class="edoo-section-heading" style="margin-top: 10px;">Join Our 780+ Live Online<br>Classes For Students</h2>
+        </div>
+        <a href="#simulator" class="link-arrow-action">View Online Classes →</a>
+      </div>
+
+      <div class="archetype-cards-grid">
+        <!-- Archetype 1: Advanced -->
+        <div class="archetype-card">
+          <div class="archetype-illustration">
+            <div class="illustration-circle">
+              <span class="archetype-emoji">🚀</span>
+            </div>
+          </div>
+          <h4 class="archetype-title">For Advanced Learners</h4>
+          <p class="archetype-desc">Fast-paced curriculum skipping introductory syntax revision and fast-tracking to modular recursion and OOP capstones.</p>
+          <a href="#simulator" class="archetype-link" onclick="selectCanonicalLearner('SYN-A-101')">
+            Accelerated Track Online →
+          </a>
+        </div>
+
+        <!-- Archetype 2: Average -->
+        <div class="archetype-card">
+          <div class="archetype-illustration">
+            <div class="illustration-circle" style="background: #FEF9C3; border-color: #FDE68A;">
+              <span class="archetype-emoji">🎯</span>
+            </div>
+          </div>
+          <h4 class="archetype-title">For Consistent Students</h4>
+          <p class="archetype-desc">Standard sequential progression with structured interactive exercises and periodic formative milestone assessments.</p>
+          <a href="#simulator" class="archetype-link" onclick="selectCanonicalLearner('SYN-B-102')">
+            Standard Curriculum Online →
+          </a>
+        </div>
+
+        <!-- Archetype 3: Struggling -->
+        <div class="archetype-card">
+          <div class="archetype-illustration">
+            <div class="illustration-circle" style="background: #DCFCE7; border-color: #A7F3D0;">
+              <span class="archetype-emoji">🌱</span>
+            </div>
+          </div>
+          <h4 class="archetype-title">For Remedial Guidance</h4>
+          <p class="archetype-desc">Reinforces foundational variables and conditionals with simpler video explanations, hints, and confidence-building quizzes.</p>
+          <a href="#simulator" class="archetype-link" onclick="selectCanonicalLearner('SYN-C-103')">
+            Remedial Support Online →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE EXPERIENCE SPLIT ==================== -->
+  <section class="interactive-experience-section" id="interactive">
+    <div class="edoo-container">
+      <div class="experience-split-grid">
+        <!-- Left: Video/Image mosaic -->
+        <div class="experience-media-column">
+          <div class="video-mosaic-container">
+            <img src="assets/video_mosaic.jpg" alt="Interactive Classroom Session" class="mosaic-photo">
+            <div class="call-overlay-badge">
+              <span class="call-live-dot"></span>
+              Live Learning Session
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Text & Stats -->
+        <div class="experience-text-column">
+          <span class="section-eyebrow">Interactive Experience</span>
+          <h2 class="edoo-section-heading" style="margin-top: 10px;">
+            We Want To Give Students A<br>Great Interactive Experience!
+          </h2>
+          <p class="experience-intro">
+            Edoo provides engaging AI-assisted workflows with continuous testing and real-time user feedback for students everywhere without having to leave the house.
+          </p>
+
+          <div class="experience-perks-list">
+            <div class="perk-item">
+              <div class="perk-icon-circle">🎧</div>
+              <div>
+                <h4 class="perk-title">Instant Help & Predictive Alerts!</h4>
+                <p class="perk-desc">Machine learning models continuously detect struggling or disengaging students before exams happen.</p>
+              </div>
+            </div>
+
+            <div class="perk-item">
+              <div class="perk-icon-circle">📖</div>
+              <div>
+                <h4 class="perk-title">Unlimited Adaptive Learning</h4>
+                <p class="perk-desc">Curriculum dynamically shifts content formats (video, practice code, reading) based on individual learner preference.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats Banner -->
+          <div class="stats-mint-banner">
+            <div class="stat-mint-col">
+              <span class="stat-mint-val">2,000+</span>
+              <span class="stat-mint-label">Historical OULAD Records</span>
+            </div>
+            <div class="stat-mint-divider"></div>
+            <div class="stat-mint-col">
+              <span class="stat-mint-val">1,000+</span>
+              <span class="stat-mint-label">Synthetic Learners Modeled</span>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <a href="#simulator" class="link-arrow-action">Explore Simulator Laboratory →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ADAPTIVE LEARNER STUDIO (LIVE WORKING CORE) ==================== -->
+  <section class="studio-section" id="simulator">
+    <div class="edoo-container">
+      <div class="studio-section-header">
+        <span class="green-pill-tag">LIVE WORKING MVP STUDIO</span>
+        <h2 class="edoo-section-heading mt-2">Adaptive Learner Studio</h2>
+        <p class="studio-desc">
+          Test real-time trajectory evolution across checkpoints (Weeks 1, 3, 5, 8). Observe how personalized recommendations transform risk into distinction.
+        </p>
+      </div>
+
+      <!-- Studio Interactive Workbench -->
+      <div class="studio-workbench-grid">
+        <!-- Sidebar: Learner Selection & Controls -->
+        <aside class="workbench-sidebar">
+          <div class="edoo-white-card">
+            <div class="card-head-between">
+              <h3 class="card-title-sm">Select Student</h3>
+              <button id="btn-new-learner" class="btn-spawn-link">+ Custom</button>
+            </div>
+            <p class="card-caption-sm">Canonical test profiles from research PDF:</p>
+
+            <div class="student-select-stack">
+              <button class="student-pill-btn active" data-id="SYN-A-101">
+                <div class="student-avatar-badge avatar-a">A</div>
+                <div class="student-pill-info">
+                  <strong>Learner A (Advanced)</strong>
+                  <span>High Speed • 72% Base</span>
+                </div>
+              </button>
+
+              <button class="student-pill-btn" data-id="SYN-B-102">
+                <div class="student-avatar-badge avatar-b">B</div>
+                <div class="student-pill-info">
+                  <strong>Learner B (Average)</strong>
+                  <span>Standard Track • 52% Base</span>
+                </div>
+              </button>
+
+              <button class="student-pill-btn" data-id="SYN-C-103">
+                <div class="student-avatar-badge avatar-c">C</div>
+                <div class="student-pill-info">
+                  <strong>Learner C (Struggling)</strong>
+                  <span>Needs Support • 32% Base</span>
+                </div>
+              </button>
+            </div>
+
+            <div id="custom-learners-list" class="custom-students-box"></div>
+          </div>
+
+          <!-- Controls Card -->
+          <div class="edoo-white-card mt-3">
+            <h3 class="card-title-sm">Simulation Actions</h3>
+            <p class="card-caption-sm">Advance trajectory and observe ML predictions:</p>
+
+            <div class="sim-btn-group">
+              <button id="btn-simulate-step" class="btn-edoo-green-full">
+                Advance Checkpoint (+2 Wks)
+              </button>
+              <button id="btn-simulate-all" class="btn-edoo-outline-full">
+                Simulate Full 8-Week Journey
+              </button>
+            </div>
+
+            <div class="adaptation-toggle-card mt-3">
+              <label class="edoo-toggle">
+                <input type="checkbox" id="toggle-adaptation" checked>
+                <span class="toggle-slider"></span>
+                <span class="toggle-text">Adaptive Guidance Active</span>
+              </label>
+              <p class="toggle-subtext">Toggle off to compare unassisted baseline failure rates.</p>
+            </div>
+
+            <button id="btn-open-quiz" class="btn-edoo-outline-full mt-3">
+              📝 Submit Quiz / Lab Score
+            </button>
+          </div>
+        </aside>
+
+        <!-- Main Display: Metrics, Chart, Diagnostics, Syllabus -->
+        <div class="workbench-main">
+          <!-- Active Profile Card -->
+          <div class="edoo-white-card active-profile-banner">
+            <div class="profile-info-flex">
+              <div id="learner-badge-avatar" class="profile-avatar-circle avatar-a">A</div>
+              <div>
+                <div class="profile-name-flex">
+                  <h3 id="learner-name" class="profile-fullname">Learner A (Advanced)</h3>
+                  <span id="learner-cohort-badge" class="cohort-mint-badge">High Achiever Cohort</span>
+                </div>
+                <div class="profile-detail-tags">
+                  <span>Education: <strong id="learner-education">Undergraduate</strong></span>
+                  <span class="dot-sep">•</span>
+                  <span>Speed: <strong id="learner-speed">0.88x</strong></span>
+                  <span class="dot-sep">•</span>
+                  <span>Format: <strong id="learner-method">Practice</strong></span>
+                  <span class="dot-sep">•</span>
+                  <span>Course: <strong>Intro to Python</strong></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- KPI Badges -->
+            <div class="kpi-group">
+              <div class="kpi-card">
+                <span class="kpi-caption">Current Score</span>
+                <span id="kpi-score" class="kpi-val text-score">96.0%</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-caption">Engagement</span>
+                <span id="kpi-engagement" class="kpi-val text-engagement">98.0%</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-caption">Academic Risk</span>
+                <span id="kpi-risk" class="kpi-val text-risk-low">0.4%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Charts Grid: Trajectory + ML Diagnostic -->
+          <div class="studio-charts-grid mt-3">
+            <!-- Trajectory Chart -->
+            <div class="edoo-white-card">
+              <div class="card-head-between">
+                <h3 class="card-title-sm">Learner Journey Trajectory</h3>
+                <span class="checkpoint-tag">Active: <strong id="curr-checkpoint-label">Week 8</strong></span>
+              </div>
+              <p class="card-caption-sm">Engagement % vs Assessment Score % across checkpoints:</p>
+
+              <div class="chart-canvas-box">
+                <canvas id="trajectory-canvas" width="620" height="230"></canvas>
+              </div>
+
+              <div class="canvas-legend">
+                <span class="legend-point"><span class="point-color color-score"></span> Assessment Score (%)</span>
+                <span class="legend-point"><span class="point-color color-eng"></span> Engagement (%)</span>
+                <span class="legend-point"><span class="point-color color-pass"></span> Pass Threshold (50%)</span>
+              </div>
+            </div>
+
+            <!-- ML Intelligence Diagnostic -->
+            <div class="edoo-white-card">
+              <div class="card-head-between">
+                <h3 class="card-title-sm">ML Intelligence Diagnostic</h3>
+                <span id="pred-outcome-pill" class="badge-outcome-distinction">Distinction</span>
+              </div>
+              <p class="card-caption-sm">Outcome probabilities from OULAD Softmax Classifier:</p>
+
+              <div class="prob-bars-container">
+                <div class="prob-row">
+                  <span class="prob-label">Distinction</span>
+                  <div class="prob-bar-track"><div id="prob-dist" class="prob-bar-fill fill-distinction" style="width: 76.8%"></div></div>
+                  <span id="prob-dist-val" class="prob-pct">76.8%</span>
+                </div>
+                <div class="prob-row">
+                  <span class="prob-label">Pass</span>
+                  <div class="prob-bar-track"><div id="prob-pass" class="prob-bar-fill fill-pass" style="width: 22.8%"></div></div>
+                  <span id="prob-pass-val" class="prob-pct">22.8%</span>
+                </div>
+                <div class="prob-row">
+                  <span class="prob-label">Fail Risk</span>
+                  <div class="prob-bar-track"><div id="prob-fail" class="prob-bar-fill fill-fail" style="width: 0.4%"></div></div>
+                  <span id="prob-fail-val" class="prob-pct">0.4%</span>
+                </div>
+                <div class="prob-row">
+                  <span class="prob-label">Withdrawn</span>
+                  <div class="prob-bar-track"><div id="prob-withdrawn" class="prob-bar-fill fill-withdrawn" style="width: 0.0%"></div></div>
+                  <span id="prob-withdrawn-val" class="prob-pct">0.0%</span>
+                </div>
+              </div>
+
+              <div class="inferences-box mt-3">
+                <span class="inferences-headline">Pattern Inferences (PDF Section 2):</span>
+                <ul id="inferences-list" class="inferences-bullet-list">
+                  <li>High engagement + good assessment scores: Likely high performance</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Personalized Syllabus -->
+          <div class="edoo-white-card mt-3">
+            <div class="card-head-between flex-wrap">
+              <div>
+                <span id="pathway-badge" class="pathway-badge-pill">Accelerated Mastery Pathway</span>
+                <h3 id="pathway-title" class="syllabus-heading mt-1">Personalized Course Pathway</h3>
+              </div>
+              <div class="feedback-actions">
+                <button id="btn-adopt-recs" class="btn-green-sm">✓ Adopt Recommendations</button>
+                <button id="btn-need-help" class="btn-outline-sm">Request Extra Support</button>
+              </div>
+            </div>
+
+            <div class="directives-callout mt-2">
+              <strong>Adaptive Guidance Directives:</strong>
+              <ul id="recommendations-summary" class="directives-list"></ul>
+            </div>
+
+            <div id="topics-container" class="topics-cards-container mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== COURSE CATALOG SECTION ==================== -->
+  <section class="courses-catalog-section" id="course">
+    <div class="edoo-container">
+      <div class="section-title-row">
+        <div>
+          <span class="section-eyebrow">Course Catalog</span>
+          <h2 class="edoo-section-heading" style="margin-top: 10px;">Join Our Online Classes</h2>
+          <p class="section-subtitle-gray">Explore the modular curriculum for Introduction to Python Programming:</p>
+        </div>
+        <a href="#simulator" class="btn-edoo-primary">Enroll In Course →</a>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-tab active">All Modules</button>
+        <button class="filter-tab">Easy</button>
+        <button class="filter-tab">Medium</button>
+        <button class="filter-tab">Hard</button>
+      </div>
+
+      <div class="courses-grid">
+        <!-- Module 1 -->
+        <div class="course-item-card">
+          <div class="course-preview-thumb">
+            <div class="thumb-badge diff-easy">Easy</div>
+            <div class="thumb-topic-num">Topic 01</div>
+          </div>
+          <div class="course-card-content">
+            <div class="course-rating">★★★★★ <span>(4.9)</span></div>
+            <h4 class="course-name">Python Basics & Syntax</h4>
+            <p class="course-summary">Language syntax, REPL, execution model, and basic I/O operations.</p>
+            <div class="course-instructor">
+              <div class="instructor-avatar">AI</div>
+              <span class="instructor-name">Edoo AI Instructor</span>
+            </div>
+            <div class="course-card-footer">
+              <span class="course-lesson-count">🎥 3 Lessons</span>
+              <span class="course-price-free">Free</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Module 2 -->
+        <div class="course-item-card">
+          <div class="course-preview-thumb" style="background: linear-gradient(135deg, #1E40AF 0%, #3730A3 100%);">
+            <div class="thumb-badge diff-easy">Easy</div>
+            <div class="thumb-topic-num">Topic 02</div>
+          </div>
+          <div class="course-card-content">
+            <div class="course-rating">★★★★★ <span>(4.8)</span></div>
+            <h4 class="course-name">Variables & Data Types</h4>
+            <p class="course-summary">Memory allocation, type casting, strings, integers, floats, and state management.</p>
+            <div class="course-instructor">
+              <div class="instructor-avatar">AI</div>
+              <span class="instructor-name">Edoo AI Instructor</span>
+            </div>
+            <div class="course-card-footer">
+              <span class="course-lesson-count">💻 3 Lessons</span>
+              <span class="course-price-free">Free</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Module 3 -->
+        <div class="course-item-card">
+          <div class="course-preview-thumb" style="background: linear-gradient(135deg, #6D28D9 0%, #5B21B6 100%);">
+            <div class="thumb-badge diff-med">Medium</div>
+            <div class="thumb-topic-num">Topic 03</div>
+          </div>
+          <div class="course-card-content">
+            <div class="course-rating">★★★★★ <span>(4.9)</span></div>
+            <h4 class="course-name">Conditional Statements</h4>
+            <p class="course-summary">Branching logic, truth tables, short-circuit evaluation, and nested conditions.</p>
+            <div class="course-instructor">
+              <div class="instructor-avatar">AI</div>
+              <span class="instructor-name">Edoo AI Instructor</span>
+            </div>
+            <div class="course-card-footer">
+              <span class="course-lesson-count">⚡ 4 Lessons</span>
+              <span class="course-price-free">Free</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Module 4 -->
+        <div class="course-item-card">
+          <div class="course-preview-thumb" style="background: linear-gradient(135deg, #0369A1 0%, #0284C7 100%);">
+            <div class="thumb-badge diff-med">Medium</div>
+            <div class="thumb-topic-num">Topic 04</div>
+          </div>
+          <div class="course-card-content">
+            <div class="course-rating">★★★★★ <span>(4.7)</span></div>
+            <h4 class="course-name">Loops & Iteration</h4>
+            <p class="course-summary">Definite/indefinite iteration, break/continue controls, and sequence processing.</p>
+            <div class="course-instructor">
+              <div class="instructor-avatar">AI</div>
+              <span class="instructor-name">Edoo AI Instructor</span>
+            </div>
+            <div class="course-card-footer">
+              <span class="course-lesson-count">💻 3 Lessons</span>
+              <span class="course-price-free">Free</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Module 5 -->
+        <div class="course-item-card">
+          <div class="course-preview-thumb" style="background: linear-gradient(135deg, #B45309 0%, #D97706 100%);">
+            <div class="thumb-badge diff-hard">Hard</div>
+            <div class="thumb-topic-num">Topic 05</div>
+          </div>
+          <div class="course-card-content">
+            <div class="course-rating">★★★★★ <span>(5.0)</span></div>
+            <h4 class="course-name">Functions & Modularity</h4>
+            <p class="course-summary">Scope, parameter passing, closures, recursion, and modular decomposition.</p>
+            <div class="course-instructor">
+              <div class="instructor-avatar">AI</div>
+              <span class="instructor-name">Edoo AI Instructor</span>
+            </div>
+            <div class="course-card-footer">
+              <span class="course-lesson-count">🚀 4 Lessons</span>
+              <span class="course-price-free">Free</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Module 6 -->
+        <div class="course-item-card">
+          <div class="course-preview-thumb" style="background: linear-gradient(135deg, #9D174D 0%, #BE185D 100%);">
+            <div class="thumb-badge diff-hard">Hard</div>
+            <div class="thumb-topic-num">Topic 06</div>
+          </div>
+          <div class="course-card-content">
+            <div class="course-rating">★★★★★ <span>(5.0)</span></div>
+            <h4 class="course-name">OOP Capstone Project</h4>
+            <p class="course-summary">Classes, inheritance, encapsulation, and complete student gradebook application.</p>
+            <div class="course-instructor">
+              <div class="instructor-avatar">AI</div>
+              <span class="instructor-name">Edoo AI Instructor</span>
+            </div>
+            <div class="course-card-footer">
+              <span class="course-lesson-count">🏆 Capstone</span>
+              <span class="course-price-free">Free</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS SECTION ==================== -->
+  <section class="testimonials-section">
+    <div class="edoo-container">
+      <div class="section-title-row">
+        <div>
+          <span class="section-eyebrow">Student Reviews</span>
+          <h2 class="edoo-section-heading" style="margin-top: 10px;">What Our Students Say</h2>
+        </div>
+        <a href="#simulator" class="link-arrow-action">View All Reviews →</a>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">"Edoo's adaptive curriculum completely changed how I learn. The ML predictions helped me stay on track when I was at risk of falling behind."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div>
+              <div class="testimonial-name">Sarah K.</div>
+              <div class="testimonial-role">CS Undergraduate</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">"The simulator is incredible — watching my trajectory evolve in real-time across checkpoints made abstract ML concepts tangible and exciting."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background: #F3E8FF; color: #7C3AED;">R</div>
+            <div>
+              <div class="testimonial-name">Raj M.</div>
+              <div class="testimonial-role">Data Science Student</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-quote">"Being categorized as 'at risk' early allowed me to get extra support in time. I ended up passing with distinction — something I never thought possible."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background: #FEF9C3; color: #B45309;">A</div>
+            <div>
+              <div class="testimonial-name">Aisha T.</div>
+              <div class="testimonial-role">Online Learner</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROMO BANNER ==================== -->
+  <section class="edoo-promo-banner" id="contact">
+    <div class="edoo-container">
+      <div class="promo-box">
+        <div class="promo-text-side">
+          <h2 class="promo-title">Let's Start Your Journey With Edoo Live Training Course</h2>
+          <p class="promo-desc">
+            Access the complete local codebase directly in VS Code. All 19 automated tests and REST endpoints ready to deploy.
+          </p>
+          <div class="promo-cmd-box">
+            <code>code "C:\Users\mehta\Desktop\Final year project"</code>
+          </div>
+
+          <div class="promo-stats-row">
+            <div class="promo-stat">
+              <span class="promo-stat-val">19</span>
+              <span class="promo-stat-label">Automated Tests</span>
+            </div>
+            <div class="promo-stat">
+              <span class="promo-stat-val">1K+</span>
+              <span class="promo-stat-label">Synthetic Learners</span>
+            </div>
+            <div class="promo-stat">
+              <span class="promo-stat-val">100%</span>
+              <span class="promo-stat-label">Adaptive</span>
+            </div>
+          </div>
+
+          <a href="#simulator" class="btn-promo-action">Start Learning Now →</a>
+        </div>
+
+        <div class="promo-graphic-side">
+          <div class="promo-card-floater">
+            <span class="floater-icon">🎓</span>
+            <div>
+              <strong>100% Adaptive</strong>
+              <span>Tailored to every learner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="edoo-footer">
+    <div class="edoo-container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-col-brand">
+          <div class="edoo-logo footer-logo">
+            <div class="logo-mark">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <span>Edoo</span>
+          </div>
+          <p class="footer-desc">
+            Empowering students worldwide with machine learning analytics and personalized adaptive learning journeys.
+          </p>
+          <div class="footer-social-row">
+            <a href="#" class="social-btn">FB</a>
+            <a href="#" class="social-btn">LN</a>
+            <a href="#" class="social-btn">IN</a>
+            <a href="#" class="social-btn">YT</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Course Catalog</h4>
+          <ul class="footer-links-list">
+            <li><a href="#course">Python Basics</a></li>
+            <li><a href="#course">Variables & Memory</a></li>
+            <li><a href="#course">Conditional Logic</a></li>
+            <li><a href="#course">Loop Algorithms</a></li>
+            <li><a href="#course">OOP Capstone</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Platform</h4>
+          <ul class="footer-links-list">
+            <li><a href="#services">Architecture</a></li>
+            <li><a href="#simulator">Learner Simulator</a></li>
+            <li><a href="#interactive">Experience</a></li>
+            <li><a href="/docs" target="_blank">Swagger API</a></li>
+            <li><a href="/api/health" target="_blank">System Health</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Subscribe Now</h4>
+          <p class="footer-sub-text">Get weekly adaptive analytics and research updates.</p>
+          <div class="newsletter-input-group">
+            <input type="email" placeholder="Your email address..." class="newsletter-input">
+            <button class="btn-newsletter">Subscribe →</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p>© 2026 Edoo Adaptive Learning Platform. Inspired by OULAD Research. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== MODALS ==================== -->
+  <!-- Quiz Modal -->
+  <div id="quiz-modal" class="edoo-modal-overlay hidden">
+    <div class="edoo-modal-card">
+      <div class="modal-card-top">
+        <h3 class="modal-card-title">Submit Topic Assessment</h3>
+        <button id="btn-close-quiz" class="modal-btn-close">×</button>
+      </div>
+      <form id="quiz-form">
+        <div class="modal-form-group">
+          <label>Select Course Topic:</label>
+          <select id="quiz-topic-select" class="edoo-select">
+            <option value="T1">T1: Python Basics</option>
+            <option value="T2">T2: Variables & Data Types</option>
+            <option value="T3">T3: Conditional Statements</option>
+            <option value="T4">T4: Loops & Iteration</option>
+            <option value="T5">T5: Functions & Modularity</option>
+            <option value="T6">T6: OOP Capstone Project</option>
+          </select>
+        </div>
+        <div class="modal-form-group mt-2">
+          <label>Assessment Score (0 - 100%):</label>
+          <input type="number" id="quiz-score-input" class="edoo-input" min="0" max="100" value="85" required>
+        </div>
+        <button type="submit" class="btn-edoo-green-full mt-3">Record Score & Recalibrate</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Custom Learner Modal -->
+  <div id="custom-learner-modal" class="edoo-modal-overlay hidden">
+    <div class="edoo-modal-card">
+      <div class="modal-card-top">
+        <h3 class="modal-card-title">Spawn Synthetic Learner</h3>
+        <button id="btn-close-custom" class="modal-btn-close">×</button>
+      </div>
+      <form id="custom-learner-form">
+        <div class="modal-form-group">
+          <label>Learner Full Name:</label>
+          <input type="text" id="cust-name" class="edoo-input" value="Maya Chen" required>
+        </div>
+        <div class="modal-form-group mt-2">
+          <label>Target Archetype:</label>
+          <select id="cust-archetype" class="edoo-select">
+            <option value="Advanced">Advanced (Fast Paced)</option>
+            <option value="Average" selected>Average (Standard Track)</option>
+            <option value="Struggling">Struggling (Needs Support)</option>
+            <option value="At-Risk">At-Risk (High Inactivity)</option>
+          </select>
+        </div>
+        <div class="modal-form-row mt-2">
+          <div class="modal-form-group">
+            <label>Education:</label>
+            <select id="cust-edu" class="edoo-select">
+              <option value="Undergraduate">Undergraduate</option>
+              <option value="A Level or Equivalent">A Level</option>
+              <option value="Lower Than A Level">Lower Than A Level</option>
+            </select>
+          </div>
+          <div class="modal-form-group">
+            <label>Format Preference:</label>
+            <select id="cust-format" class="edoo-select">
+              <option value="Practice">Practice / Code</option>
+              <option value="Video">Video</option>
+              <option value="Reading">Reading</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-form-row mt-2">
+          <div class="modal-form-group">
+            <label>Initial Knowledge (%):</label>
+            <input type="number" id="cust-init-k" class="edoo-input" min="10" max="95" value="50">
+          </div>
+          <div class="modal-form-group">
+            <label>Learning Speed (0.1–1.0):</label>
+            <input type="number" step="0.05" id="cust-speed" class="edoo-input" min="0.1" max="1.0" value="0.65">
+          </div>
+        </div>
+        <button type="submit" class="btn-edoo-green-full mt-3">Spawn Synthetic Learner</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="edoo-toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FastAPI Web Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_server.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Simulation CLI Demo (Learners A, B, C)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/run_simulation_demo.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Train & Evaluate ML Pipeline",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/train_models.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Run All Tests (Unittest)",
+      "type": "python",
+      "request": "launch",
+      "module": "unittest",
+      "args": ["discover", "tests"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

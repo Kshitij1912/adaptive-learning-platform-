@@ -1,0 +1,197 @@
+[
+  {
+    "id": "CS101",
+    "name": "Introduction to Python Programming",
+    "description": "Comprehensive foundational programming course with modular adaptive pathways.",
+    "topics": [
+      {
+        "topic_id": "T1",
+        "title": "Python Basics",
+        "description": "Language syntax, REPL, execution model, and basic I/O.",
+        "difficulty": "Easy",
+        "contents": [
+          {
+            "content_id": "C1_VID",
+            "title": "Introductory Video: Hello Python",
+            "type": "Video",
+            "duration_min": 12,
+            "difficulty": "Easy"
+          },
+          {
+            "content_id": "C1_TXT",
+            "title": "Interactive Reading: Syntax & Comments",
+            "type": "Reading",
+            "duration_min": 15,
+            "difficulty": "Easy"
+          },
+          {
+            "content_id": "C1_QZ",
+            "title": "Concept Check Quiz",
+            "type": "Quiz",
+            "duration_min": 10,
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "topic_id": "T2",
+        "title": "Variables & Data Types",
+        "description": "Integers, floats, strings, booleans, type conversion, and state management.",
+        "difficulty": "Easy",
+        "contents": [
+          {
+            "content_id": "C2_VID",
+            "title": "Video: Memory, Variables & Types",
+            "type": "Video",
+            "duration_min": 14,
+            "difficulty": "Easy"
+          },
+          {
+            "content_id": "C2_EX",
+            "title": "Practice Exercises: Manipulating Data Types",
+            "type": "Practice",
+            "duration_min": 25,
+            "difficulty": "Easy"
+          },
+          {
+            "content_id": "C2_QZ",
+            "title": "Variables Mastery Quiz",
+            "type": "Quiz",
+            "duration_min": 15,
+            "difficulty": "Easy"
+          }
+        ]
+      },
+      {
+        "topic_id": "T3",
+        "title": "Conditional Statements",
+        "description": "Branching logic, if-elif-else constructs, Boolean algebra, and nested conditions.",
+        "difficulty": "Medium",
+        "contents": [
+          {
+            "content_id": "C3_VID",
+            "title": "Video + Worked Examples: Decision Making",
+            "type": "Video",
+            "duration_min": 18,
+            "difficulty": "Medium"
+          },
+          {
+            "content_id": "C3_TXT",
+            "title": "Reading: Truth Tables & Short-circuiting",
+            "type": "Reading",
+            "duration_min": 15,
+            "difficulty": "Medium"
+          },
+          {
+            "content_id": "C3_EX",
+            "title": "Coding Challenge: Decision Trees in Code",
+            "type": "Practice",
+            "duration_min": 30,
+            "difficulty": "Medium"
+          },
+          {
+            "content_id": "C3_QZ",
+            "title": "Conditionals Checkpoint Assessment",
+            "type": "Quiz",
+            "duration_min": 20,
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "topic_id": "T4",
+        "title": "Loops & Iteration",
+        "description": "Definite (for) and indefinite (while) loops, break, continue, and iterations over collections.",
+        "difficulty": "Medium",
+        "contents": [
+          {
+            "content_id": "C4_VID",
+            "title": "Video: Iterating Effectively with For & While",
+            "type": "Video",
+            "duration_min": 20,
+            "difficulty": "Medium"
+          },
+          {
+            "content_id": "C4_EX",
+            "title": "Interactive Lab: Pattern Generation & Algorithms",
+            "type": "Practice",
+            "duration_min": 35,
+            "difficulty": "Medium"
+          },
+          {
+            "content_id": "C4_QZ",
+            "title": "Practice Quiz: Loop Control & Edge Cases",
+            "type": "Quiz",
+            "duration_min": 20,
+            "difficulty": "Medium"
+          }
+        ]
+      },
+      {
+        "topic_id": "T5",
+        "title": "Functions & Modularity",
+        "description": "Function definition, parameters, return values, scope, closures, and modular design.",
+        "difficulty": "Hard",
+        "contents": [
+          {
+            "content_id": "C5_VID",
+            "title": "Video: Decomposing Problems with Functions",
+            "type": "Video",
+            "duration_min": 22,
+            "difficulty": "Hard"
+          },
+          {
+            "content_id": "C5_EX1",
+            "title": "Foundational Practice: Function Signatures & Scope",
+            "type": "Practice",
+            "duration_min": 25,
+            "difficulty": "Medium"
+          },
+          {
+            "content_id": "C5_EX2",
+            "title": "Advanced Exercises: Recursion & High-Order Functions",
+            "type": "Advanced",
+            "duration_min": 45,
+            "difficulty": "Hard"
+          },
+          {
+            "content_id": "C5_QZ",
+            "title": "Functions Mastery Assessment",
+            "type": "Quiz",
+            "duration_min": 25,
+            "difficulty": "Hard"
+          }
+        ]
+      },
+      {
+        "topic_id": "T6",
+        "title": "Object-Oriented Programming & Real-World Projects",
+        "description": "Classes, objects, inheritance, encapsulation, and building a modular application.",
+        "difficulty": "Hard",
+        "contents": [
+          {
+            "content_id": "C6_VID",
+            "title": "Video: Thinking in Objects and Data Abstraction",
+            "type": "Video",
+            "duration_min": 25,
+            "difficulty": "Hard"
+          },
+          {
+            "content_id": "C6_EX",
+            "title": "Capstone Mini-Project: Student Gradebook System",
+            "type": "Advanced",
+            "duration_min": 60,
+            "difficulty": "Hard"
+          },
+          {
+            "content_id": "C6_QZ",
+            "title": "Comprehensive Final Assessment",
+            "type": "Quiz",
+            "duration_min": 30,
+            "difficulty": "Hard"
+          }
+        ]
+      }
+    ]
+  }
+]

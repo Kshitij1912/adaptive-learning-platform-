@@ -1,0 +1,2001 @@
+id_student,code_module,gender,region,highest_education,age_band,studied_credits,num_of_prev_attempts,total_clicks,avg_assessment_score,score_trend,inactivity_rate,final_result
+10001,FFF,M,London,A Level or Equivalent,0-35,60,0,2016,33.7,-0.025,0.06,Pass
+10002,EEE,M,West Midlands,Lower Than A Level,0-35,150,0,984,73.6,-0.019,0.17,Pass
+10003,CCC,F,South Region,Lower Than A Level,35-55,30,0,2608,90.1,0.125,0.09,Distinction
+10004,DDD,M,West Midlands,Lower Than A Level,0-35,90,0,73,32.9,-0.118,0.84,Fail
+10005,GGG,M,North Western Region,Lower Than A Level,0-35,90,0,1386,61.1,0.074,0.15,Pass
+10006,BBB,M,South Region,A Level or Equivalent,0-35,180,0,1032,74.4,0.058,0.08,Pass
+10007,CCC,F,Scotland,Lower Than A Level,35-55,150,1,1371,66.5,0.068,0.15,Pass
+10008,BBB,M,South West Region,A Level or Equivalent,0-35,150,0,1641,36.4,0.05,0.14,Pass
+10009,AAA,M,South Region,A Level or Equivalent,35-55,120,0,1310,77.9,0.033,0.2,Distinction
+10010,AAA,M,South West Region,HE Qualification,35-55,180,0,861,65.4,0.075,0.18,Pass
+10011,EEE,M,West Midlands,HE Qualification,35-55,90,1,1307,35.1,0.019,0.14,Fail
+10012,EEE,M,West Midlands,Lower Than A Level,0-35,90,1,207,21.5,-0.278,0.63,Withdrawn
+10013,FFF,F,East Anglia,Lower Than A Level,35-55,60,0,1262,58.8,0.033,0.14,Fail
+10014,EEE,M,South West Region,Lower Than A Level,55<=,180,0,1062,50.9,0.172,0.14,Pass
+10015,BBB,M,London,Lower Than A Level,0-35,60,0,2553,79.4,0.051,0.09,Distinction
+10016,BBB,F,South Region,HE Qualification,35-55,60,0,1625,40.5,-0.019,0.17,Fail
+10017,FFF,M,London,A Level or Equivalent,0-35,30,0,1159,58.2,-0.002,0.12,Distinction
+10018,AAA,F,East Anglia,HE Qualification,0-35,30,0,930,51.4,0.04,0.19,Pass
+10019,DDD,F,South Region,HE Qualification,35-55,60,0,871,70.2,0.301,0.13,Pass
+10020,FFF,F,South Region,Lower Than A Level,0-35,30,0,1542,33.1,-0.004,0.14,Fail
+10021,BBB,M,West Midlands,Lower Than A Level,0-35,150,0,256,18.2,-0.083,0.47,Withdrawn
+10022,EEE,M,North Western Region,A Level or Equivalent,0-35,90,1,1433,62.2,0.007,0.07,Pass
+10023,DDD,F,East Anglia,HE Qualification,0-35,150,3,675,60.9,0.236,0.1,Pass
+10024,AAA,M,Scotland,Lower Than A Level,0-35,150,0,1983,32.2,0.026,0.1,Fail
+10025,BBB,F,London,HE Qualification,35-55,60,0,1602,36.1,0.002,0.09,Fail
+10026,GGG,M,London,A Level or Equivalent,35-55,30,0,376,41.5,-0.302,0.57,Fail
+10027,EEE,M,London,Lower Than A Level,35-55,60,0,348,29.9,-0.221,0.37,Withdrawn
+10028,GGG,M,Scotland,Lower Than A Level,0-35,30,0,1732,51.5,0.017,0.21,Pass
+10029,BBB,M,North Western Region,No Formal quals,35-55,90,0,1385,74.9,0.061,0.09,Pass
+10030,AAA,F,East Anglia,No Formal quals,0-35,60,1,1012,73.9,0.067,0.08,Pass
+10031,DDD,F,Scotland,HE Qualification,55<=,90,0,1998,38.6,-0.076,0.2,Pass
+10032,EEE,F,London,Lower Than A Level,0-35,180,0,1223,57.7,0.07,0.08,Pass
+10033,DDD,M,West Midlands,HE Qualification,0-35,180,2,150,24.8,-0.329,0.68,Withdrawn
+10034,CCC,M,South West Region,HE Qualification,0-35,180,0,1002,67.8,-0.001,0.15,Pass
+10035,FFF,M,West Midlands,A Level or Equivalent,0-35,30,0,1504,68.3,0.045,0.12,Pass
+10036,BBB,F,East Anglia,HE Qualification,35-55,60,0,1379,69.6,0.014,0.17,Pass
+10037,FFF,F,South Region,HE Qualification,0-35,30,0,1570,72.7,0.026,0.18,Pass
+10038,FFF,F,North Western Region,A Level or Equivalent,0-35,180,0,444,38.9,-0.116,0.46,Fail
+10039,FFF,F,London,A Level or Equivalent,35-55,30,0,391,29.3,-0.182,0.51,Fail
+10040,DDD,F,East Anglia,HE Qualification,0-35,60,0,965,72.3,0.064,0.09,Pass
+10041,DDD,M,Scotland,A Level or Equivalent,35-55,60,0,1253,56.9,-0.005,0.11,Pass
+10042,BBB,M,North Western Region,A Level or Equivalent,0-35,120,0,249,39.4,-0.175,0.7,Fail
+10043,GGG,F,North Western Region,No Formal quals,0-35,120,1,1029,60.9,0.289,0.22,Distinction
+10044,DDD,M,Scotland,A Level or Equivalent,0-35,90,0,420,19.5,-0.21,0.41,Withdrawn
+10045,AAA,F,West Midlands,A Level or Equivalent,0-35,180,0,143,16.4,-0.236,0.46,Withdrawn
+10046,GGG,F,Scotland,HE Qualification,35-55,90,1,1467,67.4,0.08,0.1,Pass
+10047,GGG,M,East Anglia,No Formal quals,0-35,30,0,1184,70.4,0.036,0.08,Pass
+10048,GGG,F,South Region,A Level or Equivalent,55<=,180,0,209,17.9,-0.342,0.51,Fail
+10049,DDD,F,South West Region,Lower Than A Level,0-35,180,0,1517,49.0,-0.002,0.07,Fail
+10050,GGG,M,Scotland,A Level or Equivalent,35-55,30,0,1569,64.7,0.029,0.12,Pass
+10051,GGG,F,South West Region,Lower Than A Level,0-35,150,2,1527,76.2,0.057,0.12,Distinction
+10052,EEE,F,Scotland,HE Qualification,35-55,30,0,1468,65.7,0.041,0.11,Pass
+10053,GGG,F,South Region,A Level or Equivalent,0-35,90,0,1318,69.1,0.248,0.17,Pass
+10054,BBB,F,North Western Region,A Level or Equivalent,0-35,120,0,1511,55.4,0.009,0.11,Pass
+10055,FFF,F,North Western Region,A Level or Equivalent,0-35,180,0,1164,61.2,0.005,0.07,Pass
+10056,AAA,M,South Region,Lower Than A Level,0-35,180,0,355,22.6,-0.32,0.45,Withdrawn
+10057,BBB,F,London,A Level or Equivalent,0-35,30,2,1158,44.8,0.018,0.07,Pass
+10058,CCC,F,North Western Region,A Level or Equivalent,0-35,30,0,108,37.2,-0.23,0.39,Withdrawn
+10059,AAA,M,South Region,HE Qualification,35-55,30,3,2904,90.1,0.123,0.04,Distinction
+10060,DDD,F,Scotland,HE Qualification,55<=,90,0,1606,97.0,0.047,0.04,Distinction
+10061,BBB,M,South Region,A Level or Equivalent,0-35,120,0,1496,32.7,-0.043,0.1,Fail
+10062,AAA,M,Scotland,HE Qualification,0-35,180,1,817,67.5,0.045,0.19,Distinction
+10063,AAA,M,South Region,HE Qualification,0-35,150,1,1179,70.8,0.05,0.19,Pass
+10064,DDD,F,London,A Level or Equivalent,35-55,180,0,793,60.3,0.047,0.18,Pass
+10065,AAA,F,West Midlands,No Formal quals,35-55,120,0,984,59.2,0.039,0.15,Pass
+10066,AAA,F,Scotland,A Level or Equivalent,0-35,30,1,1410,66.4,0.046,0.11,Pass
+10067,AAA,F,London,Lower Than A Level,0-35,120,1,50,32.8,-0.187,0.56,Withdrawn
+10068,CCC,F,South West Region,A Level or Equivalent,0-35,90,0,1048,69.1,0.231,0.08,Pass
+10069,GGG,M,South West Region,Lower Than A Level,0-35,150,0,1561,76.0,0.026,0.07,Distinction
+10070,DDD,F,West Midlands,A Level or Equivalent,0-35,120,2,1264,58.3,-0.001,0.14,Pass
+10071,BBB,M,Scotland,HE Qualification,35-55,90,1,905,37.7,-0.041,0.15,Fail
+10072,DDD,M,North Western Region,A Level or Equivalent,0-35,150,0,1029,75.0,0.078,0.09,Pass
+10073,GGG,F,London,Lower Than A Level,0-35,120,0,1211,41.9,-0.075,0.14,Fail
+10074,GGG,M,East Anglia,HE Qualification,0-35,120,0,1832,79.5,0.122,0.05,Distinction
+10075,DDD,M,East Anglia,Lower Than A Level,35-55,150,0,1435,75.4,0.029,0.13,Pass
+10076,BBB,F,South Region,A Level or Equivalent,0-35,30,0,101,27.0,-0.142,0.8,Withdrawn
+10077,GGG,M,Scotland,A Level or Equivalent,0-35,60,0,1268,35.4,-0.07,0.2,Fail
+10078,BBB,F,West Midlands,Lower Than A Level,0-35,90,0,1852,50.0,0.008,0.08,Fail
+10079,CCC,F,South West Region,Post Graduate Qualification,35-55,120,1,1093,74.6,-0.009,0.11,Pass
+10080,CCC,F,London,Post Graduate Qualification,35-55,90,0,448,35.1,-0.335,0.65,Withdrawn
+10081,CCC,M,West Midlands,HE Qualification,0-35,60,0,1180,44.6,0.037,0.16,Pass
+10082,DDD,M,West Midlands,A Level or Equivalent,0-35,90,0,905,58.0,0.034,0.2,Pass
+10083,CCC,M,Scotland,HE Qualification,35-55,90,0,817,65.8,-0.012,0.16,Pass
+10084,FFF,F,East Anglia,HE Qualification,0-35,120,0,1831,39.4,0.017,0.09,Pass
+10085,FFF,F,London,A Level or Equivalent,0-35,150,1,2149,36.4,-0.072,0.19,Fail
+10086,CCC,F,London,Lower Than A Level,35-55,90,3,2161,95.7,0.038,0.07,Distinction
+10087,FFF,F,West Midlands,A Level or Equivalent,0-35,120,0,365,26.0,-0.065,0.37,Withdrawn
+10088,DDD,F,South Region,HE Qualification,0-35,180,0,1260,56.6,0.212,0.11,Pass
+10089,GGG,F,London,A Level or Equivalent,0-35,150,2,2566,82.9,0.036,0.08,Distinction
+10090,GGG,M,West Midlands,Lower Than A Level,35-55,90,0,355,15.1,-0.092,0.42,Withdrawn
+10091,CCC,M,London,A Level or Equivalent,0-35,30,0,351,23.7,-0.298,0.38,Fail
+10092,EEE,M,South West Region,Lower Than A Level,0-35,90,0,3263,82.4,0.1,0.09,Pass
+10093,FFF,F,North Western Region,A Level or Equivalent,0-35,120,1,810,66.3,0.071,0.06,Pass
+10094,EEE,M,London,Lower Than A Level,0-35,150,0,1311,67.2,0.025,0.14,Pass
+10095,FFF,M,East Anglia,A Level or Equivalent,35-55,150,0,1162,75.4,0.021,0.17,Pass
+10096,FFF,M,Scotland,A Level or Equivalent,35-55,90,2,1871,33.3,0.028,0.07,Pass
+10097,FFF,F,East Anglia,Lower Than A Level,0-35,150,0,1741,39.1,0.006,0.18,Fail
+10098,FFF,M,Scotland,A Level or Equivalent,0-35,150,0,3175,82.5,0.034,0.1,Distinction
+10099,GGG,F,West Midlands,Lower Than A Level,0-35,150,2,364,33.2,-0.183,0.65,Fail
+10100,FFF,F,London,Lower Than A Level,35-55,90,1,885,75.0,0.037,0.11,Pass
+10101,FFF,M,London,A Level or Equivalent,0-35,120,0,2476,92.4,0.121,0.08,Distinction
+10102,AAA,M,South Region,HE Qualification,0-35,30,0,1894,44.1,-0.026,0.09,Fail
+10103,CCC,F,London,Lower Than A Level,35-55,120,0,925,64.1,0.04,0.05,Pass
+10104,BBB,M,East Anglia,Lower Than A Level,0-35,30,0,832,63.7,0.05,0.13,Distinction
+10105,GGG,F,London,A Level or Equivalent,35-55,120,0,1482,55.5,0.219,0.15,Pass
+10106,CCC,M,North Western Region,No Formal quals,0-35,150,0,1641,33.8,0.03,0.09,Fail
+10107,EEE,M,North Western Region,HE Qualification,35-55,60,0,3290,90.7,0.089,0.04,Pass
+10108,CCC,M,South Region,Lower Than A Level,0-35,60,0,385,17.0,-0.065,0.66,Withdrawn
+10109,EEE,F,South West Region,HE Qualification,0-35,180,2,1342,62.3,0.024,0.12,Pass
+10110,GGG,F,West Midlands,Lower Than A Level,0-35,90,0,2710,94.6,0.03,0.11,Pass
+10111,EEE,F,North Western Region,A Level or Equivalent,55<=,180,1,1529,68.1,-0.001,0.14,Pass
+10112,AAA,F,London,HE Qualification,35-55,180,0,980,37.0,-0.023,0.12,Fail
+10113,BBB,F,Scotland,HE Qualification,0-35,90,0,2570,79.3,0.032,0.09,Distinction
+10114,FFF,M,Scotland,Lower Than A Level,35-55,90,0,1702,34.6,0.012,0.06,Fail
+10115,FFF,F,East Anglia,Lower Than A Level,35-55,180,3,695,63.5,0.217,0.14,Pass
+10116,BBB,M,Scotland,HE Qualification,0-35,60,3,2411,94.9,0.033,0.1,Pass
+10117,EEE,M,South West Region,Lower Than A Level,35-55,60,0,1940,94.6,0.12,0.1,Distinction
+10118,DDD,M,North Western Region,A Level or Equivalent,35-55,120,0,279,21.3,-0.278,0.83,Fail
+10119,GGG,M,Scotland,A Level or Equivalent,0-35,120,0,1091,66.6,0.022,0.07,Pass
+10120,EEE,M,East Anglia,Lower Than A Level,0-35,90,0,3313,95.0,0.057,0.1,Distinction
+10121,EEE,M,East Anglia,A Level or Equivalent,35-55,60,1,627,58.0,0.211,0.14,Pass
+10122,AAA,F,South Region,No Formal quals,35-55,180,0,120,16.0,-0.075,0.59,Fail
+10123,GGG,F,North Western Region,A Level or Equivalent,35-55,30,0,330,40.4,-0.167,0.56,Fail
+10124,BBB,F,London,No Formal quals,0-35,150,0,3247,89.9,0.022,0.07,Distinction
+10125,BBB,F,North Western Region,No Formal quals,0-35,150,0,1075,42.5,-0.033,0.21,Fail
+10126,GGG,M,North Western Region,HE Qualification,0-35,120,2,716,63.2,-0.013,0.09,Pass
+10127,AAA,F,South Region,No Formal quals,0-35,180,0,287,41.5,-0.206,0.44,Withdrawn
+10128,FFF,F,London,Lower Than A Level,0-35,60,1,1017,66.9,0.079,0.13,Pass
+10129,GGG,M,Scotland,A Level or Equivalent,35-55,180,0,2707,86.7,0.072,0.06,Pass
+10130,CCC,M,North Western Region,A Level or Equivalent,0-35,150,0,2938,79.6,0.098,0.1,Distinction
+10131,CCC,M,London,Lower Than A Level,0-35,120,0,1406,65.2,0.025,0.16,Distinction
+10132,EEE,F,Scotland,A Level or Equivalent,35-55,30,0,1644,42.3,0.017,0.08,Pass
+10133,GGG,F,London,Lower Than A Level,0-35,180,0,1280,55.7,-0.005,0.12,Pass
+10134,DDD,M,West Midlands,Lower Than A Level,0-35,90,0,816,55.6,-0.001,0.13,Distinction
+10135,AAA,F,East Anglia,Lower Than A Level,0-35,150,0,1102,52.8,0.151,0.09,Pass
+10136,FFF,F,London,HE Qualification,55<=,90,0,331,29.6,-0.083,0.78,Fail
+10137,FFF,M,East Anglia,A Level or Equivalent,0-35,60,0,1205,55.6,0.035,0.11,Pass
+10138,EEE,M,West Midlands,HE Qualification,0-35,120,3,319,26.1,-0.227,0.64,Withdrawn
+10139,CCC,M,North Western Region,A Level or Equivalent,0-35,60,1,377,30.9,-0.12,0.41,Withdrawn
+10140,GGG,M,East Anglia,Lower Than A Level,0-35,60,0,830,56.3,0.336,0.23,Pass
+10141,CCC,M,South West Region,Post Graduate Qualification,0-35,180,0,1929,44.8,-0.003,0.15,Pass
+10142,EEE,F,East Anglia,HE Qualification,0-35,30,0,1389,61.8,0.27,0.21,Pass
+10143,FFF,M,North Western Region,HE Qualification,0-35,180,2,1524,73.6,0.021,0.12,Pass
+10144,BBB,F,North Western Region,A Level or Equivalent,0-35,150,0,213,34.8,-0.092,0.84,Withdrawn
+10145,CCC,M,Scotland,Lower Than A Level,0-35,120,0,2388,96.9,0.132,0.06,Pass
+10146,BBB,F,West Midlands,A Level or Equivalent,0-35,60,0,1921,49.6,-0.015,0.07,Pass
+10147,DDD,M,South Region,A Level or Equivalent,0-35,90,0,1269,64.1,0.186,0.08,Pass
+10148,BBB,F,South West Region,A Level or Equivalent,0-35,30,0,1298,39.3,-0.042,0.12,Fail
+10149,EEE,F,East Anglia,Post Graduate Qualification,35-55,30,0,2728,93.9,0.064,0.11,Pass
+10150,BBB,F,West Midlands,No Formal quals,0-35,180,0,1167,58.4,0.069,0.07,Distinction
+10151,CCC,M,North Western Region,Post Graduate Qualification,35-55,90,0,1943,42.6,0.012,0.1,Fail
+10152,CCC,F,South West Region,Lower Than A Level,0-35,90,0,402,32.0,-0.171,0.48,Fail
+10153,GGG,M,South West Region,Lower Than A Level,0-35,150,0,1678,35.0,0.008,0.06,Fail
+10154,AAA,M,London,A Level or Equivalent,0-35,120,0,1493,69.1,0.027,0.18,Pass
+10155,FFF,M,West Midlands,Lower Than A Level,0-35,180,0,877,65.6,0.033,0.13,Pass
+10156,GGG,F,West Midlands,A Level or Equivalent,55<=,90,0,1004,72.7,0.05,0.15,Pass
+10157,DDD,F,West Midlands,HE Qualification,35-55,90,0,2012,39.6,0.047,0.19,Fail
+10158,GGG,M,Scotland,No Formal quals,55<=,30,0,962,72.2,0.001,0.17,Pass
+10159,EEE,F,South Region,Lower Than A Level,35-55,60,0,1987,36.5,-0.05,0.07,Pass
+10160,DDD,M,South West Region,HE Qualification,0-35,150,2,3148,87.5,0.046,0.12,Distinction
+10161,FFF,M,East Anglia,Lower Than A Level,0-35,150,0,69,39.7,-0.297,0.79,Withdrawn
+10162,AAA,F,East Anglia,A Level or Equivalent,35-55,90,1,1639,96.6,0.064,0.07,Distinction
+10163,EEE,F,South Region,HE Qualification,0-35,60,1,1448,65.6,0.006,0.08,Pass
+10164,GGG,F,West Midlands,A Level or Equivalent,0-35,150,1,1446,58.3,0.195,0.15,Pass
+10165,BBB,F,Scotland,HE Qualification,0-35,120,0,218,23.2,-0.133,0.36,Fail
+10166,FFF,M,London,A Level or Equivalent,0-35,60,0,1536,45.8,0.003,0.21,Pass
+10167,BBB,M,South Region,A Level or Equivalent,0-35,150,0,291,35.4,-0.109,0.76,Fail
+10168,FFF,M,West Midlands,A Level or Equivalent,35-55,30,1,3443,96.1,0.046,0.07,Distinction
+10169,GGG,F,London,A Level or Equivalent,35-55,120,0,1013,41.1,-0.013,0.13,Pass
+10170,DDD,F,South West Region,No Formal quals,0-35,30,0,992,40.5,0.011,0.14,Pass
+10171,AAA,F,London,Lower Than A Level,0-35,60,0,1261,71.1,0.206,0.23,Pass
+10172,DDD,F,London,A Level or Equivalent,35-55,150,0,110,19.8,-0.189,0.61,Fail
+10173,BBB,M,East Anglia,No Formal quals,0-35,180,0,1088,73.9,0.005,0.1,Pass
+10174,FFF,M,London,HE Qualification,0-35,30,0,1337,86.9,0.107,0.11,Distinction
+10175,AAA,F,North Western Region,Lower Than A Level,0-35,30,0,839,67.6,0.288,0.13,Pass
+10176,FFF,F,South Region,Lower Than A Level,0-35,180,0,981,56.4,0.075,0.18,Distinction
+10177,FFF,F,West Midlands,A Level or Equivalent,55<=,180,0,213,33.8,-0.228,0.5,Withdrawn
+10178,EEE,F,South Region,HE Qualification,0-35,180,0,759,67.9,0.077,0.13,Pass
+10179,BBB,F,South Region,Lower Than A Level,0-35,120,1,1980,79.0,0.069,0.08,Distinction
+10180,AAA,M,East Anglia,HE Qualification,35-55,150,0,1040,62.0,0.071,0.08,Pass
+10181,FFF,M,South West Region,Post Graduate Qualification,0-35,60,0,253,39.7,-0.184,0.74,Withdrawn
+10182,EEE,F,Scotland,Lower Than A Level,0-35,120,0,419,27.7,-0.098,0.81,Withdrawn
+10183,DDD,M,West Midlands,HE Qualification,35-55,30,0,1193,65.3,0.188,0.11,Pass
+10184,EEE,M,North Western Region,A Level or Equivalent,35-55,90,0,420,32.3,-0.203,0.43,Fail
+10185,BBB,M,South West Region,A Level or Equivalent,0-35,150,3,1136,48.8,0.315,0.24,Pass
+10186,GGG,M,North Western Region,Lower Than A Level,0-35,30,0,3271,87.1,0.028,0.08,Pass
+10187,DDD,F,London,No Formal quals,0-35,30,0,324,41.4,-0.345,0.76,Fail
+10188,GGG,M,London,HE Qualification,0-35,60,0,1625,37.3,-0.028,0.11,Fail
+10189,EEE,M,South West Region,Lower Than A Level,35-55,30,0,438,15.9,-0.228,0.54,Withdrawn
+10190,FFF,M,South West Region,Lower Than A Level,0-35,120,0,1578,77.4,0.069,0.19,Pass
+10191,GGG,F,Scotland,No Formal quals,0-35,90,1,967,35.6,0.031,0.05,Pass
+10192,BBB,F,London,Lower Than A Level,0-35,150,1,1253,62.6,0.056,0.07,Fail
+10193,FFF,M,West Midlands,A Level or Equivalent,0-35,30,0,224,31.3,-0.166,0.65,Fail
+10194,CCC,M,South West Region,Lower Than A Level,55<=,120,0,1668,40.6,0.008,0.16,Pass
+10195,EEE,F,East Anglia,Lower Than A Level,0-35,90,0,374,19.2,-0.233,0.53,Withdrawn
+10196,CCC,F,Scotland,HE Qualification,0-35,30,0,1268,66.8,-0.01,0.06,Pass
+10197,EEE,F,East Anglia,A Level or Equivalent,0-35,120,0,336,39.4,-0.057,0.64,Withdrawn
+10198,DDD,M,South Region,Lower Than A Level,0-35,60,0,1131,61.9,0.058,0.1,Fail
+10199,FFF,F,West Midlands,A Level or Equivalent,0-35,60,0,940,68.2,0.207,0.23,Pass
+10200,DDD,M,Scotland,Lower Than A Level,35-55,60,0,2831,97.4,0.058,0.09,Distinction
+10201,EEE,M,Scotland,A Level or Equivalent,35-55,120,0,804,62.2,0.245,0.2,Pass
+10202,FFF,F,South West Region,Lower Than A Level,35-55,180,0,259,33.2,-0.308,0.5,Withdrawn
+10203,BBB,F,East Anglia,A Level or Equivalent,0-35,150,0,1218,76.2,0.067,0.11,Pass
+10204,CCC,M,London,HE Qualification,35-55,90,0,2053,51.7,0.008,0.12,Fail
+10205,GGG,F,London,No Formal quals,0-35,150,0,2078,36.4,-0.031,0.13,Fail
+10206,FFF,M,Scotland,Post Graduate Qualification,0-35,90,0,718,68.0,0.288,0.14,Pass
+10207,GGG,M,West Midlands,A Level or Equivalent,0-35,120,0,768,61.9,0.061,0.07,Distinction
+10208,FFF,M,South West Region,HE Qualification,35-55,180,0,1855,84.6,0.075,0.07,Pass
+10209,FFF,M,South Region,A Level or Equivalent,0-35,30,0,1060,62.2,0.209,0.2,Pass
+10210,GGG,M,West Midlands,Lower Than A Level,35-55,60,0,816,61.0,0.066,0.13,Pass
+10211,EEE,F,West Midlands,A Level or Equivalent,0-35,90,1,1509,50.4,-0.003,0.16,Pass
+10212,BBB,F,London,Lower Than A Level,35-55,150,0,2077,39.7,-0.056,0.16,Fail
+10213,FFF,M,West Midlands,Lower Than A Level,0-35,60,0,754,74.9,0.075,0.12,Pass
+10214,DDD,F,North Western Region,A Level or Equivalent,0-35,120,0,1326,93.9,0.049,0.02,Distinction
+10215,CCC,M,East Anglia,A Level or Equivalent,35-55,120,0,1667,83.4,0.091,0.12,Distinction
+10216,GGG,M,East Anglia,A Level or Equivalent,0-35,120,0,434,21.7,-0.088,0.37,Withdrawn
+10217,GGG,M,North Western Region,HE Qualification,0-35,60,0,402,24.5,-0.137,0.67,Withdrawn
+10218,BBB,M,East Anglia,Lower Than A Level,0-35,90,0,1244,38.5,0.012,0.1,Pass
+10219,GGG,M,South Region,Post Graduate Qualification,35-55,30,3,114,33.9,-0.31,0.42,Withdrawn
+10220,BBB,F,North Western Region,Lower Than A Level,0-35,180,0,1348,73.3,0.057,0.11,Pass
+10221,FFF,F,North Western Region,Post Graduate Qualification,0-35,30,1,97,34.7,-0.212,0.68,Withdrawn
+10222,AAA,F,South Region,Post Graduate Qualification,35-55,120,0,222,29.8,-0.311,0.78,Fail
+10223,FFF,M,London,Lower Than A Level,35-55,120,0,761,58.6,0.12,0.24,Pass
+10224,FFF,M,South West Region,Lower Than A Level,35-55,90,0,784,63.6,0.07,0.07,Pass
+10225,CCC,M,North Western Region,A Level or Equivalent,35-55,30,0,2126,88.4,0.078,0.02,Distinction
+10226,AAA,F,South West Region,Lower Than A Level,0-35,120,0,102,23.5,-0.086,0.42,Fail
+10227,GGG,M,South West Region,Post Graduate Qualification,0-35,150,0,1236,40.8,0.014,0.16,Pass
+10228,DDD,F,East Anglia,Lower Than A Level,35-55,60,0,1686,39.0,-0.024,0.18,Pass
+10229,FFF,M,South Region,A Level or Equivalent,0-35,150,0,627,68.3,0.271,0.13,Pass
+10230,EEE,M,South West Region,A Level or Equivalent,0-35,60,0,3246,90.8,0.029,0.11,Distinction
+10231,CCC,F,South Region,A Level or Equivalent,35-55,120,0,1864,51.1,0.02,0.05,Pass
+10232,CCC,M,London,HE Qualification,35-55,120,0,1926,47.3,-0.025,0.12,Fail
+10233,EEE,M,Scotland,Lower Than A Level,0-35,60,2,2538,85.8,0.102,0.1,Distinction
+10234,AAA,F,South West Region,A Level or Equivalent,55<=,60,0,2979,80.3,0.1,0.03,Distinction
+10235,FFF,M,London,No Formal quals,0-35,30,0,1135,60.4,0.309,0.12,Pass
+10236,FFF,F,South West Region,HE Qualification,35-55,30,0,1236,56.5,0.051,0.14,Pass
+10237,DDD,F,London,A Level or Equivalent,0-35,90,0,343,33.2,-0.315,0.72,Withdrawn
+10238,GGG,M,South Region,No Formal quals,0-35,60,0,636,61.3,0.33,0.21,Pass
+10239,CCC,M,North Western Region,HE Qualification,0-35,30,0,1415,81.6,0.125,0.12,Pass
+10240,AAA,F,East Anglia,Lower Than A Level,35-55,90,0,1077,59.6,0.036,0.1,Pass
+10241,DDD,F,West Midlands,Post Graduate Qualification,55<=,60,0,1402,35.0,0.041,0.05,Fail
+10242,FFF,M,Scotland,No Formal quals,35-55,180,0,3370,97.7,0.075,0.12,Pass
+10243,BBB,F,London,No Formal quals,0-35,150,0,1069,71.4,0.14,0.1,Pass
+10244,GGG,F,London,A Level or Equivalent,0-35,180,2,967,74.6,0.073,0.11,Distinction
+10245,CCC,F,North Western Region,Lower Than A Level,0-35,60,0,105,19.2,-0.301,0.58,Withdrawn
+10246,EEE,F,East Anglia,Lower Than A Level,0-35,90,1,2446,94.5,0.111,0.02,Pass
+10247,CCC,M,London,A Level or Equivalent,55<=,120,0,1432,48.4,-0.057,0.21,Fail
+10248,EEE,M,London,A Level or Equivalent,35-55,60,0,2110,80.6,0.127,0.06,Distinction
+10249,FFF,M,West Midlands,A Level or Equivalent,35-55,30,0,3016,94.2,0.032,0.1,Pass
+10250,AAA,M,North Western Region,Lower Than A Level,35-55,120,1,730,63.8,0.023,0.1,Distinction
+10251,CCC,F,North Western Region,HE Qualification,0-35,150,0,1921,40.2,-0.008,0.06,Pass
+10252,BBB,F,South Region,A Level or Equivalent,35-55,60,0,59,41.7,-0.115,0.53,Withdrawn
+10253,DDD,F,West Midlands,A Level or Equivalent,0-35,60,0,960,49.9,0.021,0.06,Fail
+10254,EEE,F,East Anglia,A Level or Equivalent,0-35,60,0,1445,42.7,0.023,0.18,Fail
+10255,BBB,F,Scotland,HE Qualification,55<=,60,0,1634,50.3,-0.076,0.17,Fail
+10256,EEE,M,West Midlands,HE Qualification,35-55,120,0,1355,79.8,0.05,0.04,Distinction
+10257,AAA,F,West Midlands,Lower Than A Level,0-35,180,0,215,16.6,-0.306,0.7,Withdrawn
+10258,AAA,F,London,A Level or Equivalent,35-55,120,0,1030,58.1,-0.004,0.19,Pass
+10259,DDD,F,South Region,A Level or Equivalent,0-35,150,0,1303,73.7,0.018,0.16,Pass
+10260,BBB,M,South West Region,HE Qualification,0-35,150,0,2152,36.4,-0.006,0.21,Pass
+10261,FFF,M,South Region,Lower Than A Level,0-35,180,1,2575,86.9,0.054,0.04,Distinction
+10262,CCC,M,South West Region,No Formal quals,0-35,180,0,2895,87.9,0.069,0.07,Distinction
+10263,DDD,M,South Region,A Level or Equivalent,35-55,30,0,807,56.7,-0.003,0.11,Pass
+10264,EEE,M,Scotland,A Level or Equivalent,0-35,120,0,1369,58.8,0.069,0.07,Pass
+10265,BBB,M,North Western Region,A Level or Equivalent,35-55,180,0,1509,36.8,-0.074,0.15,Fail
+10266,BBB,M,Scotland,No Formal quals,0-35,180,0,799,55.6,-0.003,0.09,Pass
+10267,GGG,M,Scotland,HE Qualification,0-35,180,0,1693,35.7,0.035,0.11,Fail
+10268,CCC,F,North Western Region,Lower Than A Level,35-55,150,0,391,17.6,-0.15,0.75,Withdrawn
+10269,GGG,M,West Midlands,Lower Than A Level,0-35,150,0,1872,43.5,-0.049,0.1,Pass
+10270,GGG,M,West Midlands,A Level or Equivalent,0-35,150,0,1146,51.0,-0.022,0.21,Pass
+10271,BBB,M,South Region,No Formal quals,0-35,180,0,1242,51.5,0.257,0.13,Pass
+10272,GGG,M,London,A Level or Equivalent,0-35,90,1,925,47.7,0.001,0.14,Fail
+10273,DDD,M,South Region,A Level or Equivalent,0-35,30,1,1106,47.7,0.033,0.2,Fail
+10274,CCC,F,South West Region,A Level or Equivalent,0-35,30,0,1333,69.0,0.049,0.06,Distinction
+10275,CCC,M,London,A Level or Equivalent,35-55,90,0,205,23.4,-0.097,0.78,Fail
+10276,GGG,M,South Region,Lower Than A Level,35-55,90,0,1361,57.1,0.024,0.19,Pass
+10277,DDD,F,East Anglia,Lower Than A Level,35-55,30,0,1177,47.6,-0.012,0.15,Pass
+10278,GGG,M,East Anglia,Lower Than A Level,0-35,30,1,190,24.9,-0.211,0.55,Fail
+10279,FFF,M,South Region,A Level or Equivalent,0-35,60,2,1264,63.0,-0.004,0.18,Pass
+10280,FFF,M,Scotland,No Formal quals,0-35,150,0,926,69.9,0.048,0.09,Pass
+10281,AAA,M,North Western Region,HE Qualification,0-35,150,1,1322,73.5,0.011,0.2,Pass
+10282,DDD,F,East Anglia,Lower Than A Level,0-35,120,0,2177,39.9,-0.067,0.14,Fail
+10283,GGG,F,West Midlands,A Level or Equivalent,0-35,90,0,1044,77.7,0.044,0.18,Pass
+10284,FFF,F,South Region,Lower Than A Level,35-55,30,1,357,25.9,-0.254,0.42,Withdrawn
+10285,DDD,F,Scotland,HE Qualification,0-35,180,0,342,37.0,-0.247,0.71,Fail
+10286,FFF,F,South West Region,A Level or Equivalent,0-35,60,1,142,22.9,-0.209,0.72,Fail
+10287,EEE,M,South West Region,HE Qualification,35-55,60,0,207,26.4,-0.084,0.54,Withdrawn
+10288,DDD,M,North Western Region,Lower Than A Level,0-35,150,2,1996,88.0,0.133,0.06,Distinction
+10289,AAA,M,South Region,Post Graduate Qualification,0-35,150,1,746,55.6,0.285,0.21,Pass
+10290,FFF,M,Scotland,A Level or Equivalent,0-35,90,0,345,35.6,-0.203,0.73,Withdrawn
+10291,EEE,F,South West Region,A Level or Equivalent,0-35,120,0,2016,92.6,0.144,0.11,Pass
+10292,EEE,M,London,A Level or Equivalent,0-35,60,0,209,18.5,-0.235,0.64,Withdrawn
+10293,GGG,M,Scotland,HE Qualification,0-35,150,0,1403,77.9,0.014,0.19,Pass
+10294,BBB,M,East Anglia,A Level or Equivalent,0-35,180,2,722,68.6,-0.003,0.1,Pass
+10295,AAA,F,South West Region,Lower Than A Level,0-35,30,0,1642,91.1,0.023,0.09,Distinction
+10296,DDD,M,West Midlands,Lower Than A Level,35-55,60,0,1516,40.4,-0.067,0.14,Fail
+10297,FFF,M,North Western Region,HE Qualification,0-35,180,0,1503,57.4,-0.0,0.08,Pass
+10298,EEE,M,Scotland,A Level or Equivalent,0-35,30,0,1304,70.4,0.196,0.08,Pass
+10299,AAA,F,South Region,HE Qualification,35-55,30,0,2248,90.9,0.079,0.12,Distinction
+10300,AAA,M,East Anglia,Lower Than A Level,0-35,90,0,1772,46.8,-0.068,0.18,Pass
+10301,GGG,M,South West Region,A Level or Equivalent,0-35,120,2,1450,57.1,0.061,0.08,Pass
+10302,DDD,F,East Anglia,A Level or Equivalent,35-55,120,0,107,18.6,-0.132,0.84,Fail
+10303,AAA,F,West Midlands,A Level or Equivalent,0-35,120,0,1067,69.1,0.066,0.18,Pass
+10304,BBB,F,North Western Region,Lower Than A Level,0-35,30,0,925,46.1,0.008,0.18,Fail
+10305,EEE,M,South West Region,HE Qualification,0-35,180,0,2218,87.6,0.106,0.08,Distinction
+10306,GGG,M,London,A Level or Equivalent,0-35,120,1,88,35.3,-0.254,0.52,Withdrawn
+10307,EEE,M,West Midlands,A Level or Equivalent,0-35,60,0,1286,65.3,0.066,0.12,Pass
+10308,DDD,M,London,A Level or Equivalent,0-35,150,0,2447,95.8,0.093,0.09,Distinction
+10309,CCC,F,East Anglia,Lower Than A Level,0-35,120,0,357,27.8,-0.153,0.71,Withdrawn
+10310,GGG,M,London,Lower Than A Level,35-55,90,0,808,56.1,-0.004,0.07,Pass
+10311,FFF,F,London,Lower Than A Level,0-35,30,1,1168,74.0,-0.001,0.1,Pass
+10312,AAA,M,East Anglia,HE Qualification,0-35,150,2,3243,78.1,0.116,0.08,Distinction
+10313,EEE,F,West Midlands,HE Qualification,35-55,180,0,115,17.8,-0.153,0.65,Withdrawn
+10314,DDD,F,West Midlands,HE Qualification,35-55,90,0,1001,65.4,-0.007,0.11,Pass
+10315,FFF,F,East Anglia,A Level or Equivalent,35-55,180,0,1345,36.0,0.001,0.1,Pass
+10316,FFF,M,South West Region,A Level or Equivalent,55<=,150,0,1136,47.2,-0.007,0.15,Fail
+10317,FFF,F,South West Region,A Level or Equivalent,35-55,90,1,713,67.0,-0.017,0.07,Pass
+10318,BBB,F,East Anglia,HE Qualification,55<=,180,0,403,36.2,-0.289,0.62,Withdrawn
+10319,DDD,M,West Midlands,HE Qualification,35-55,60,0,1386,42.2,0.024,0.17,Fail
+10320,AAA,F,North Western Region,A Level or Equivalent,35-55,180,0,926,46.9,-0.054,0.2,Fail
+10321,DDD,M,South West Region,A Level or Equivalent,0-35,150,0,1296,37.9,-0.057,0.17,Pass
+10322,BBB,M,North Western Region,No Formal quals,0-35,90,0,1422,32.1,-0.019,0.21,Pass
+10323,CCC,M,East Anglia,HE Qualification,0-35,180,0,331,24.7,-0.115,0.51,Withdrawn
+10324,BBB,M,East Anglia,A Level or Equivalent,0-35,150,0,918,70.3,0.013,0.09,Fail
+10325,EEE,F,West Midlands,HE Qualification,55<=,30,0,946,75.8,0.041,0.14,Fail
+10326,FFF,F,North Western Region,HE Qualification,35-55,120,0,62,39.6,-0.103,0.54,Fail
+10327,DDD,F,London,Lower Than A Level,35-55,90,0,771,71.3,0.298,0.17,Pass
+10328,BBB,M,East Anglia,A Level or Equivalent,35-55,60,0,429,35.9,-0.156,0.82,Fail
+10329,BBB,M,North Western Region,A Level or Equivalent,0-35,30,0,335,16.9,-0.104,0.81,Withdrawn
+10330,DDD,F,North Western Region,Lower Than A Level,0-35,30,0,2166,33.3,0.017,0.06,Fail
+10331,CCC,M,Scotland,HE Qualification,0-35,30,0,990,57.5,0.272,0.16,Pass
+10332,BBB,F,East Anglia,HE Qualification,0-35,180,0,1664,51.1,-0.079,0.2,Pass
+10333,AAA,M,West Midlands,A Level or Equivalent,0-35,30,0,421,24.3,-0.226,0.67,Withdrawn
+10334,BBB,M,South Region,A Level or Equivalent,0-35,30,0,77,38.0,-0.07,0.85,Withdrawn
+10335,EEE,M,Scotland,A Level or Equivalent,0-35,60,0,1038,63.2,0.047,0.09,Pass
+10336,AAA,M,Scotland,A Level or Equivalent,0-35,180,0,2058,43.3,0.025,0.21,Pass
+10337,CCC,M,East Anglia,Lower Than A Level,35-55,120,0,1395,71.9,0.068,0.12,Pass
+10338,CCC,F,West Midlands,Lower Than A Level,0-35,30,1,121,39.1,-0.291,0.72,Withdrawn
+10339,FFF,M,London,HE Qualification,0-35,150,0,158,39.5,-0.185,0.62,Fail
+10340,DDD,M,Scotland,A Level or Equivalent,35-55,150,0,1175,66.5,-0.011,0.1,Pass
+10341,BBB,M,East Anglia,A Level or Equivalent,0-35,60,0,1199,46.7,-0.017,0.11,Pass
+10342,DDD,M,London,Lower Than A Level,0-35,180,0,969,57.3,0.331,0.23,Pass
+10343,FFF,F,London,A Level or Equivalent,0-35,90,1,1257,68.1,0.018,0.11,Pass
+10344,GGG,M,West Midlands,Lower Than A Level,55<=,60,0,1588,62.9,0.059,0.18,Pass
+10345,BBB,F,South Region,Lower Than A Level,0-35,90,0,1070,68.8,0.062,0.15,Pass
+10346,CCC,M,North Western Region,A Level or Equivalent,0-35,150,0,61,21.6,-0.312,0.65,Withdrawn
+10347,EEE,M,West Midlands,Lower Than A Level,0-35,60,0,1277,69.7,0.068,0.16,Distinction
+10348,AAA,M,North Western Region,A Level or Equivalent,0-35,120,0,357,18.9,-0.175,0.73,Withdrawn
+10349,EEE,F,South Region,A Level or Equivalent,0-35,120,0,2749,85.7,0.034,0.04,Pass
+10350,EEE,F,East Anglia,Lower Than A Level,0-35,120,1,1988,42.1,-0.065,0.13,Pass
+10351,EEE,M,East Anglia,A Level or Equivalent,0-35,120,0,3370,86.6,0.142,0.07,Pass
+10352,CCC,M,North Western Region,Lower Than A Level,0-35,60,1,3427,86.2,0.045,0.09,Pass
+10353,EEE,M,West Midlands,No Formal quals,35-55,180,1,809,58.6,0.045,0.09,Distinction
+10354,DDD,F,West Midlands,Lower Than A Level,35-55,60,0,297,19.8,-0.182,0.59,Fail
+10355,EEE,F,East Anglia,A Level or Equivalent,35-55,180,0,1501,71.1,-0.004,0.08,Pass
+10356,CCC,M,South Region,A Level or Equivalent,0-35,30,1,1314,65.0,-0.014,0.08,Pass
+10357,AAA,F,North Western Region,A Level or Equivalent,0-35,180,2,1917,90.8,0.077,0.04,Distinction
+10358,GGG,F,South Region,No Formal quals,0-35,150,0,973,39.2,0.005,0.22,Pass
+10359,CCC,F,Scotland,A Level or Equivalent,0-35,60,0,85,39.8,-0.185,0.71,Withdrawn
+10360,EEE,F,Scotland,Post Graduate Qualification,0-35,150,2,1113,68.2,0.006,0.11,Pass
+10361,AAA,F,Scotland,HE Qualification,35-55,90,1,344,21.8,-0.217,0.54,Withdrawn
+10362,BBB,F,East Anglia,A Level or Equivalent,0-35,150,1,964,56.6,0.043,0.2,Pass
+10363,BBB,F,North Western Region,Post Graduate Qualification,0-35,30,0,994,57.1,0.047,0.17,Pass
+10364,BBB,F,Scotland,A Level or Equivalent,35-55,90,0,147,28.5,-0.29,0.72,Fail
+10365,BBB,M,South Region,HE Qualification,35-55,90,0,1521,91.5,0.106,0.08,Pass
+10366,EEE,M,East Anglia,A Level or Equivalent,0-35,120,1,1188,68.9,0.233,0.25,Distinction
+10367,CCC,F,South Region,HE Qualification,0-35,150,0,1253,55.7,0.015,0.18,Pass
+10368,DDD,M,South West Region,A Level or Equivalent,0-35,30,0,1294,57.3,0.016,0.18,Pass
+10369,CCC,M,Scotland,A Level or Equivalent,0-35,90,0,1129,71.1,0.017,0.18,Pass
+10370,BBB,M,West Midlands,A Level or Equivalent,35-55,180,0,1142,74.7,-0.0,0.17,Pass
+10371,DDD,M,South Region,A Level or Equivalent,0-35,180,0,299,23.1,-0.181,0.63,Withdrawn
+10372,FFF,M,London,Lower Than A Level,0-35,180,0,183,24.7,-0.182,0.82,Withdrawn
+10373,AAA,F,London,A Level or Equivalent,35-55,150,0,2002,35.5,0.021,0.11,Fail
+10374,DDD,F,London,A Level or Equivalent,0-35,180,2,377,36.8,-0.249,0.67,Withdrawn
+10375,GGG,M,London,Lower Than A Level,0-35,90,0,359,32.4,-0.269,0.57,Fail
+10376,CCC,F,North Western Region,Lower Than A Level,35-55,60,0,1063,36.2,-0.028,0.07,Fail
+10377,DDD,M,London,HE Qualification,0-35,30,0,1072,45.1,0.035,0.1,Pass
+10378,CCC,F,South West Region,Lower Than A Level,0-35,60,0,1566,49.3,-0.019,0.2,Fail
+10379,EEE,F,South Region,Post Graduate Qualification,35-55,60,0,1466,69.6,0.036,0.13,Pass
+10380,CCC,F,North Western Region,A Level or Equivalent,35-55,120,0,859,62.0,-0.02,0.17,Distinction
+10381,CCC,F,North Western Region,A Level or Equivalent,35-55,120,2,709,72.6,0.06,0.14,Pass
+10382,EEE,F,South Region,A Level or Equivalent,0-35,120,0,380,25.5,-0.236,0.48,Withdrawn
+10383,BBB,F,Scotland,A Level or Equivalent,0-35,90,0,143,18.7,-0.317,0.58,Withdrawn
+10384,FFF,F,South Region,Lower Than A Level,0-35,150,0,888,54.5,0.284,0.2,Pass
+10385,BBB,M,North Western Region,Lower Than A Level,0-35,120,3,1510,55.7,-0.012,0.16,Pass
+10386,CCC,F,London,A Level or Equivalent,0-35,90,1,112,41.3,-0.136,0.54,Fail
+10387,BBB,M,South Region,A Level or Equivalent,35-55,150,0,1098,70.7,0.011,0.1,Pass
+10388,AAA,M,Scotland,A Level or Equivalent,0-35,90,1,161,41.3,-0.279,0.57,Withdrawn
+10389,GGG,F,West Midlands,Lower Than A Level,35-55,30,2,1873,45.8,-0.06,0.18,Pass
+10390,DDD,M,South West Region,A Level or Equivalent,35-55,180,0,857,71.1,0.059,0.07,Pass
+10391,EEE,F,East Anglia,HE Qualification,35-55,30,0,837,60.8,-0.016,0.16,Pass
+10392,EEE,F,South Region,A Level or Equivalent,0-35,90,0,1551,68.8,0.066,0.07,Pass
+10393,DDD,F,East Anglia,Lower Than A Level,0-35,30,0,1279,49.7,0.001,0.11,Fail
+10394,CCC,M,South West Region,Post Graduate Qualification,35-55,60,0,1264,58.5,0.008,0.11,Pass
+10395,AAA,M,London,HE Qualification,0-35,30,0,801,55.7,0.044,0.11,Pass
+10396,EEE,F,London,A Level or Equivalent,0-35,30,0,1271,59.8,0.325,0.09,Pass
+10397,AAA,F,West Midlands,A Level or Equivalent,35-55,90,0,2288,88.6,0.115,0.1,Distinction
+10398,BBB,M,London,A Level or Equivalent,0-35,60,0,2067,44.5,-0.057,0.18,Fail
+10399,AAA,F,South West Region,A Level or Equivalent,35-55,30,0,1111,66.6,0.046,0.13,Pass
+10400,CCC,F,West Midlands,Post Graduate Qualification,0-35,90,0,1562,44.2,-0.007,0.09,Fail
+10401,FFF,F,Scotland,Post Graduate Qualification,0-35,120,0,2365,89.9,0.087,0.12,Distinction
+10402,CCC,M,South Region,HE Qualification,0-35,180,1,1123,61.4,0.333,0.11,Pass
+10403,CCC,M,South Region,Lower Than A Level,35-55,60,0,97,30.4,-0.179,0.46,Withdrawn
+10404,CCC,F,South Region,A Level or Equivalent,35-55,180,0,1209,63.4,0.129,0.22,Pass
+10405,GGG,M,East Anglia,Lower Than A Level,35-55,120,0,444,21.1,-0.154,0.65,Withdrawn
+10406,GGG,F,London,Lower Than A Level,0-35,150,0,1414,60.1,-0.015,0.16,Pass
+10407,DDD,M,South Region,A Level or Equivalent,35-55,60,0,1401,89.0,0.054,0.06,Distinction
+10408,FFF,M,East Anglia,Lower Than A Level,0-35,120,0,2049,44.3,0.016,0.09,Pass
+10409,GGG,F,Scotland,A Level or Equivalent,0-35,30,0,1056,59.4,0.014,0.15,Pass
+10410,BBB,F,West Midlands,HE Qualification,35-55,150,0,2156,82.0,0.069,0.1,Pass
+10411,AAA,M,South Region,HE Qualification,35-55,90,0,1127,38.1,-0.019,0.11,Fail
+10412,BBB,M,West Midlands,A Level or Equivalent,0-35,120,0,1311,64.8,0.124,0.18,Pass
+10413,AAA,F,South Region,Lower Than A Level,0-35,180,0,1234,79.3,0.106,0.09,Pass
+10414,CCC,M,London,Lower Than A Level,35-55,120,0,1426,57.3,0.012,0.18,Pass
+10415,BBB,M,West Midlands,Post Graduate Qualification,0-35,180,0,1242,62.0,0.029,0.16,Pass
+10416,FFF,F,Scotland,A Level or Equivalent,0-35,150,0,2255,95.6,0.136,0.1,Distinction
+10417,EEE,F,South Region,Lower Than A Level,35-55,180,0,316,40.9,-0.166,0.66,Withdrawn
+10418,BBB,M,North Western Region,Post Graduate Qualification,35-55,90,0,1767,89.6,0.109,0.04,Distinction
+10419,FFF,M,North Western Region,Post Graduate Qualification,55<=,60,0,1223,38.3,-0.008,0.21,Pass
+10420,CCC,M,South West Region,No Formal quals,0-35,120,2,1463,76.5,0.069,0.19,Pass
+10421,GGG,M,London,Lower Than A Level,0-35,150,0,2154,36.6,-0.05,0.17,Pass
+10422,FFF,F,South Region,A Level or Equivalent,0-35,180,0,1096,66.3,-0.006,0.08,Pass
+10423,GGG,M,Scotland,Post Graduate Qualification,0-35,180,2,83,19.8,-0.064,0.57,Withdrawn
+10424,FFF,F,East Anglia,A Level or Equivalent,0-35,120,0,1679,46.4,-0.029,0.21,Fail
+10425,EEE,M,West Midlands,Lower Than A Level,0-35,30,1,1250,64.1,0.054,0.13,Pass
+10426,FFF,M,South Region,Lower Than A Level,0-35,90,0,870,64.7,0.041,0.06,Pass
+10427,BBB,F,East Anglia,A Level or Equivalent,0-35,150,0,406,29.8,-0.232,0.51,Withdrawn
+10428,DDD,M,North Western Region,Lower Than A Level,0-35,180,1,417,34.8,-0.323,0.7,Withdrawn
+10429,AAA,F,South West Region,HE Qualification,0-35,60,0,1486,58.9,0.014,0.18,Distinction
+10430,BBB,M,South Region,HE Qualification,0-35,90,0,278,22.8,-0.296,0.8,Fail
+10431,AAA,F,London,A Level or Equivalent,35-55,150,1,1910,36.8,-0.003,0.13,Fail
+10432,AAA,M,South Region,HE Qualification,0-35,180,0,75,20.0,-0.333,0.52,Withdrawn
+10433,AAA,F,Scotland,HE Qualification,0-35,120,3,2364,90.2,0.11,0.08,Pass
+10434,BBB,F,South West Region,A Level or Equivalent,35-55,30,0,1088,73.9,0.056,0.18,Pass
+10435,DDD,M,London,A Level or Equivalent,0-35,150,0,914,69.1,-0.009,0.16,Pass
+10436,AAA,F,South West Region,A Level or Equivalent,35-55,180,0,1548,37.2,-0.005,0.16,Fail
+10437,EEE,F,West Midlands,A Level or Equivalent,0-35,60,1,997,77.5,-0.02,0.05,Pass
+10438,AAA,M,East Anglia,A Level or Equivalent,0-35,30,0,1334,32.2,-0.054,0.1,Fail
+10439,CCC,F,West Midlands,A Level or Equivalent,35-55,30,0,1441,68.1,0.076,0.17,Pass
+10440,GGG,F,South West Region,A Level or Equivalent,0-35,30,0,1342,65.6,0.067,0.18,Pass
+10441,GGG,F,South West Region,Lower Than A Level,0-35,150,0,1248,55.4,0.038,0.1,Distinction
+10442,GGG,F,London,Post Graduate Qualification,0-35,30,0,1247,74.4,0.037,0.11,Pass
+10443,GGG,F,South West Region,HE Qualification,35-55,90,0,943,63.5,0.063,0.1,Pass
+10444,BBB,M,Scotland,HE Qualification,35-55,30,0,3176,96.1,0.04,0.05,Distinction
+10445,GGG,F,East Anglia,Lower Than A Level,35-55,30,1,1292,71.8,0.167,0.09,Pass
+10446,GGG,M,London,Lower Than A Level,0-35,150,1,747,57.4,0.057,0.16,Pass
+10447,GGG,F,South West Region,HE Qualification,0-35,60,0,1803,45.4,-0.045,0.08,Pass
+10448,EEE,M,South Region,A Level or Equivalent,0-35,90,0,195,30.5,-0.299,0.51,Fail
+10449,EEE,F,London,Lower Than A Level,0-35,180,0,788,64.8,-0.002,0.14,Pass
+10450,GGG,F,West Midlands,A Level or Equivalent,0-35,60,0,1992,33.6,0.04,0.18,Fail
+10451,AAA,F,London,A Level or Equivalent,35-55,180,0,929,58.3,0.07,0.09,Pass
+10452,BBB,F,East Anglia,HE Qualification,0-35,120,0,1059,66.0,0.065,0.09,Pass
+10453,EEE,M,West Midlands,Lower Than A Level,35-55,30,0,1518,42.7,-0.028,0.12,Fail
+10454,EEE,M,North Western Region,A Level or Equivalent,0-35,180,0,272,30.3,-0.247,0.7,Withdrawn
+10455,FFF,M,South West Region,HE Qualification,0-35,120,0,1566,43.1,0.027,0.08,Fail
+10456,AAA,M,South West Region,HE Qualification,35-55,120,0,1025,33.8,0.026,0.2,Fail
+10457,FFF,M,East Anglia,Lower Than A Level,0-35,150,0,1815,35.9,0.009,0.1,Fail
+10458,FFF,F,North Western Region,A Level or Equivalent,35-55,30,0,1945,40.1,-0.063,0.1,Pass
+10459,EEE,M,London,A Level or Equivalent,35-55,90,0,731,60.4,0.05,0.11,Pass
+10460,DDD,F,North Western Region,A Level or Equivalent,0-35,60,0,1093,74.4,0.016,0.11,Pass
+10461,GGG,M,South Region,No Formal quals,0-35,60,0,1147,77.4,-0.006,0.07,Pass
+10462,GGG,F,East Anglia,A Level or Equivalent,35-55,150,0,2030,48.4,-0.03,0.09,Fail
+10463,AAA,F,East Anglia,A Level or Equivalent,35-55,90,0,1651,32.7,-0.075,0.13,Pass
+10464,EEE,F,South West Region,Lower Than A Level,35-55,150,2,1397,54.7,0.239,0.17,Pass
+10465,BBB,F,South West Region,A Level or Equivalent,55<=,30,0,2087,38.2,-0.073,0.11,Fail
+10466,DDD,F,West Midlands,HE Qualification,0-35,90,0,1417,55.1,0.159,0.2,Pass
+10467,CCC,F,London,A Level or Equivalent,0-35,150,0,1428,65.7,0.126,0.16,Pass
+10468,AAA,F,Scotland,Lower Than A Level,0-35,90,0,1915,96.2,0.116,0.09,Distinction
+10469,BBB,F,East Anglia,A Level or Equivalent,0-35,150,1,786,77.2,0.04,0.17,Distinction
+10470,GGG,F,East Anglia,A Level or Equivalent,35-55,180,0,1451,74.4,-0.015,0.09,Pass
+10471,AAA,M,North Western Region,A Level or Equivalent,0-35,180,2,839,57.1,0.282,0.16,Pass
+10472,GGG,F,London,Lower Than A Level,35-55,120,0,1299,70.9,0.142,0.17,Pass
+10473,GGG,F,West Midlands,HE Qualification,35-55,90,0,180,32.7,-0.233,0.74,Fail
+10474,FFF,M,West Midlands,Lower Than A Level,35-55,60,0,1234,94.6,0.022,0.03,Distinction
+10475,DDD,F,South Region,A Level or Equivalent,0-35,30,0,2088,97.0,0.103,0.09,Distinction
+10476,GGG,M,North Western Region,A Level or Equivalent,35-55,150,1,813,71.0,0.005,0.12,Distinction
+10477,FFF,F,Scotland,HE Qualification,35-55,180,0,865,73.0,0.008,0.06,Pass
+10478,AAA,F,East Anglia,Lower Than A Level,0-35,120,2,1102,59.1,0.029,0.07,Pass
+10479,BBB,M,North Western Region,A Level or Equivalent,0-35,30,0,447,27.0,-0.081,0.42,Withdrawn
+10480,AAA,F,Scotland,Lower Than A Level,0-35,120,0,1904,41.6,-0.027,0.17,Fail
+10481,AAA,M,London,A Level or Equivalent,35-55,120,0,1635,38.7,-0.041,0.06,Fail
+10482,FFF,M,Scotland,A Level or Equivalent,55<=,30,1,198,32.5,-0.297,0.37,Withdrawn
+10483,BBB,F,South West Region,A Level or Equivalent,0-35,180,0,2993,92.7,0.038,0.04,Distinction
+10484,EEE,M,North Western Region,A Level or Equivalent,35-55,180,0,1820,51.3,-0.078,0.11,Pass
+10485,FFF,M,North Western Region,Lower Than A Level,35-55,180,0,1491,69.0,0.154,0.18,Distinction
+10486,AAA,M,North Western Region,A Level or Equivalent,0-35,150,0,116,15.4,-0.16,0.8,Fail
+10487,AAA,F,West Midlands,Lower Than A Level,0-35,30,0,2160,36.4,0.025,0.12,Fail
+10488,FFF,F,Scotland,Lower Than A Level,35-55,150,0,159,35.6,-0.172,0.52,Withdrawn
+10489,BBB,F,South Region,A Level or Equivalent,0-35,120,0,1173,34.0,0.03,0.15,Fail
+10490,AAA,F,London,No Formal quals,0-35,30,0,1481,40.3,0.025,0.18,Fail
+10491,BBB,M,South West Region,Lower Than A Level,0-35,60,1,977,43.9,0.013,0.15,Pass
+10492,GGG,F,Scotland,A Level or Equivalent,0-35,60,0,1095,44.4,0.032,0.22,Fail
+10493,DDD,M,Scotland,Lower Than A Level,0-35,60,0,1085,59.9,0.157,0.24,Pass
+10494,CCC,F,South Region,A Level or Equivalent,0-35,120,0,325,19.7,-0.114,0.59,Withdrawn
+10495,BBB,F,West Midlands,A Level or Equivalent,0-35,180,0,1497,57.5,0.003,0.09,Pass
+10496,BBB,F,South Region,Lower Than A Level,0-35,30,1,3063,81.6,0.069,0.07,Distinction
+10497,CCC,F,South Region,Lower Than A Level,0-35,150,0,3106,87.2,0.042,0.05,Pass
+10498,EEE,M,East Anglia,HE Qualification,55<=,60,0,1370,33.7,0.031,0.13,Fail
+10499,EEE,F,East Anglia,A Level or Equivalent,0-35,120,0,1035,65.0,0.002,0.19,Fail
+10500,EEE,M,North Western Region,Post Graduate Qualification,0-35,120,0,1771,42.6,-0.018,0.19,Fail
+10501,DDD,F,South Region,Lower Than A Level,35-55,180,0,735,56.6,0.175,0.25,Pass
+10502,FFF,F,South Region,A Level or Equivalent,35-55,180,0,1074,66.5,0.321,0.15,Pass
+10503,CCC,F,South West Region,A Level or Equivalent,35-55,30,0,1987,32.7,-0.025,0.1,Fail
+10504,EEE,M,East Anglia,A Level or Equivalent,0-35,90,0,2690,95.8,0.034,0.06,Distinction
+10505,CCC,F,South Region,A Level or Equivalent,35-55,150,0,1042,60.5,-0.009,0.12,Distinction
+10506,EEE,M,East Anglia,A Level or Equivalent,0-35,90,1,1766,37.5,-0.072,0.11,Fail
+10507,EEE,M,North Western Region,A Level or Equivalent,35-55,150,1,1076,73.4,0.075,0.17,Fail
+10508,AAA,M,North Western Region,Lower Than A Level,0-35,60,0,711,52.0,0.146,0.11,Pass
+10509,BBB,M,Scotland,A Level or Equivalent,35-55,60,0,1455,69.8,0.009,0.06,Distinction
+10510,BBB,F,North Western Region,A Level or Equivalent,35-55,90,0,1985,48.8,-0.022,0.1,Pass
+10511,GGG,F,South Region,HE Qualification,0-35,90,2,74,19.0,-0.265,0.83,Withdrawn
+10512,BBB,F,South Region,Post Graduate Qualification,35-55,180,1,132,21.4,-0.338,0.51,Withdrawn
+10513,CCC,F,South Region,Lower Than A Level,35-55,180,0,1081,65.3,0.078,0.13,Pass
+10514,AAA,F,North Western Region,HE Qualification,35-55,90,0,1159,71.4,0.196,0.2,Pass
+10515,CCC,M,East Anglia,A Level or Equivalent,35-55,120,0,3161,96.0,0.038,0.08,Distinction
+10516,DDD,M,North Western Region,A Level or Equivalent,0-35,150,0,1354,47.6,0.02,0.08,Pass
+10517,GGG,F,South West Region,A Level or Equivalent,0-35,150,0,1317,68.9,0.074,0.19,Pass
+10518,BBB,F,Scotland,A Level or Equivalent,0-35,90,0,1495,61.5,0.17,0.23,Pass
+10519,DDD,F,Scotland,Lower Than A Level,35-55,120,0,1555,68.5,-0.011,0.08,Pass
+10520,GGG,F,London,HE Qualification,0-35,120,0,979,64.5,0.036,0.16,Pass
+10521,BBB,M,South Region,HE Qualification,0-35,120,0,349,23.2,-0.182,0.58,Withdrawn
+10522,AAA,M,Scotland,Lower Than A Level,0-35,180,0,1489,40.3,-0.016,0.17,Pass
+10523,AAA,F,North Western Region,Post Graduate Qualification,0-35,180,0,1146,75.0,0.043,0.12,Pass
+10524,AAA,F,West Midlands,A Level or Equivalent,0-35,90,0,2509,87.2,0.11,0.06,Distinction
+10525,CCC,F,South West Region,HE Qualification,0-35,90,0,1057,42.3,0.02,0.08,Pass
+10526,GGG,M,West Midlands,Lower Than A Level,0-35,180,0,1414,70.8,-0.01,0.14,Distinction
+10527,AAA,M,West Midlands,Lower Than A Level,35-55,120,0,704,53.2,0.236,0.22,Pass
+10528,EEE,M,North Western Region,A Level or Equivalent,0-35,60,1,1019,70.9,-0.006,0.12,Fail
+10529,EEE,F,South Region,A Level or Equivalent,0-35,30,0,122,33.6,-0.258,0.45,Fail
+10530,DDD,M,London,No Formal quals,0-35,120,0,3303,89.9,0.081,0.11,Distinction
+10531,CCC,M,East Anglia,Lower Than A Level,0-35,150,0,789,64.1,0.127,0.1,Pass
+10532,CCC,F,Scotland,Lower Than A Level,0-35,180,0,1039,34.0,-0.005,0.05,Pass
+10533,BBB,F,South Region,HE Qualification,0-35,180,0,1216,74.6,0.027,0.15,Pass
+10534,FFF,M,South Region,HE Qualification,55<=,120,0,815,72.5,0.011,0.12,Pass
+10535,DDD,F,South West Region,Lower Than A Level,35-55,30,0,2361,87.1,0.116,0.09,Pass
+10536,BBB,F,Scotland,Post Graduate Qualification,0-35,30,1,397,24.9,-0.346,0.69,Fail
+10537,DDD,F,West Midlands,A Level or Equivalent,0-35,60,0,1108,46.8,0.036,0.08,Pass
+10538,BBB,F,South Region,A Level or Equivalent,55<=,30,0,1211,61.4,0.051,0.14,Pass
+10539,GGG,F,Scotland,A Level or Equivalent,0-35,120,2,1201,47.4,-0.066,0.09,Fail
+10540,FFF,M,London,Lower Than A Level,0-35,30,0,1933,85.7,0.108,0.04,Distinction
+10541,AAA,M,South West Region,HE Qualification,35-55,120,0,1904,42.1,-0.009,0.19,Fail
+10542,AAA,M,North Western Region,HE Qualification,0-35,120,0,1170,55.8,-0.002,0.15,Pass
+10543,FFF,M,North Western Region,A Level or Equivalent,0-35,120,0,3209,91.2,0.109,0.08,Distinction
+10544,GGG,M,West Midlands,Lower Than A Level,0-35,150,2,1622,47.3,-0.043,0.06,Fail
+10545,BBB,F,Scotland,HE Qualification,0-35,180,0,2613,97.8,0.074,0.03,Distinction
+10546,BBB,F,West Midlands,Lower Than A Level,35-55,90,0,3405,84.5,0.08,0.11,Distinction
+10547,DDD,F,London,A Level or Equivalent,0-35,90,0,1286,57.2,0.029,0.15,Pass
+10548,DDD,F,South Region,A Level or Equivalent,0-35,120,0,1054,48.8,-0.01,0.1,Pass
+10549,EEE,F,East Anglia,Lower Than A Level,35-55,30,0,2112,38.7,-0.071,0.19,Fail
+10550,BBB,F,East Anglia,Lower Than A Level,35-55,150,1,1252,62.2,0.021,0.09,Pass
+10551,FFF,M,London,A Level or Equivalent,0-35,60,0,1543,72.1,0.027,0.19,Pass
+10552,EEE,F,West Midlands,A Level or Equivalent,0-35,60,0,1816,92.9,0.12,0.1,Distinction
+10553,GGG,M,South West Region,Lower Than A Level,0-35,90,0,1315,60.4,0.004,0.07,Pass
+10554,GGG,F,North Western Region,A Level or Equivalent,55<=,120,0,1852,83.5,0.024,0.1,Distinction
+10555,EEE,M,South West Region,HE Qualification,55<=,120,0,1543,84.3,0.059,0.03,Pass
+10556,CCC,M,North Western Region,HE Qualification,35-55,60,0,1924,50.7,-0.012,0.19,Fail
+10557,EEE,F,North Western Region,HE Qualification,0-35,30,0,1552,68.4,0.019,0.16,Pass
+10558,DDD,M,South Region,Lower Than A Level,0-35,90,0,1303,56.3,0.033,0.15,Pass
+10559,EEE,F,North Western Region,A Level or Equivalent,55<=,60,0,207,15.6,-0.06,0.65,Fail
+10560,FFF,M,South West Region,HE Qualification,35-55,90,0,1417,63.3,0.061,0.07,Distinction
+10561,GGG,F,North Western Region,No Formal quals,55<=,90,0,1374,53.7,0.168,0.23,Distinction
+10562,FFF,F,East Anglia,HE Qualification,0-35,30,0,3213,87.4,0.074,0.1,Distinction
+10563,GGG,M,East Anglia,Lower Than A Level,0-35,30,0,2021,46.8,-0.021,0.05,Pass
+10564,FFF,M,South West Region,A Level or Equivalent,0-35,30,0,1542,43.5,-0.066,0.09,Fail
+10565,GGG,M,East Anglia,A Level or Equivalent,0-35,90,0,118,22.0,-0.144,0.76,Fail
+10566,BBB,M,North Western Region,A Level or Equivalent,0-35,120,2,829,48.5,0.125,0.17,Pass
+10567,BBB,M,North Western Region,Lower Than A Level,35-55,60,0,2129,37.2,-0.068,0.11,Fail
+10568,AAA,M,South West Region,A Level or Equivalent,35-55,120,1,929,71.4,-0.001,0.18,Pass
+10569,CCC,F,North Western Region,Lower Than A Level,35-55,150,0,422,33.3,-0.225,0.55,Withdrawn
+10570,CCC,F,South Region,A Level or Equivalent,35-55,90,0,1075,32.2,-0.063,0.1,Fail
+10571,FFF,M,South West Region,A Level or Equivalent,0-35,150,0,1440,79.0,0.141,0.07,Distinction
+10572,EEE,M,London,Lower Than A Level,0-35,90,2,1170,51.4,-0.007,0.15,Pass
+10573,EEE,F,Scotland,HE Qualification,0-35,90,0,966,57.7,-0.016,0.07,Distinction
+10574,GGG,F,South West Region,A Level or Equivalent,0-35,90,0,185,29.0,-0.219,0.43,Fail
+10575,DDD,M,West Midlands,HE Qualification,35-55,120,0,2141,81.7,0.081,0.04,Distinction
+10576,AAA,F,London,A Level or Equivalent,55<=,150,0,1566,71.6,-0.005,0.1,Pass
+10577,CCC,M,East Anglia,Lower Than A Level,0-35,90,0,1334,43.7,0.046,0.14,Fail
+10578,DDD,M,South Region,HE Qualification,35-55,90,0,1149,39.9,-0.003,0.21,Fail
+10579,BBB,M,London,A Level or Equivalent,35-55,120,0,1208,63.8,0.196,0.09,Pass
+10580,DDD,F,South West Region,Post Graduate Qualification,35-55,150,0,379,22.6,-0.111,0.72,Withdrawn
+10581,EEE,F,London,A Level or Equivalent,0-35,120,0,133,25.5,-0.229,0.67,Fail
+10582,BBB,M,Scotland,A Level or Equivalent,0-35,90,1,1635,45.3,0.028,0.14,Fail
+10583,DDD,F,Scotland,A Level or Equivalent,0-35,120,1,1789,44.6,-0.068,0.14,Fail
+10584,FFF,M,South West Region,A Level or Equivalent,0-35,120,0,1071,37.8,-0.023,0.2,Fail
+10585,BBB,M,South West Region,HE Qualification,35-55,150,0,2028,33.5,-0.074,0.07,Fail
+10586,AAA,F,South West Region,A Level or Equivalent,35-55,90,0,3262,78.3,0.116,0.07,Pass
+10587,GGG,F,London,Lower Than A Level,35-55,90,0,437,33.1,-0.163,0.48,Fail
+10588,GGG,M,South Region,Lower Than A Level,35-55,150,0,1788,42.7,-0.079,0.07,Pass
+10589,DDD,F,South West Region,A Level or Equivalent,35-55,180,0,1333,73.7,0.042,0.15,Fail
+10590,FFF,F,East Anglia,Lower Than A Level,0-35,30,0,406,41.2,-0.092,0.45,Withdrawn
+10591,FFF,M,North Western Region,HE Qualification,35-55,150,0,1174,58.4,0.022,0.07,Distinction
+10592,FFF,F,North Western Region,A Level or Equivalent,35-55,150,0,1549,74.2,-0.015,0.05,Pass
+10593,FFF,F,North Western Region,HE Qualification,35-55,150,0,637,59.7,0.232,0.18,Pass
+10594,FFF,F,South Region,A Level or Equivalent,0-35,120,0,1448,49.9,-0.026,0.13,Fail
+10595,FFF,F,North Western Region,A Level or Equivalent,0-35,90,0,1148,60.3,0.002,0.19,Pass
+10596,EEE,F,South Region,HE Qualification,35-55,120,2,394,32.6,-0.242,0.59,Fail
+10597,BBB,M,Scotland,A Level or Equivalent,0-35,120,0,1320,66.3,0.059,0.19,Pass
+10598,BBB,M,West Midlands,No Formal quals,0-35,90,0,3262,78.6,0.028,0.06,Distinction
+10599,AAA,M,North Western Region,Lower Than A Level,0-35,90,0,335,22.2,-0.305,0.7,Withdrawn
+10600,FFF,M,South West Region,Lower Than A Level,35-55,120,2,104,36.1,-0.167,0.78,Withdrawn
+10601,EEE,M,West Midlands,Lower Than A Level,0-35,60,1,2396,92.2,0.119,0.07,Pass
+10602,BBB,F,Scotland,HE Qualification,0-35,60,0,1487,55.2,0.063,0.12,Pass
+10603,BBB,M,Scotland,A Level or Equivalent,35-55,90,0,1471,72.3,0.022,0.08,Pass
+10604,DDD,F,North Western Region,Post Graduate Qualification,0-35,180,0,1796,93.4,0.113,0.07,Distinction
+10605,CCC,F,North Western Region,Post Graduate Qualification,0-35,30,0,1818,96.1,0.028,0.08,Distinction
+10606,FFF,F,North Western Region,A Level or Equivalent,35-55,150,1,210,39.5,-0.348,0.49,Withdrawn
+10607,BBB,F,North Western Region,A Level or Equivalent,35-55,150,0,1607,49.8,0.022,0.12,Pass
+10608,CCC,M,London,A Level or Equivalent,0-35,180,0,3415,83.7,0.032,0.08,Distinction
+10609,GGG,M,London,No Formal quals,35-55,150,0,205,34.6,-0.054,0.41,Withdrawn
+10610,CCC,F,South West Region,A Level or Equivalent,0-35,180,2,1286,71.9,0.025,0.2,Pass
+10611,EEE,M,Scotland,Lower Than A Level,35-55,180,0,2746,88.4,0.052,0.05,Distinction
+10612,GGG,F,North Western Region,Lower Than A Level,35-55,120,0,1732,87.5,0.078,0.06,Distinction
+10613,EEE,F,East Anglia,Lower Than A Level,0-35,120,3,1902,46.6,-0.026,0.08,Fail
+10614,DDD,F,South Region,Post Graduate Qualification,0-35,150,0,1184,55.7,-0.004,0.13,Distinction
+10615,AAA,F,London,Lower Than A Level,0-35,30,0,2448,97.8,0.059,0.07,Pass
+10616,BBB,F,London,HE Qualification,0-35,90,0,300,15.1,-0.186,0.38,Withdrawn
+10617,DDD,F,West Midlands,A Level or Equivalent,0-35,120,0,360,18.6,-0.308,0.67,Fail
+10618,FFF,F,South Region,HE Qualification,0-35,150,0,938,75.7,0.014,0.06,Pass
+10619,DDD,F,South West Region,Lower Than A Level,0-35,30,0,412,23.3,-0.156,0.67,Withdrawn
+10620,EEE,M,West Midlands,A Level or Equivalent,35-55,150,1,3378,81.6,0.022,0.1,Distinction
+10621,FFF,F,London,HE Qualification,0-35,120,0,723,62.8,-0.002,0.05,Pass
+10622,DDD,F,London,Lower Than A Level,0-35,60,0,1486,57.1,0.011,0.11,Pass
+10623,EEE,F,South Region,No Formal quals,0-35,120,0,2527,83.2,0.142,0.11,Distinction
+10624,BBB,M,North Western Region,A Level or Equivalent,0-35,30,0,1266,64.4,0.028,0.11,Pass
+10625,AAA,F,West Midlands,Post Graduate Qualification,35-55,60,0,1157,38.1,-0.027,0.06,Fail
+10626,BBB,M,Scotland,A Level or Equivalent,0-35,60,0,1268,65.4,-0.02,0.12,Distinction
+10627,CCC,M,London,Lower Than A Level,35-55,90,0,244,42.0,-0.097,0.46,Fail
+10628,CCC,M,South Region,A Level or Equivalent,0-35,90,0,1186,46.5,0.05,0.2,Pass
+10629,EEE,F,South West Region,HE Qualification,0-35,180,0,1029,62.9,0.026,0.14,Pass
+10630,FFF,M,South West Region,HE Qualification,0-35,30,1,1746,43.1,0.011,0.13,Pass
+10631,AAA,M,West Midlands,No Formal quals,35-55,180,0,2741,94.5,0.067,0.04,Pass
+10632,FFF,M,London,A Level or Equivalent,35-55,120,0,438,22.6,-0.074,0.53,Withdrawn
+10633,EEE,F,East Anglia,A Level or Equivalent,0-35,120,2,3218,96.1,0.112,0.04,Distinction
+10634,GGG,F,London,HE Qualification,0-35,120,0,1456,68.0,0.048,0.13,Pass
+10635,BBB,M,South Region,Lower Than A Level,0-35,60,1,190,20.2,-0.147,0.85,Fail
+10636,EEE,F,South West Region,A Level or Equivalent,0-35,120,0,653,68.5,0.194,0.22,Pass
+10637,AAA,F,North Western Region,A Level or Equivalent,35-55,180,0,1130,67.2,0.012,0.11,Pass
+10638,EEE,M,South West Region,Lower Than A Level,35-55,30,1,1037,62.1,0.043,0.06,Pass
+10639,GGG,M,West Midlands,HE Qualification,35-55,90,0,1048,74.1,0.062,0.13,Pass
+10640,AAA,F,East Anglia,Lower Than A Level,0-35,30,0,1336,85.5,0.136,0.09,Pass
+10641,AAA,F,London,Lower Than A Level,0-35,30,0,1413,83.9,0.07,0.03,Pass
+10642,BBB,M,North Western Region,A Level or Equivalent,35-55,150,0,1391,73.0,0.025,0.1,Pass
+10643,AAA,M,West Midlands,A Level or Equivalent,0-35,60,1,3284,83.1,0.075,0.09,Distinction
+10644,BBB,M,East Anglia,No Formal quals,0-35,150,0,1372,56.6,0.254,0.17,Pass
+10645,DDD,F,West Midlands,Lower Than A Level,0-35,30,0,1196,33.1,-0.014,0.19,Fail
+10646,DDD,F,South Region,Post Graduate Qualification,0-35,60,0,1383,65.9,0.049,0.12,Pass
+10647,GGG,F,West Midlands,Lower Than A Level,0-35,30,0,71,28.4,-0.074,0.67,Fail
+10648,DDD,M,South Region,A Level or Equivalent,35-55,90,1,1109,59.2,0.079,0.1,Pass
+10649,AAA,M,South Region,Lower Than A Level,0-35,150,1,730,59.6,0.008,0.08,Pass
+10650,BBB,F,East Anglia,A Level or Equivalent,0-35,30,0,803,55.5,0.048,0.11,Pass
+10651,AAA,F,South Region,Lower Than A Level,0-35,90,0,1418,71.9,0.323,0.23,Pass
+10652,BBB,M,East Anglia,Lower Than A Level,0-35,180,0,1400,50.4,0.019,0.15,Fail
+10653,CCC,M,Scotland,Lower Than A Level,0-35,90,1,349,38.9,-0.287,0.39,Withdrawn
+10654,FFF,M,South Region,A Level or Equivalent,35-55,180,0,1231,65.7,0.012,0.11,Pass
+10655,FFF,F,North Western Region,Lower Than A Level,0-35,150,0,907,65.4,0.003,0.08,Pass
+10656,DDD,M,East Anglia,A Level or Equivalent,0-35,60,0,1231,63.1,0.038,0.12,Pass
+10657,DDD,F,North Western Region,A Level or Equivalent,0-35,120,0,883,65.2,0.007,0.06,Distinction
+10658,CCC,M,East Anglia,Lower Than A Level,0-35,30,0,2020,84.7,0.108,0.05,Distinction
+10659,GGG,F,South Region,A Level or Equivalent,55<=,180,0,608,66.5,0.185,0.14,Distinction
+10660,DDD,M,North Western Region,A Level or Equivalent,55<=,60,1,1440,72.2,0.027,0.13,Pass
+10661,GGG,F,South West Region,HE Qualification,0-35,30,0,1488,76.7,0.022,0.12,Distinction
+10662,AAA,F,South Region,A Level or Equivalent,0-35,180,0,231,24.2,-0.224,0.69,Withdrawn
+10663,GGG,F,Scotland,A Level or Equivalent,0-35,30,1,2552,89.4,0.124,0.11,Distinction
+10664,DDD,F,South Region,HE Qualification,0-35,120,0,3049,90.8,0.06,0.04,Distinction
+10665,BBB,M,East Anglia,A Level or Equivalent,0-35,60,0,995,54.8,0.174,0.19,Pass
+10666,AAA,F,West Midlands,No Formal quals,0-35,120,0,732,60.9,0.23,0.09,Distinction
+10667,GGG,M,South Region,HE Qualification,0-35,180,0,2471,89.7,0.085,0.09,Distinction
+10668,AAA,M,North Western Region,Lower Than A Level,0-35,60,0,1500,59.8,0.226,0.09,Pass
+10669,FFF,F,Scotland,A Level or Equivalent,35-55,90,0,139,26.2,-0.296,0.66,Withdrawn
+10670,DDD,M,South West Region,A Level or Equivalent,0-35,30,0,190,38.8,-0.189,0.68,Withdrawn
+10671,FFF,M,North Western Region,A Level or Equivalent,35-55,30,3,1630,88.1,0.121,0.06,Distinction
+10672,BBB,M,North Western Region,No Formal quals,0-35,180,0,1463,64.2,-0.001,0.06,Pass
+10673,FFF,M,Scotland,A Level or Equivalent,0-35,120,0,1396,46.3,-0.023,0.13,Pass
+10674,BBB,M,East Anglia,No Formal quals,0-35,90,0,136,17.1,-0.121,0.69,Withdrawn
+10675,CCC,M,South Region,A Level or Equivalent,35-55,150,0,2200,48.2,0.003,0.17,Fail
+10676,DDD,F,North Western Region,Lower Than A Level,0-35,120,0,983,69.8,0.166,0.08,Pass
+10677,AAA,F,East Anglia,Lower Than A Level,35-55,60,2,1887,92.5,0.026,0.07,Pass
+10678,CCC,M,West Midlands,Lower Than A Level,0-35,120,0,1065,62.4,-0.019,0.15,Pass
+10679,BBB,F,South Region,Lower Than A Level,35-55,180,0,2095,86.2,0.12,0.07,Pass
+10680,FFF,M,Scotland,Post Graduate Qualification,0-35,180,0,1172,38.6,0.003,0.2,Pass
+10681,GGG,F,London,Lower Than A Level,0-35,150,0,1376,42.1,0.012,0.05,Pass
+10682,GGG,M,Scotland,Lower Than A Level,0-35,60,0,2734,88.0,0.046,0.06,Distinction
+10683,BBB,F,South West Region,HE Qualification,0-35,90,0,316,36.4,-0.226,0.76,Fail
+10684,BBB,F,Scotland,Lower Than A Level,0-35,180,2,406,34.4,-0.168,0.54,Withdrawn
+10685,DDD,M,London,HE Qualification,0-35,60,0,809,51.0,0.16,0.17,Pass
+10686,BBB,M,West Midlands,Lower Than A Level,35-55,90,0,1134,59.1,0.005,0.09,Pass
+10687,FFF,M,Scotland,HE Qualification,0-35,90,0,3007,86.5,0.099,0.06,Distinction
+10688,GGG,F,London,HE Qualification,0-35,30,0,1209,60.9,0.247,0.11,Pass
+10689,CCC,F,Scotland,A Level or Equivalent,0-35,30,0,150,19.2,-0.293,0.36,Withdrawn
+10690,FFF,F,North Western Region,A Level or Equivalent,0-35,120,2,1201,62.1,0.079,0.06,Distinction
+10691,AAA,F,West Midlands,Lower Than A Level,35-55,90,0,228,28.8,-0.203,0.69,Fail
+10692,FFF,F,North Western Region,A Level or Equivalent,0-35,30,1,1423,70.6,0.05,0.15,Pass
+10693,DDD,M,Scotland,Lower Than A Level,0-35,180,1,1578,90.9,0.139,0.06,Distinction
+10694,AAA,M,North Western Region,Lower Than A Level,0-35,180,0,1274,69.3,0.255,0.2,Pass
+10695,FFF,M,London,A Level or Equivalent,35-55,90,1,914,76.4,0.02,0.1,Fail
+10696,GGG,F,London,Lower Than A Level,35-55,120,0,1782,35.4,-0.031,0.17,Pass
+10697,BBB,M,North Western Region,A Level or Equivalent,0-35,60,0,1477,59.4,0.078,0.18,Pass
+10698,EEE,M,East Anglia,A Level or Equivalent,0-35,30,0,1050,55.7,0.003,0.12,Pass
+10699,AAA,M,Scotland,HE Qualification,0-35,150,0,2064,88.4,0.021,0.08,Pass
+10700,GGG,F,North Western Region,A Level or Equivalent,0-35,120,0,1602,52.0,0.026,0.21,Fail
+10701,DDD,M,Scotland,HE Qualification,35-55,30,0,1184,32.5,-0.064,0.14,Fail
+10702,GGG,M,Scotland,A Level or Equivalent,35-55,120,0,906,51.7,0.044,0.19,Pass
+10703,CCC,M,East Anglia,A Level or Equivalent,35-55,60,0,1327,73.3,0.015,0.19,Fail
+10704,DDD,M,South West Region,A Level or Equivalent,0-35,180,0,2071,47.7,0.013,0.06,Fail
+10705,AAA,F,East Anglia,A Level or Equivalent,0-35,120,0,818,66.1,0.034,0.09,Pass
+10706,FFF,M,London,A Level or Equivalent,35-55,60,1,1092,72.6,0.002,0.09,Pass
+10707,FFF,M,South West Region,Lower Than A Level,0-35,180,0,220,38.5,-0.07,0.73,Withdrawn
+10708,FFF,F,North Western Region,HE Qualification,35-55,180,0,2050,51.3,-0.023,0.09,Pass
+10709,CCC,M,London,Lower Than A Level,35-55,60,0,2706,80.5,0.061,0.06,Distinction
+10710,CCC,M,West Midlands,A Level or Equivalent,35-55,120,0,1395,76.5,-0.007,0.15,Pass
+10711,AAA,F,London,A Level or Equivalent,0-35,60,1,924,66.5,0.026,0.14,Pass
+10712,FFF,M,West Midlands,Lower Than A Level,0-35,180,0,1323,61.8,0.265,0.12,Pass
+10713,DDD,M,East Anglia,Lower Than A Level,35-55,60,1,830,64.8,0.132,0.23,Pass
+10714,DDD,F,Scotland,Post Graduate Qualification,35-55,60,3,1591,40.4,-0.018,0.11,Pass
+10715,AAA,F,Scotland,A Level or Equivalent,0-35,150,0,1421,95.0,0.112,0.07,Distinction
+10716,BBB,F,South West Region,A Level or Equivalent,35-55,60,0,426,32.6,-0.241,0.78,Withdrawn
+10717,GGG,M,North Western Region,Post Graduate Qualification,0-35,60,1,3140,81.6,0.027,0.12,Distinction
+10718,EEE,F,South Region,A Level or Equivalent,0-35,30,0,1009,70.8,0.075,0.15,Pass
+10719,FFF,M,East Anglia,A Level or Equivalent,35-55,120,0,1652,32.2,-0.065,0.07,Fail
+10720,EEE,M,London,A Level or Equivalent,55<=,120,0,353,19.9,-0.205,0.67,Withdrawn
+10721,EEE,M,London,Lower Than A Level,35-55,150,0,60,25.6,-0.105,0.74,Withdrawn
+10722,AAA,M,East Anglia,HE Qualification,55<=,30,0,1268,32.1,-0.022,0.1,Pass
+10723,EEE,M,South West Region,Lower Than A Level,0-35,30,0,2422,85.3,0.091,0.06,Pass
+10724,AAA,M,Scotland,No Formal quals,35-55,90,0,1290,66.3,0.011,0.19,Fail
+10725,EEE,M,South West Region,Lower Than A Level,35-55,60,0,2081,97.1,0.098,0.04,Distinction
+10726,BBB,F,London,A Level or Equivalent,0-35,180,1,785,76.7,0.048,0.19,Pass
+10727,BBB,M,South West Region,A Level or Equivalent,55<=,180,0,338,32.7,-0.104,0.65,Withdrawn
+10728,BBB,F,East Anglia,A Level or Equivalent,0-35,150,0,1244,57.5,0.035,0.06,Pass
+10729,CCC,F,East Anglia,Lower Than A Level,35-55,60,0,2110,85.6,0.034,0.11,Distinction
+10730,FFF,F,West Midlands,HE Qualification,0-35,150,0,1477,43.0,-0.001,0.2,Pass
+10731,GGG,F,South Region,Lower Than A Level,35-55,150,0,1012,59.4,0.149,0.08,Pass
+10732,BBB,M,South Region,A Level or Equivalent,35-55,30,1,1658,46.2,-0.048,0.15,Fail
+10733,BBB,F,Scotland,HE Qualification,0-35,90,2,1368,38.1,0.032,0.21,Fail
+10734,CCC,M,South West Region,Lower Than A Level,35-55,30,0,2370,89.1,0.084,0.11,Pass
+10735,DDD,M,North Western Region,A Level or Equivalent,35-55,180,1,1730,32.3,-0.055,0.19,Pass
+10736,DDD,F,South Region,Post Graduate Qualification,35-55,150,0,3037,97.3,0.108,0.11,Distinction
+10737,BBB,M,London,A Level or Equivalent,0-35,90,2,1088,58.9,0.077,0.1,Pass
+10738,GGG,M,Scotland,Lower Than A Level,0-35,60,0,1706,36.3,-0.04,0.21,Fail
+10739,GGG,M,North Western Region,HE Qualification,35-55,30,0,1572,38.0,-0.066,0.11,Fail
+10740,DDD,F,London,Lower Than A Level,0-35,30,0,1020,51.0,0.232,0.11,Pass
+10741,BBB,F,North Western Region,A Level or Equivalent,0-35,60,0,1149,70.1,0.024,0.07,Pass
+10742,AAA,F,East Anglia,A Level or Equivalent,0-35,90,0,1461,62.6,-0.017,0.15,Fail
+10743,FFF,F,London,A Level or Equivalent,0-35,180,0,1482,72.9,0.02,0.16,Pass
+10744,GGG,F,South Region,Lower Than A Level,0-35,30,0,713,72.6,0.004,0.15,Pass
+10745,EEE,M,North Western Region,A Level or Equivalent,0-35,30,0,856,71.8,-0.001,0.09,Pass
+10746,CCC,M,South West Region,HE Qualification,0-35,180,0,3257,90.2,0.045,0.11,Distinction
+10747,BBB,M,London,Lower Than A Level,0-35,60,1,1331,59.6,0.066,0.11,Pass
+10748,FFF,M,South Region,Lower Than A Level,0-35,150,0,1650,83.4,0.056,0.06,Distinction
+10749,CCC,M,South Region,No Formal quals,0-35,180,0,986,75.9,-0.01,0.08,Fail
+10750,CCC,F,Scotland,Lower Than A Level,35-55,180,0,219,24.7,-0.107,0.72,Withdrawn
+10751,EEE,F,South Region,A Level or Equivalent,0-35,120,0,1692,78.8,0.146,0.11,Pass
+10752,BBB,F,London,Lower Than A Level,0-35,90,0,1479,59.6,0.052,0.06,Pass
+10753,EEE,F,East Anglia,HE Qualification,35-55,90,1,1434,57.7,0.024,0.12,Pass
+10754,EEE,M,South Region,A Level or Equivalent,35-55,60,0,662,67.1,0.28,0.21,Pass
+10755,FFF,M,South Region,A Level or Equivalent,0-35,150,0,978,59.8,-0.02,0.14,Pass
+10756,AAA,F,West Midlands,A Level or Equivalent,0-35,90,1,974,67.7,-0.003,0.06,Pass
+10757,AAA,M,Scotland,HE Qualification,0-35,30,0,1543,59.8,-0.008,0.15,Pass
+10758,CCC,F,London,HE Qualification,35-55,90,0,1326,61.8,0.079,0.14,Pass
+10759,CCC,M,South West Region,Post Graduate Qualification,0-35,30,0,1396,70.5,0.254,0.2,Pass
+10760,FFF,F,East Anglia,A Level or Equivalent,0-35,60,1,975,59.7,0.043,0.18,Pass
+10761,DDD,M,South West Region,A Level or Equivalent,0-35,120,0,889,73.8,-0.002,0.14,Fail
+10762,BBB,F,London,Lower Than A Level,35-55,120,0,846,56.7,0.005,0.19,Fail
+10763,AAA,M,South West Region,HE Qualification,0-35,30,0,1255,93.3,0.104,0.02,Distinction
+10764,AAA,F,South Region,HE Qualification,0-35,30,2,2586,95.1,0.031,0.03,Pass
+10765,DDD,M,Scotland,Lower Than A Level,0-35,30,0,1256,57.8,0.062,0.07,Pass
+10766,EEE,F,South Region,No Formal quals,0-35,60,0,2374,82.5,0.134,0.06,Pass
+10767,GGG,M,North Western Region,Lower Than A Level,0-35,30,2,778,69.2,-0.008,0.19,Distinction
+10768,AAA,M,South Region,A Level or Equivalent,0-35,60,0,2435,90.5,0.057,0.11,Distinction
+10769,DDD,F,Scotland,HE Qualification,35-55,30,0,126,36.0,-0.306,0.42,Withdrawn
+10770,GGG,F,East Anglia,Lower Than A Level,0-35,180,0,1722,81.6,0.07,0.05,Distinction
+10771,FFF,F,West Midlands,HE Qualification,0-35,180,1,1262,66.4,0.033,0.13,Distinction
+10772,DDD,M,West Midlands,A Level or Equivalent,0-35,180,1,789,60.4,-0.02,0.2,Pass
+10773,EEE,F,South Region,HE Qualification,0-35,90,0,448,37.1,-0.262,0.42,Fail
+10774,DDD,M,South Region,HE Qualification,0-35,60,0,1193,39.5,-0.077,0.21,Pass
+10775,FFF,M,South West Region,A Level or Equivalent,0-35,150,1,2696,80.8,0.052,0.02,Pass
+10776,DDD,M,East Anglia,Lower Than A Level,35-55,180,0,1081,57.9,0.198,0.21,Pass
+10777,CCC,M,South Region,Lower Than A Level,0-35,150,0,922,39.9,-0.025,0.21,Fail
+10778,FFF,F,West Midlands,A Level or Equivalent,35-55,120,1,794,67.0,0.078,0.07,Pass
+10779,EEE,M,South Region,A Level or Equivalent,35-55,150,0,3118,87.5,0.105,0.06,Distinction
+10780,AAA,F,South West Region,A Level or Equivalent,0-35,30,0,1587,32.6,-0.043,0.14,Pass
+10781,EEE,M,East Anglia,HE Qualification,0-35,60,0,2302,79.7,0.094,0.02,Pass
+10782,DDD,M,London,Lower Than A Level,35-55,30,2,253,28.5,-0.256,0.55,Withdrawn
+10783,BBB,M,Scotland,A Level or Equivalent,35-55,30,0,62,30.9,-0.235,0.64,Fail
+10784,CCC,M,South Region,A Level or Equivalent,0-35,180,0,160,36.8,-0.154,0.73,Withdrawn
+10785,EEE,F,North Western Region,HE Qualification,0-35,90,0,640,69.4,0.298,0.15,Pass
+10786,EEE,M,South Region,A Level or Equivalent,55<=,30,1,2467,88.9,0.146,0.1,Distinction
+10787,AAA,F,Scotland,Lower Than A Level,0-35,30,0,791,56.6,0.051,0.12,Fail
+10788,CCC,F,South West Region,HE Qualification,35-55,150,0,993,64.2,0.066,0.19,Pass
+10789,CCC,F,Scotland,Lower Than A Level,0-35,120,0,399,16.2,-0.057,0.38,Fail
+10790,FFF,M,South Region,HE Qualification,0-35,60,0,164,25.5,-0.211,0.4,Withdrawn
+10791,FFF,F,London,Lower Than A Level,35-55,120,0,1036,56.5,0.014,0.14,Pass
+10792,FFF,F,London,Lower Than A Level,0-35,60,2,2074,84.4,0.024,0.08,Distinction
+10793,GGG,F,East Anglia,A Level or Equivalent,0-35,30,0,2932,83.4,0.103,0.03,Distinction
+10794,DDD,M,Scotland,HE Qualification,0-35,120,0,1431,35.7,-0.073,0.2,Fail
+10795,GGG,F,South Region,Lower Than A Level,35-55,120,0,1229,51.3,-0.023,0.21,Fail
+10796,GGG,M,West Midlands,HE Qualification,0-35,30,0,1196,38.5,0.048,0.21,Fail
+10797,FFF,F,London,Lower Than A Level,0-35,60,0,1511,77.3,0.021,0.13,Pass
+10798,DDD,M,South West Region,A Level or Equivalent,55<=,30,0,146,26.3,-0.186,0.43,Withdrawn
+10799,CCC,M,South Region,Post Graduate Qualification,0-35,30,0,1009,75.6,0.03,0.18,Pass
+10800,FFF,F,North Western Region,A Level or Equivalent,0-35,150,0,943,50.7,0.16,0.15,Pass
+10801,EEE,M,West Midlands,A Level or Equivalent,0-35,180,0,990,71.1,0.074,0.19,Pass
+10802,AAA,M,London,A Level or Equivalent,0-35,120,0,369,40.0,-0.32,0.57,Withdrawn
+10803,AAA,F,East Anglia,A Level or Equivalent,0-35,120,0,3123,97.0,0.066,0.1,Distinction
+10804,GGG,F,London,HE Qualification,35-55,150,0,185,23.3,-0.079,0.8,Fail
+10805,AAA,F,London,No Formal quals,0-35,90,1,2128,38.3,-0.058,0.15,Fail
+10806,EEE,F,South Region,A Level or Equivalent,0-35,30,1,1163,50.8,-0.029,0.17,Fail
+10807,CCC,M,North Western Region,Lower Than A Level,35-55,60,0,1702,48.9,0.002,0.09,Fail
+10808,CCC,M,London,Lower Than A Level,0-35,180,0,3426,96.4,0.03,0.06,Distinction
+10809,BBB,F,South West Region,A Level or Equivalent,0-35,60,0,898,67.3,0.005,0.17,Pass
+10810,GGG,F,South West Region,Lower Than A Level,0-35,60,0,2086,49.3,-0.066,0.21,Pass
+10811,BBB,F,Scotland,HE Qualification,0-35,120,1,812,57.4,0.233,0.08,Pass
+10812,FFF,M,South Region,A Level or Equivalent,0-35,90,0,864,59.1,-0.019,0.08,Pass
+10813,EEE,M,London,Post Graduate Qualification,55<=,120,3,910,35.2,0.016,0.21,Pass
+10814,AAA,M,West Midlands,A Level or Equivalent,0-35,90,0,1035,58.2,-0.012,0.15,Pass
+10815,CCC,F,South Region,Post Graduate Qualification,0-35,150,0,1528,66.4,0.031,0.11,Pass
+10816,BBB,M,South West Region,HE Qualification,35-55,120,0,350,23.4,-0.112,0.83,Withdrawn
+10817,DDD,F,West Midlands,A Level or Equivalent,35-55,150,0,904,68.0,0.017,0.14,Pass
+10818,BBB,M,West Midlands,Lower Than A Level,0-35,150,1,1986,39.0,-0.076,0.08,Pass
+10819,GGG,M,Scotland,Lower Than A Level,0-35,90,0,112,15.3,-0.144,0.71,Withdrawn
+10820,EEE,F,South Region,A Level or Equivalent,0-35,150,0,1274,61.4,0.041,0.18,Distinction
+10821,AAA,F,South West Region,HE Qualification,0-35,90,0,3223,88.0,0.149,0.06,Distinction
+10822,BBB,F,West Midlands,A Level or Equivalent,0-35,90,0,344,41.7,-0.077,0.49,Fail
+10823,DDD,M,West Midlands,HE Qualification,0-35,180,0,1549,73.5,0.052,0.09,Pass
+10824,DDD,M,West Midlands,HE Qualification,0-35,30,0,1830,41.9,0.003,0.2,Fail
+10825,EEE,M,London,Lower Than A Level,35-55,60,0,1404,71.7,0.003,0.06,Pass
+10826,GGG,F,East Anglia,HE Qualification,55<=,180,1,1503,56.0,-0.015,0.1,Pass
+10827,FFF,F,Scotland,A Level or Equivalent,35-55,150,0,1806,93.1,0.135,0.12,Distinction
+10828,DDD,M,West Midlands,A Level or Equivalent,0-35,180,0,1491,71.8,0.003,0.09,Pass
+10829,AAA,F,West Midlands,HE Qualification,0-35,180,0,779,56.7,0.029,0.08,Pass
+10830,DDD,F,South Region,A Level or Equivalent,0-35,150,0,1541,47.2,-0.039,0.13,Pass
+10831,EEE,M,South Region,Lower Than A Level,0-35,120,1,1719,35.8,-0.044,0.08,Pass
+10832,GGG,M,South Region,A Level or Equivalent,0-35,30,0,791,54.4,0.23,0.17,Pass
+10833,AAA,M,Scotland,A Level or Equivalent,0-35,150,0,1151,61.3,-0.01,0.15,Pass
+10834,DDD,M,Scotland,Lower Than A Level,0-35,90,0,1143,57.5,-0.015,0.09,Pass
+10835,AAA,M,London,A Level or Equivalent,0-35,150,0,1335,71.1,0.02,0.11,Pass
+10836,GGG,F,North Western Region,Lower Than A Level,35-55,90,0,197,34.8,-0.322,0.6,Fail
+10837,DDD,F,East Anglia,HE Qualification,0-35,90,0,2560,96.0,0.038,0.02,Distinction
+10838,CCC,M,South Region,Post Graduate Qualification,35-55,60,0,354,24.5,-0.208,0.35,Fail
+10839,DDD,M,London,HE Qualification,0-35,90,1,1242,47.1,0.021,0.07,Fail
+10840,CCC,F,North Western Region,A Level or Equivalent,55<=,90,0,1169,55.3,0.015,0.16,Distinction
+10841,GGG,F,London,Lower Than A Level,0-35,180,0,1476,53.3,0.349,0.14,Pass
+10842,EEE,F,Scotland,Lower Than A Level,0-35,120,0,1498,63.0,0.245,0.24,Distinction
+10843,EEE,M,Scotland,HE Qualification,0-35,90,0,982,62.1,-0.016,0.13,Pass
+10844,EEE,M,North Western Region,HE Qualification,0-35,90,0,1110,70.3,0.154,0.2,Pass
+10845,CCC,M,Scotland,A Level or Equivalent,0-35,90,0,2359,94.5,0.036,0.07,Distinction
+10846,CCC,M,London,Lower Than A Level,0-35,90,0,2048,35.1,-0.069,0.1,Fail
+10847,BBB,F,West Midlands,HE Qualification,0-35,30,0,1531,70.6,0.019,0.11,Distinction
+10848,CCC,F,West Midlands,Lower Than A Level,0-35,180,1,121,33.4,-0.29,0.42,Withdrawn
+10849,CCC,F,London,Lower Than A Level,35-55,120,0,1596,74.2,-0.01,0.13,Pass
+10850,EEE,F,North Western Region,A Level or Equivalent,0-35,120,0,627,71.0,0.217,0.21,Pass
+10851,CCC,M,West Midlands,A Level or Equivalent,0-35,150,1,77,35.4,-0.232,0.55,Withdrawn
+10852,GGG,F,East Anglia,Lower Than A Level,0-35,180,0,1495,43.3,0.01,0.2,Pass
+10853,EEE,M,South West Region,Lower Than A Level,0-35,180,2,1833,84.0,0.06,0.12,Distinction
+10854,DDD,M,London,Lower Than A Level,0-35,30,0,806,65.9,0.063,0.12,Pass
+10855,AAA,F,North Western Region,A Level or Equivalent,0-35,60,1,2154,45.6,0.032,0.15,Fail
+10856,FFF,M,South Region,Lower Than A Level,35-55,60,0,329,20.4,-0.206,0.49,Withdrawn
+10857,EEE,F,Scotland,A Level or Equivalent,0-35,180,0,1533,64.8,-0.017,0.12,Pass
+10858,AAA,F,London,A Level or Equivalent,35-55,150,0,963,71.1,0.228,0.2,Pass
+10859,BBB,F,West Midlands,HE Qualification,0-35,90,1,1950,33.3,0.005,0.11,Fail
+10860,CCC,F,South West Region,HE Qualification,0-35,180,0,1559,69.8,0.018,0.12,Pass
+10861,EEE,F,South Region,A Level or Equivalent,0-35,150,0,1726,33.4,-0.076,0.17,Pass
+10862,FFF,M,North Western Region,HE Qualification,0-35,60,2,425,36.5,-0.318,0.79,Fail
+10863,DDD,F,London,Lower Than A Level,0-35,30,1,2733,90.1,0.129,0.11,Distinction
+10864,FFF,F,North Western Region,Lower Than A Level,0-35,150,0,1148,70.6,0.003,0.16,Pass
+10865,EEE,M,London,A Level or Equivalent,0-35,180,0,1775,95.9,0.067,0.06,Distinction
+10866,AAA,F,South Region,A Level or Equivalent,55<=,180,0,1552,59.8,0.063,0.13,Pass
+10867,EEE,M,East Anglia,Lower Than A Level,0-35,120,1,1160,47.6,-0.041,0.07,Pass
+10868,EEE,F,London,Lower Than A Level,35-55,90,0,1593,75.0,0.077,0.06,Pass
+10869,GGG,F,North Western Region,A Level or Equivalent,0-35,30,0,869,63.7,0.127,0.15,Pass
+10870,GGG,M,South Region,Lower Than A Level,35-55,90,1,1027,36.7,-0.071,0.21,Fail
+10871,FFF,M,Scotland,Post Graduate Qualification,35-55,150,0,1164,59.5,0.15,0.2,Pass
+10872,DDD,M,South West Region,A Level or Equivalent,0-35,60,0,2003,88.7,0.132,0.09,Distinction
+10873,EEE,F,London,A Level or Equivalent,0-35,60,0,841,57.7,-0.008,0.14,Distinction
+10874,CCC,M,Scotland,A Level or Equivalent,0-35,60,0,2891,92.9,0.135,0.1,Distinction
+10875,GGG,M,East Anglia,A Level or Equivalent,35-55,30,0,989,56.0,0.015,0.15,Pass
+10876,CCC,M,West Midlands,A Level or Equivalent,35-55,180,0,1256,59.7,0.051,0.17,Distinction
+10877,GGG,M,North Western Region,A Level or Equivalent,35-55,150,0,1978,49.9,-0.039,0.14,Pass
+10878,CCC,F,South West Region,Post Graduate Qualification,0-35,30,0,3333,82.6,0.116,0.04,Distinction
+10879,GGG,M,London,Post Graduate Qualification,35-55,180,0,621,60.0,0.128,0.13,Pass
+10880,GGG,M,London,Lower Than A Level,0-35,120,0,1154,56.0,0.001,0.08,Pass
+10881,AAA,F,London,A Level or Equivalent,0-35,30,1,222,39.9,-0.078,0.76,Withdrawn
+10882,GGG,M,Scotland,A Level or Equivalent,0-35,120,0,1370,49.4,0.145,0.15,Pass
+10883,FFF,F,East Anglia,Post Graduate Qualification,0-35,120,0,1962,37.2,0.045,0.13,Fail
+10884,BBB,M,London,Lower Than A Level,35-55,90,0,1255,61.8,0.037,0.06,Pass
+10885,CCC,F,East Anglia,A Level or Equivalent,35-55,30,0,1557,48.7,0.03,0.13,Pass
+10886,AAA,F,London,Post Graduate Qualification,0-35,150,0,1525,83.5,0.099,0.05,Distinction
+10887,BBB,F,East Anglia,HE Qualification,0-35,120,0,1200,49.4,0.005,0.09,Fail
+10888,BBB,F,West Midlands,Lower Than A Level,0-35,60,0,182,41.3,-0.345,0.77,Fail
+10889,EEE,M,West Midlands,Lower Than A Level,0-35,150,0,1385,36.1,-0.006,0.19,Fail
+10890,AAA,F,Scotland,Lower Than A Level,0-35,90,0,1367,63.6,0.074,0.09,Pass
+10891,CCC,M,Scotland,HE Qualification,35-55,30,0,1020,66.7,0.058,0.13,Pass
+10892,CCC,M,North Western Region,HE Qualification,0-35,180,0,382,17.1,-0.327,0.82,Withdrawn
+10893,EEE,F,West Midlands,A Level or Equivalent,35-55,150,0,1974,42.4,-0.039,0.08,Fail
+10894,BBB,F,South Region,HE Qualification,55<=,60,0,109,33.7,-0.216,0.83,Withdrawn
+10895,AAA,F,West Midlands,A Level or Equivalent,35-55,180,0,1505,64.6,0.037,0.17,Pass
+10896,EEE,M,East Anglia,HE Qualification,35-55,180,0,993,62.9,-0.008,0.11,Pass
+10897,BBB,F,South West Region,HE Qualification,0-35,60,1,1694,86.4,0.12,0.09,Distinction
+10898,AAA,M,East Anglia,No Formal quals,0-35,180,0,3309,95.3,0.139,0.11,Distinction
+10899,DDD,M,South West Region,Lower Than A Level,0-35,90,0,992,33.5,0.04,0.21,Fail
+10900,FFF,F,South West Region,HE Qualification,0-35,120,0,420,35.7,-0.075,0.82,Withdrawn
+10901,AAA,F,South West Region,A Level or Equivalent,0-35,120,0,193,40.5,-0.321,0.5,Withdrawn
+10902,EEE,F,Scotland,Lower Than A Level,0-35,60,2,2062,86.6,0.056,0.11,Distinction
+10903,CCC,F,South Region,Lower Than A Level,0-35,120,0,2262,97.8,0.118,0.11,Distinction
+10904,BBB,M,South Region,A Level or Equivalent,0-35,60,0,1152,60.9,0.165,0.16,Pass
+10905,CCC,M,Scotland,HE Qualification,0-35,180,0,3058,83.9,0.034,0.09,Pass
+10906,DDD,F,North Western Region,Lower Than A Level,35-55,90,0,2648,94.1,0.117,0.04,Distinction
+10907,BBB,F,Scotland,A Level or Equivalent,35-55,180,0,211,39.1,-0.338,0.4,Fail
+10908,EEE,F,South Region,HE Qualification,35-55,180,0,916,36.9,-0.004,0.2,Pass
+10909,BBB,F,North Western Region,Lower Than A Level,35-55,180,0,1563,97.0,0.131,0.09,Distinction
+10910,AAA,F,West Midlands,A Level or Equivalent,35-55,30,0,1089,69.5,0.003,0.1,Pass
+10911,BBB,F,East Anglia,Lower Than A Level,0-35,120,0,2124,39.1,-0.017,0.07,Pass
+10912,GGG,F,North Western Region,Post Graduate Qualification,0-35,180,0,2506,91.2,0.065,0.06,Distinction
+10913,DDD,F,West Midlands,A Level or Equivalent,0-35,90,0,1571,73.0,-0.014,0.17,Pass
+10914,CCC,F,North Western Region,HE Qualification,0-35,90,1,1445,60.0,0.044,0.06,Pass
+10915,BBB,M,West Midlands,Lower Than A Level,0-35,150,0,3410,78.4,0.114,0.1,Distinction
+10916,FFF,F,Scotland,HE Qualification,0-35,180,0,1248,59.6,-0.004,0.13,Distinction
+10917,BBB,F,East Anglia,Lower Than A Level,0-35,120,0,56,16.0,-0.344,0.82,Withdrawn
+10918,DDD,F,London,Lower Than A Level,0-35,60,0,969,37.4,-0.064,0.18,Fail
+10919,BBB,F,East Anglia,Lower Than A Level,0-35,180,0,60,15.4,-0.101,0.65,Withdrawn
+10920,FFF,F,South Region,HE Qualification,35-55,90,0,204,22.4,-0.289,0.48,Fail
+10921,DDD,F,Scotland,A Level or Equivalent,0-35,120,0,1419,67.3,0.004,0.05,Pass
+10922,DDD,F,East Anglia,A Level or Equivalent,0-35,60,0,2150,86.9,0.082,0.03,Distinction
+10923,BBB,M,London,A Level or Equivalent,0-35,120,0,2851,90.3,0.082,0.09,Distinction
+10924,BBB,M,East Anglia,A Level or Equivalent,0-35,180,0,2516,91.8,0.098,0.11,Distinction
+10925,BBB,F,West Midlands,A Level or Equivalent,55<=,60,0,313,30.0,-0.128,0.72,Fail
+10926,DDD,M,North Western Region,Lower Than A Level,0-35,150,0,2992,95.4,0.035,0.11,Distinction
+10927,FFF,F,South Region,A Level or Equivalent,0-35,120,0,2405,92.4,0.134,0.05,Distinction
+10928,CCC,M,South Region,Lower Than A Level,35-55,150,2,1319,60.8,0.026,0.19,Distinction
+10929,FFF,M,South Region,A Level or Equivalent,35-55,30,0,3127,79.3,0.147,0.05,Distinction
+10930,FFF,M,West Midlands,A Level or Equivalent,0-35,150,0,2635,90.7,0.135,0.05,Distinction
+10931,BBB,F,Scotland,HE Qualification,35-55,150,0,1485,64.3,0.005,0.13,Pass
+10932,AAA,M,London,A Level or Equivalent,0-35,90,0,3339,89.7,0.12,0.05,Pass
+10933,EEE,F,East Anglia,A Level or Equivalent,0-35,120,0,2149,97.8,0.032,0.1,Distinction
+10934,BBB,F,East Anglia,No Formal quals,0-35,30,0,267,33.0,-0.252,0.6,Withdrawn
+10935,EEE,F,North Western Region,HE Qualification,35-55,90,0,1986,33.6,-0.001,0.09,Pass
+10936,FFF,F,South West Region,Lower Than A Level,0-35,120,0,400,18.2,-0.08,0.68,Withdrawn
+10937,GGG,F,East Anglia,A Level or Equivalent,35-55,180,0,1291,39.6,-0.057,0.18,Pass
+10938,DDD,F,West Midlands,Lower Than A Level,0-35,90,0,959,66.6,-0.019,0.09,Pass
+10939,FFF,F,North Western Region,No Formal quals,35-55,90,0,1324,95.3,0.141,0.12,Distinction
+10940,DDD,M,North Western Region,A Level or Equivalent,0-35,150,1,1318,90.3,0.113,0.09,Distinction
+10941,GGG,M,London,A Level or Equivalent,35-55,30,0,210,17.6,-0.187,0.84,Withdrawn
+10942,EEE,M,Scotland,HE Qualification,35-55,90,1,2700,88.3,0.142,0.06,Pass
+10943,FFF,M,London,Lower Than A Level,35-55,60,0,3016,78.9,0.099,0.09,Distinction
+10944,FFF,M,Scotland,Lower Than A Level,0-35,90,0,94,30.3,-0.211,0.41,Withdrawn
+10945,FFF,M,South Region,Lower Than A Level,0-35,30,0,161,32.2,-0.212,0.79,Fail
+10946,CCC,M,South West Region,HE Qualification,0-35,30,0,985,58.2,0.012,0.08,Pass
+10947,BBB,M,Scotland,Lower Than A Level,0-35,30,0,1614,47.4,-0.012,0.19,Fail
+10948,BBB,M,East Anglia,A Level or Equivalent,0-35,150,0,227,32.4,-0.145,0.49,Withdrawn
+10949,EEE,F,London,A Level or Equivalent,0-35,60,0,1672,88.3,0.102,0.07,Distinction
+10950,CCC,F,West Midlands,A Level or Equivalent,0-35,30,0,2669,95.4,0.021,0.06,Distinction
+10951,FFF,M,South Region,HE Qualification,0-35,120,0,274,36.8,-0.213,0.64,Withdrawn
+10952,DDD,F,East Anglia,Lower Than A Level,35-55,150,0,1514,32.8,0.041,0.09,Fail
+10953,EEE,M,North Western Region,A Level or Equivalent,0-35,150,0,3297,81.3,0.059,0.08,Distinction
+10954,EEE,M,West Midlands,HE Qualification,0-35,90,0,1570,84.2,0.12,0.1,Distinction
+10955,BBB,F,London,A Level or Equivalent,0-35,60,0,2167,95.2,0.077,0.09,Distinction
+10956,EEE,F,London,A Level or Equivalent,0-35,120,0,917,76.0,0.047,0.17,Pass
+10957,GGG,M,North Western Region,Lower Than A Level,35-55,60,0,989,73.9,0.053,0.11,Pass
+10958,AAA,F,North Western Region,A Level or Equivalent,55<=,30,0,1381,39.4,-0.036,0.19,Fail
+10959,GGG,F,London,A Level or Equivalent,0-35,60,0,795,62.8,0.045,0.11,Pass
+10960,DDD,F,London,Lower Than A Level,55<=,60,0,1117,41.3,-0.069,0.17,Pass
+10961,GGG,F,East Anglia,HE Qualification,0-35,60,0,1165,55.3,0.045,0.15,Pass
+10962,AAA,F,North Western Region,Lower Than A Level,0-35,150,1,1114,56.9,0.229,0.14,Pass
+10963,CCC,M,East Anglia,Lower Than A Level,0-35,120,1,1228,84.7,0.141,0.08,Distinction
+10964,GGG,F,North Western Region,No Formal quals,0-35,30,1,751,75.5,0.049,0.09,Pass
+10965,CCC,M,West Midlands,Lower Than A Level,0-35,120,0,1351,55.8,-0.009,0.16,Pass
+10966,DDD,M,South Region,Lower Than A Level,0-35,180,0,981,62.9,0.026,0.14,Distinction
+10967,GGG,F,London,Lower Than A Level,0-35,60,0,101,25.3,-0.056,0.39,Fail
+10968,FFF,F,North Western Region,A Level or Equivalent,0-35,180,0,1062,48.7,-0.024,0.07,Pass
+10969,CCC,F,West Midlands,A Level or Equivalent,35-55,60,0,3137,82.3,0.142,0.05,Distinction
+10970,BBB,F,West Midlands,A Level or Equivalent,0-35,60,0,1116,59.8,0.058,0.15,Pass
+10971,DDD,F,London,Lower Than A Level,0-35,90,0,2147,48.5,-0.004,0.16,Pass
+10972,DDD,F,West Midlands,No Formal quals,0-35,90,1,3243,82.2,0.111,0.09,Distinction
+10973,AAA,M,South West Region,A Level or Equivalent,55<=,30,0,978,55.3,0.293,0.16,Pass
+10974,BBB,M,West Midlands,A Level or Equivalent,0-35,30,0,1461,66.3,0.003,0.19,Pass
+10975,EEE,M,London,A Level or Equivalent,0-35,30,0,1851,93.3,0.148,0.12,Distinction
+10976,CCC,M,North Western Region,HE Qualification,0-35,90,0,2196,47.2,-0.039,0.14,Pass
+10977,GGG,F,North Western Region,HE Qualification,0-35,120,0,254,22.8,-0.19,0.52,Withdrawn
+10978,BBB,M,North Western Region,A Level or Equivalent,0-35,120,0,2167,36.5,-0.001,0.14,Pass
+10979,EEE,F,London,Lower Than A Level,0-35,150,0,1658,32.5,-0.002,0.18,Pass
+10980,EEE,M,East Anglia,HE Qualification,0-35,180,1,2018,84.5,0.058,0.11,Distinction
+10981,DDD,F,South Region,A Level or Equivalent,0-35,60,0,1112,63.4,0.305,0.22,Distinction
+10982,BBB,M,North Western Region,A Level or Equivalent,0-35,180,0,1964,51.9,0.032,0.06,Fail
+10983,CCC,M,South West Region,HE Qualification,0-35,150,0,1547,71.7,0.009,0.11,Distinction
+10984,GGG,M,Scotland,A Level or Equivalent,35-55,180,0,827,57.4,0.065,0.16,Pass
+10985,GGG,M,South West Region,Lower Than A Level,0-35,90,0,1194,59.8,-0.01,0.15,Pass
+10986,FFF,F,East Anglia,Lower Than A Level,0-35,90,0,1161,71.1,0.037,0.14,Pass
+10987,BBB,F,London,Lower Than A Level,0-35,90,0,1433,58.6,0.043,0.12,Pass
+10988,CCC,M,South West Region,HE Qualification,0-35,150,0,1352,60.2,0.065,0.14,Pass
+10989,AAA,F,Scotland,A Level or Equivalent,35-55,150,0,1248,51.4,0.004,0.15,Fail
+10990,EEE,F,North Western Region,HE Qualification,0-35,60,1,1195,75.6,-0.019,0.19,Pass
+10991,CCC,M,South Region,Lower Than A Level,0-35,180,0,1630,42.0,-0.006,0.16,Pass
+10992,FFF,M,South West Region,Lower Than A Level,35-55,120,0,1119,49.6,0.247,0.17,Pass
+10993,GGG,M,East Anglia,Lower Than A Level,0-35,60,0,143,33.6,-0.155,0.47,Fail
+10994,DDD,M,London,Post Graduate Qualification,0-35,90,0,1550,76.1,0.071,0.07,Pass
+10995,BBB,M,South Region,A Level or Equivalent,0-35,120,0,652,55.7,0.266,0.11,Pass
+10996,AAA,F,South Region,Lower Than A Level,0-35,150,0,2091,40.6,0.038,0.17,Fail
+10997,FFF,M,West Midlands,HE Qualification,0-35,120,3,1116,68.8,0.029,0.08,Pass
+10998,EEE,F,South West Region,Lower Than A Level,35-55,60,0,1930,38.2,-0.023,0.22,Fail
+10999,DDD,M,Scotland,HE Qualification,0-35,120,0,2969,91.5,0.032,0.11,Distinction
+11000,FFF,M,South Region,HE Qualification,35-55,60,0,1484,67.2,-0.01,0.1,Pass
+11001,EEE,M,Scotland,Lower Than A Level,35-55,60,1,1221,38.5,-0.013,0.13,Fail
+11002,DDD,F,South Region,HE Qualification,0-35,90,0,1444,63.1,0.055,0.12,Pass
+11003,DDD,F,London,HE Qualification,0-35,120,0,283,35.7,-0.344,0.7,Withdrawn
+11004,FFF,F,Scotland,HE Qualification,0-35,120,0,1273,72.0,0.06,0.14,Pass
+11005,CCC,M,London,Lower Than A Level,0-35,120,2,994,47.6,-0.029,0.21,Fail
+11006,BBB,F,West Midlands,A Level or Equivalent,0-35,30,0,1078,65.1,0.008,0.12,Distinction
+11007,AAA,F,East Anglia,A Level or Equivalent,35-55,60,0,2050,33.8,-0.048,0.15,Fail
+11008,CCC,F,South West Region,No Formal quals,35-55,30,1,1542,51.1,-0.033,0.18,Fail
+11009,BBB,M,Scotland,A Level or Equivalent,0-35,90,0,865,54.1,0.292,0.08,Pass
+11010,DDD,F,North Western Region,HE Qualification,35-55,150,0,982,48.4,0.221,0.09,Pass
+11011,GGG,F,East Anglia,A Level or Equivalent,0-35,90,0,339,17.5,-0.183,0.41,Withdrawn
+11012,EEE,M,West Midlands,HE Qualification,0-35,60,0,270,37.1,-0.21,0.79,Fail
+11013,BBB,F,London,Lower Than A Level,0-35,120,0,1785,49.8,-0.028,0.1,Fail
+11014,DDD,M,London,Lower Than A Level,0-35,90,1,1568,42.6,0.005,0.08,Fail
+11015,CCC,M,South Region,HE Qualification,0-35,60,0,980,47.6,-0.01,0.21,Pass
+11016,CCC,M,South West Region,Lower Than A Level,0-35,120,3,922,72.8,-0.017,0.18,Fail
+11017,AAA,F,London,A Level or Equivalent,35-55,180,0,2996,86.0,0.047,0.06,Pass
+11018,AAA,M,West Midlands,HE Qualification,35-55,30,0,1200,72.0,0.016,0.2,Pass
+11019,BBB,M,East Anglia,A Level or Equivalent,0-35,150,0,707,63.7,0.022,0.19,Pass
+11020,CCC,F,East Anglia,Lower Than A Level,35-55,180,0,686,63.6,0.306,0.23,Pass
+11021,CCC,F,London,Lower Than A Level,0-35,150,0,1187,45.9,0.019,0.06,Fail
+11022,GGG,F,Scotland,A Level or Equivalent,35-55,120,0,755,65.8,0.306,0.11,Distinction
+11023,AAA,M,London,A Level or Equivalent,0-35,180,0,368,23.7,-0.115,0.52,Fail
+11024,AAA,M,North Western Region,No Formal quals,0-35,150,0,1610,78.3,0.137,0.03,Pass
+11025,AAA,F,North Western Region,Post Graduate Qualification,35-55,150,0,376,15.0,-0.207,0.8,Withdrawn
+11026,CCC,F,West Midlands,A Level or Equivalent,0-35,120,0,150,18.4,-0.196,0.75,Withdrawn
+11027,FFF,M,South West Region,Lower Than A Level,0-35,150,0,889,71.8,0.01,0.16,Pass
+11028,EEE,F,East Anglia,HE Qualification,0-35,90,0,970,47.0,0.024,0.16,Fail
+11029,BBB,M,South Region,A Level or Equivalent,35-55,60,0,1285,66.1,0.066,0.08,Distinction
+11030,EEE,F,North Western Region,Post Graduate Qualification,0-35,90,0,2344,91.1,0.087,0.05,Pass
+11031,BBB,F,Scotland,HE Qualification,0-35,150,0,2602,93.3,0.054,0.1,Distinction
+11032,AAA,M,London,Lower Than A Level,0-35,30,0,114,38.6,-0.258,0.57,Fail
+11033,AAA,M,North Western Region,HE Qualification,35-55,150,0,163,35.9,-0.29,0.72,Withdrawn
+11034,GGG,M,West Midlands,HE Qualification,0-35,150,0,1243,58.8,-0.004,0.15,Pass
+11035,GGG,M,East Anglia,HE Qualification,35-55,150,2,1314,37.6,0.045,0.21,Pass
+11036,EEE,F,North Western Region,A Level or Equivalent,0-35,90,0,1269,70.4,0.001,0.16,Pass
+11037,AAA,M,East Anglia,A Level or Equivalent,0-35,60,0,174,25.6,-0.302,0.56,Withdrawn
+11038,BBB,F,London,Lower Than A Level,35-55,60,1,1821,82.1,0.039,0.05,Distinction
+11039,FFF,M,West Midlands,Lower Than A Level,0-35,180,0,1148,61.9,-0.008,0.16,Pass
+11040,AAA,F,Scotland,HE Qualification,0-35,90,0,1299,58.9,0.051,0.18,Pass
+11041,CCC,M,West Midlands,Lower Than A Level,55<=,150,2,173,38.5,-0.151,0.77,Fail
+11042,DDD,M,South West Region,Lower Than A Level,35-55,180,0,1255,60.2,0.217,0.22,Distinction
+11043,AAA,M,London,A Level or Equivalent,0-35,150,0,1444,34.1,0.022,0.17,Fail
+11044,GGG,F,West Midlands,A Level or Equivalent,35-55,120,0,1603,89.5,0.035,0.1,Distinction
+11045,FFF,F,East Anglia,A Level or Equivalent,35-55,90,0,1171,68.2,0.032,0.19,Pass
+11046,FFF,F,South West Region,HE Qualification,0-35,60,0,701,55.0,0.215,0.08,Pass
+11047,CCC,F,East Anglia,A Level or Equivalent,0-35,60,0,216,27.4,-0.053,0.48,Fail
+11048,BBB,F,South West Region,A Level or Equivalent,0-35,60,1,220,24.5,-0.189,0.75,Fail
+11049,CCC,F,London,HE Qualification,0-35,120,0,890,72.4,0.0,0.18,Pass
+11050,CCC,F,Scotland,HE Qualification,55<=,90,0,1017,75.9,0.05,0.13,Pass
+11051,EEE,M,North Western Region,A Level or Equivalent,0-35,30,0,1728,49.0,-0.061,0.11,Pass
+11052,BBB,F,London,HE Qualification,35-55,90,0,931,72.0,0.222,0.09,Pass
+11053,FFF,F,London,A Level or Equivalent,35-55,60,0,1363,73.7,-0.005,0.09,Fail
+11054,GGG,F,East Anglia,A Level or Equivalent,0-35,150,0,1231,68.4,0.043,0.18,Fail
+11055,FFF,F,South West Region,HE Qualification,0-35,90,0,940,62.4,0.016,0.19,Pass
+11056,GGG,M,East Anglia,A Level or Equivalent,0-35,150,0,1114,48.1,-0.001,0.17,Fail
+11057,FFF,M,North Western Region,Lower Than A Level,35-55,120,0,1146,56.5,0.08,0.05,Pass
+11058,FFF,M,Scotland,A Level or Equivalent,35-55,30,0,2330,89.4,0.143,0.09,Distinction
+11059,DDD,F,South West Region,HE Qualification,0-35,120,0,1251,71.0,0.01,0.08,Pass
+11060,EEE,F,South Region,HE Qualification,55<=,150,0,1416,92.2,0.067,0.03,Pass
+11061,EEE,M,West Midlands,A Level or Equivalent,0-35,60,0,1267,48.7,-0.076,0.21,Fail
+11062,CCC,M,London,HE Qualification,0-35,180,0,1413,65.9,0.065,0.08,Pass
+11063,BBB,F,Scotland,A Level or Equivalent,0-35,120,0,1362,69.6,0.014,0.16,Pass
+11064,AAA,M,West Midlands,Lower Than A Level,0-35,60,0,612,48.1,0.208,0.08,Distinction
+11065,EEE,F,East Anglia,Lower Than A Level,0-35,180,0,923,77.4,-0.01,0.15,Pass
+11066,CCC,M,North Western Region,A Level or Equivalent,35-55,60,0,277,15.8,-0.338,0.62,Fail
+11067,AAA,F,Scotland,Lower Than A Level,35-55,150,0,1109,52.6,0.156,0.18,Pass
+11068,DDD,F,East Anglia,A Level or Equivalent,0-35,150,0,844,60.5,0.062,0.08,Pass
+11069,CCC,M,North Western Region,HE Qualification,35-55,180,0,1964,33.8,0.005,0.21,Fail
+11070,FFF,F,East Anglia,A Level or Equivalent,0-35,90,0,199,40.5,-0.222,0.57,Withdrawn
+11071,AAA,F,London,Lower Than A Level,0-35,120,0,1389,54.9,0.277,0.09,Pass
+11072,BBB,M,Scotland,HE Qualification,35-55,150,0,998,42.7,-0.074,0.1,Pass
+11073,EEE,M,East Anglia,HE Qualification,35-55,180,0,310,25.0,-0.14,0.81,Withdrawn
+11074,BBB,M,South West Region,Lower Than A Level,35-55,120,0,931,32.9,-0.03,0.2,Pass
+11075,CCC,M,South Region,A Level or Equivalent,35-55,90,2,1446,53.5,0.331,0.15,Pass
+11076,EEE,M,West Midlands,A Level or Equivalent,35-55,120,0,370,23.4,-0.068,0.68,Fail
+11077,DDD,M,North Western Region,HE Qualification,0-35,60,1,1314,55.2,0.049,0.06,Pass
+11078,BBB,M,London,A Level or Equivalent,0-35,120,0,1242,50.9,-0.047,0.17,Fail
+11079,DDD,F,West Midlands,Lower Than A Level,35-55,90,0,2027,97.0,0.092,0.07,Distinction
+11080,AAA,F,North Western Region,Lower Than A Level,0-35,120,0,84,21.5,-0.165,0.57,Withdrawn
+11081,EEE,M,South West Region,HE Qualification,35-55,60,0,72,30.4,-0.065,0.52,Fail
+11082,BBB,F,North Western Region,Lower Than A Level,0-35,120,0,1117,49.5,0.162,0.11,Pass
+11083,DDD,M,East Anglia,A Level or Equivalent,35-55,150,0,1193,42.9,-0.039,0.07,Pass
+11084,EEE,M,West Midlands,A Level or Equivalent,35-55,90,0,1625,91.7,0.021,0.02,Distinction
+11085,DDD,M,East Anglia,Lower Than A Level,0-35,150,0,3151,96.7,0.104,0.05,Distinction
+11086,DDD,M,South West Region,A Level or Equivalent,0-35,180,0,756,58.9,0.322,0.12,Pass
+11087,FFF,M,North Western Region,Post Graduate Qualification,35-55,90,0,1007,58.3,0.026,0.16,Pass
+11088,BBB,F,South Region,HE Qualification,0-35,120,0,1451,65.4,0.075,0.12,Pass
+11089,FFF,F,South Region,A Level or Equivalent,0-35,60,0,2167,39.3,-0.02,0.2,Fail
+11090,CCC,F,South Region,A Level or Equivalent,0-35,150,0,1552,77.0,0.067,0.11,Pass
+11091,CCC,M,South West Region,A Level or Equivalent,0-35,60,2,2045,85.7,0.107,0.05,Distinction
+11092,EEE,M,South West Region,A Level or Equivalent,35-55,60,0,951,75.0,-0.007,0.19,Pass
+11093,GGG,M,South West Region,Lower Than A Level,0-35,30,0,77,24.0,-0.323,0.82,Withdrawn
+11094,FFF,M,South Region,Lower Than A Level,0-35,150,1,1814,41.5,0.011,0.1,Pass
+11095,EEE,M,South Region,Lower Than A Level,0-35,150,0,2187,41.4,0.048,0.17,Fail
+11096,AAA,M,North Western Region,Lower Than A Level,0-35,120,0,1485,55.5,0.049,0.17,Distinction
+11097,EEE,M,North Western Region,HE Qualification,55<=,180,0,687,69.3,0.136,0.1,Pass
+11098,DDD,M,London,Post Graduate Qualification,35-55,180,0,1498,46.2,0.043,0.06,Fail
+11099,GGG,F,London,A Level or Equivalent,0-35,60,0,1225,61.4,0.032,0.19,Pass
+11100,BBB,M,South West Region,Lower Than A Level,0-35,120,3,979,72.2,0.056,0.12,Pass
+11101,EEE,M,South Region,HE Qualification,35-55,30,0,2759,82.0,0.081,0.06,Distinction
+11102,CCC,F,Scotland,A Level or Equivalent,0-35,120,0,1054,71.5,0.035,0.12,Pass
+11103,DDD,M,East Anglia,A Level or Equivalent,0-35,150,1,1726,94.1,0.034,0.03,Distinction
+11104,BBB,M,East Anglia,Lower Than A Level,0-35,180,0,366,16.9,-0.175,0.83,Fail
+11105,FFF,F,East Anglia,A Level or Equivalent,0-35,30,0,1463,76.3,-0.001,0.16,Pass
+11106,DDD,M,South Region,No Formal quals,0-35,90,0,1537,59.5,0.079,0.14,Pass
+11107,CCC,M,North Western Region,Lower Than A Level,0-35,60,2,1599,67.5,0.077,0.15,Pass
+11108,AAA,M,South Region,HE Qualification,35-55,60,0,2113,37.9,-0.026,0.16,Pass
+11109,CCC,F,South West Region,Lower Than A Level,0-35,180,0,83,16.7,-0.202,0.8,Withdrawn
+11110,GGG,F,London,A Level or Equivalent,35-55,120,0,95,23.6,-0.119,0.81,Fail
+11111,EEE,M,West Midlands,Lower Than A Level,35-55,120,0,239,28.5,-0.121,0.51,Fail
+11112,BBB,M,West Midlands,Lower Than A Level,35-55,120,0,1515,74.5,0.077,0.12,Distinction
+11113,DDD,M,South Region,A Level or Equivalent,0-35,30,1,245,41.7,-0.16,0.55,Withdrawn
+11114,GGG,M,South Region,A Level or Equivalent,0-35,30,0,977,62.8,-0.018,0.11,Pass
+11115,GGG,F,South Region,Lower Than A Level,0-35,120,0,763,59.7,0.273,0.14,Pass
+11116,CCC,F,West Midlands,Lower Than A Level,0-35,120,1,713,77.0,0.043,0.1,Pass
+11117,EEE,F,West Midlands,Lower Than A Level,0-35,90,0,1405,74.9,0.017,0.2,Pass
+11118,DDD,F,North Western Region,Lower Than A Level,35-55,180,0,210,32.1,-0.079,0.59,Withdrawn
+11119,CCC,F,South West Region,Lower Than A Level,0-35,90,0,1368,46.2,-0.001,0.19,Pass
+11120,EEE,F,London,Lower Than A Level,35-55,120,0,1066,42.6,-0.02,0.2,Fail
+11121,FFF,F,London,A Level or Equivalent,35-55,90,0,1496,56.4,0.005,0.14,Pass
+11122,GGG,F,West Midlands,Lower Than A Level,0-35,90,0,1249,59.6,0.061,0.08,Distinction
+11123,EEE,M,Scotland,A Level or Equivalent,35-55,60,0,1408,47.8,-0.025,0.19,Pass
+11124,CCC,M,South Region,Lower Than A Level,0-35,180,0,3104,93.5,0.149,0.06,Distinction
+11125,BBB,F,East Anglia,Lower Than A Level,35-55,120,0,282,22.7,-0.174,0.51,Withdrawn
+11126,AAA,F,West Midlands,A Level or Equivalent,0-35,180,0,2978,90.9,0.071,0.05,Pass
+11127,AAA,F,Scotland,A Level or Equivalent,0-35,150,0,117,28.4,-0.072,0.42,Withdrawn
+11128,BBB,M,London,HE Qualification,55<=,90,0,771,66.3,0.035,0.13,Pass
+11129,DDD,M,West Midlands,HE Qualification,35-55,120,0,183,21.1,-0.333,0.69,Withdrawn
+11130,FFF,M,North Western Region,No Formal quals,0-35,60,2,740,60.0,0.194,0.21,Pass
+11131,AAA,F,North Western Region,No Formal quals,35-55,120,0,1347,82.2,0.096,0.02,Distinction
+11132,EEE,F,West Midlands,HE Qualification,0-35,60,0,2352,83.3,0.069,0.06,Pass
+11133,GGG,F,Scotland,Lower Than A Level,35-55,120,0,729,65.2,0.077,0.15,Pass
+11134,BBB,M,London,No Formal quals,35-55,180,1,1477,68.1,0.055,0.17,Pass
+11135,EEE,F,Scotland,A Level or Equivalent,0-35,60,0,858,53.2,0.125,0.08,Pass
+11136,GGG,F,South Region,A Level or Equivalent,35-55,180,0,1216,66.1,0.332,0.16,Pass
+11137,GGG,M,London,A Level or Equivalent,35-55,30,0,190,40.1,-0.259,0.54,Withdrawn
+11138,BBB,M,London,A Level or Equivalent,0-35,120,0,986,64.6,-0.018,0.17,Distinction
+11139,CCC,M,Scotland,A Level or Equivalent,35-55,60,0,962,49.6,0.041,0.08,Pass
+11140,FFF,M,North Western Region,HE Qualification,0-35,150,0,3164,79.3,0.11,0.04,Distinction
+11141,DDD,M,London,A Level or Equivalent,35-55,120,0,1380,91.1,0.145,0.11,Distinction
+11142,FFF,F,South Region,HE Qualification,0-35,90,2,1406,65.3,-0.02,0.15,Distinction
+11143,GGG,F,West Midlands,Post Graduate Qualification,0-35,60,0,196,24.8,-0.171,0.58,Withdrawn
+11144,BBB,F,South West Region,HE Qualification,35-55,150,0,227,26.0,-0.176,0.54,Fail
+11145,GGG,F,South Region,HE Qualification,35-55,120,0,1142,57.0,0.005,0.07,Distinction
+11146,FFF,F,North Western Region,HE Qualification,35-55,60,1,1580,77.6,-0.005,0.1,Pass
+11147,FFF,M,East Anglia,HE Qualification,0-35,60,1,1543,64.6,-0.009,0.13,Pass
+11148,AAA,M,Scotland,HE Qualification,35-55,60,0,1585,41.8,-0.038,0.19,Pass
+11149,DDD,F,South Region,A Level or Equivalent,35-55,180,0,3058,81.1,0.11,0.1,Distinction
+11150,GGG,M,North Western Region,Lower Than A Level,0-35,90,0,1545,59.8,0.044,0.19,Pass
+11151,AAA,M,Scotland,Lower Than A Level,0-35,180,0,821,64.7,0.016,0.11,Pass
+11152,CCC,F,North Western Region,A Level or Equivalent,0-35,150,0,1329,68.6,0.048,0.2,Pass
+11153,CCC,M,Scotland,A Level or Equivalent,35-55,120,0,266,33.6,-0.164,0.53,Fail
+11154,DDD,M,North Western Region,No Formal quals,0-35,30,0,1069,36.9,0.028,0.16,Pass
+11155,DDD,F,South Region,A Level or Equivalent,0-35,90,0,281,20.8,-0.227,0.36,Withdrawn
+11156,GGG,M,West Midlands,A Level or Equivalent,0-35,120,0,1997,45.1,-0.074,0.15,Fail
+11157,DDD,M,North Western Region,Lower Than A Level,0-35,90,0,1403,58.6,0.064,0.08,Pass
+11158,AAA,F,East Anglia,A Level or Equivalent,35-55,60,0,1948,82.5,0.133,0.08,Distinction
+11159,FFF,F,East Anglia,A Level or Equivalent,35-55,30,0,1296,86.8,0.068,0.09,Distinction
+11160,EEE,F,South West Region,A Level or Equivalent,0-35,30,0,1764,33.3,-0.069,0.2,Fail
+11161,DDD,F,West Midlands,HE Qualification,35-55,60,0,1965,91.3,0.078,0.12,Distinction
+11162,CCC,F,London,Post Graduate Qualification,35-55,150,0,1375,36.0,-0.041,0.18,Pass
+11163,CCC,M,West Midlands,HE Qualification,0-35,180,0,1521,49.6,-0.062,0.21,Fail
+11164,GGG,M,South Region,A Level or Equivalent,0-35,60,0,1348,69.4,0.066,0.06,Pass
+11165,GGG,M,East Anglia,HE Qualification,0-35,30,0,1471,64.5,0.043,0.19,Distinction
+11166,DDD,M,East Anglia,A Level or Equivalent,35-55,120,0,1665,39.8,-0.001,0.2,Fail
+11167,BBB,F,West Midlands,HE Qualification,0-35,120,0,130,21.5,-0.194,0.6,Withdrawn
+11168,EEE,M,North Western Region,Lower Than A Level,0-35,60,0,2336,85.9,0.08,0.1,Pass
+11169,CCC,F,Scotland,HE Qualification,0-35,120,0,402,30.9,-0.182,0.69,Withdrawn
+11170,GGG,M,North Western Region,Lower Than A Level,35-55,90,0,1028,37.0,-0.045,0.1,Pass
+11171,EEE,M,Scotland,HE Qualification,0-35,60,0,1013,59.4,0.013,0.15,Pass
+11172,EEE,F,South West Region,A Level or Equivalent,35-55,60,1,1289,45.7,-0.033,0.14,Pass
+11173,GGG,F,West Midlands,A Level or Equivalent,0-35,180,1,1321,44.0,0.002,0.11,Fail
+11174,GGG,F,Scotland,Lower Than A Level,0-35,90,1,1049,58.4,0.041,0.09,Fail
+11175,GGG,F,London,Lower Than A Level,35-55,90,1,1263,68.4,0.008,0.14,Pass
+11176,AAA,F,South West Region,Post Graduate Qualification,0-35,120,0,843,59.2,0.016,0.17,Pass
+11177,GGG,M,Scotland,Lower Than A Level,0-35,60,0,1303,58.2,0.129,0.19,Pass
+11178,AAA,F,West Midlands,A Level or Equivalent,0-35,60,0,2068,47.0,0.041,0.11,Pass
+11179,AAA,F,East Anglia,Lower Than A Level,35-55,120,0,1228,33.8,0.016,0.22,Pass
+11180,DDD,M,London,Lower Than A Level,0-35,60,0,1910,96.4,0.056,0.02,Distinction
+11181,DDD,F,North Western Region,Lower Than A Level,0-35,30,0,853,72.0,0.018,0.14,Pass
+11182,EEE,F,South Region,HE Qualification,0-35,150,0,3278,90.3,0.129,0.08,Distinction
+11183,FFF,M,West Midlands,HE Qualification,35-55,60,0,1021,63.1,0.007,0.16,Distinction
+11184,DDD,F,London,A Level or Equivalent,0-35,180,0,1519,55.5,0.037,0.1,Pass
+11185,DDD,F,North Western Region,Lower Than A Level,0-35,60,0,866,59.5,0.159,0.23,Pass
+11186,EEE,M,East Anglia,No Formal quals,0-35,30,0,1850,79.8,0.11,0.03,Distinction
+11187,CCC,F,South Region,Lower Than A Level,35-55,90,1,1119,62.2,0.032,0.08,Pass
+11188,AAA,M,Scotland,A Level or Equivalent,35-55,60,0,150,31.3,-0.327,0.74,Withdrawn
+11189,GGG,M,West Midlands,Lower Than A Level,0-35,90,0,1965,82.9,0.021,0.11,Pass
+11190,EEE,M,West Midlands,A Level or Equivalent,0-35,60,0,1566,58.0,0.066,0.18,Pass
+11191,CCC,F,South Region,A Level or Equivalent,35-55,180,0,986,33.3,-0.031,0.05,Fail
+11192,GGG,F,South West Region,HE Qualification,0-35,180,0,1964,39.1,-0.001,0.17,Fail
+11193,GGG,F,West Midlands,HE Qualification,0-35,120,0,1500,90.0,0.068,0.05,Distinction
+11194,DDD,F,North Western Region,Lower Than A Level,0-35,120,0,2983,93.5,0.118,0.06,Distinction
+11195,GGG,M,South West Region,HE Qualification,0-35,60,0,1149,60.8,0.02,0.16,Pass
+11196,BBB,F,South Region,A Level or Equivalent,0-35,60,1,902,57.0,0.201,0.23,Distinction
+11197,GGG,F,London,A Level or Equivalent,0-35,150,0,3163,79.4,0.063,0.05,Distinction
+11198,AAA,M,South Region,A Level or Equivalent,0-35,30,0,1233,63.5,0.025,0.1,Pass
+11199,CCC,F,Scotland,A Level or Equivalent,35-55,150,0,1199,65.0,0.031,0.15,Pass
+11200,FFF,M,South Region,HE Qualification,0-35,180,0,375,22.2,-0.307,0.81,Withdrawn
+11201,DDD,F,North Western Region,Lower Than A Level,0-35,30,2,1282,59.5,0.06,0.18,Pass
+11202,EEE,F,South Region,No Formal quals,0-35,30,0,767,60.0,0.072,0.07,Pass
+11203,AAA,M,South West Region,A Level or Equivalent,35-55,150,0,1180,77.0,0.006,0.13,Distinction
+11204,GGG,F,South West Region,A Level or Equivalent,0-35,180,0,316,33.4,-0.108,0.74,Withdrawn
+11205,GGG,M,North Western Region,A Level or Equivalent,0-35,150,0,1014,49.2,0.256,0.22,Pass
+11206,GGG,M,West Midlands,Lower Than A Level,35-55,60,0,1603,91.9,0.086,0.06,Distinction
+11207,EEE,F,Scotland,Lower Than A Level,0-35,120,2,1542,50.5,-0.073,0.12,Fail
+11208,DDD,F,London,Lower Than A Level,0-35,90,0,301,40.1,-0.231,0.46,Withdrawn
+11209,BBB,F,South Region,A Level or Equivalent,0-35,60,0,1069,34.0,-0.069,0.18,Pass
+11210,DDD,F,London,HE Qualification,35-55,180,0,602,59.3,0.128,0.13,Pass
+11211,FFF,F,South West Region,A Level or Equivalent,0-35,90,0,1537,97.8,0.1,0.1,Distinction
+11212,BBB,F,East Anglia,Post Graduate Qualification,0-35,150,0,86,37.5,-0.265,0.38,Withdrawn
+11213,CCC,M,South West Region,HE Qualification,0-35,120,0,965,39.9,-0.036,0.08,Fail
+11214,DDD,F,West Midlands,Lower Than A Level,35-55,120,0,1413,71.6,0.191,0.14,Pass
+11215,BBB,M,London,Lower Than A Level,0-35,30,0,729,51.6,0.137,0.21,Pass
+11216,EEE,M,South West Region,A Level or Equivalent,0-35,180,0,2103,38.1,0.012,0.2,Fail
+11217,CCC,M,North Western Region,Lower Than A Level,0-35,30,1,249,20.0,-0.201,0.68,Withdrawn
+11218,FFF,F,North Western Region,Lower Than A Level,0-35,180,0,1469,68.0,0.05,0.05,Pass
+11219,CCC,F,London,A Level or Equivalent,55<=,60,0,3300,90.1,0.144,0.11,Distinction
+11220,DDD,M,East Anglia,No Formal quals,0-35,90,1,702,57.4,0.057,0.2,Pass
+11221,BBB,F,South West Region,A Level or Equivalent,35-55,150,0,1241,77.9,0.041,0.14,Pass
+11222,FFF,M,North Western Region,Post Graduate Qualification,0-35,90,0,72,22.7,-0.345,0.64,Fail
+11223,AAA,F,East Anglia,HE Qualification,35-55,150,0,1454,62.2,0.223,0.13,Pass
+11224,AAA,M,South West Region,HE Qualification,0-35,90,0,927,76.9,0.025,0.11,Pass
+11225,AAA,F,West Midlands,HE Qualification,0-35,120,0,425,36.5,-0.158,0.5,Withdrawn
+11226,AAA,F,West Midlands,Lower Than A Level,35-55,90,0,249,30.1,-0.251,0.62,Withdrawn
+11227,FFF,F,London,Lower Than A Level,0-35,120,0,2257,81.4,0.058,0.05,Distinction
+11228,DDD,M,South West Region,Lower Than A Level,0-35,90,0,2023,44.8,-0.07,0.08,Pass
+11229,AAA,M,London,HE Qualification,35-55,90,2,3048,84.8,0.085,0.1,Distinction
+11230,EEE,M,North Western Region,A Level or Equivalent,0-35,30,0,1922,85.8,0.045,0.11,Distinction
+11231,EEE,M,London,Lower Than A Level,0-35,150,1,1880,51.8,0.018,0.11,Pass
+11232,DDD,F,London,HE Qualification,35-55,120,0,1352,66.1,0.039,0.15,Fail
+11233,FFF,M,East Anglia,A Level or Equivalent,35-55,120,0,1029,69.8,-0.0,0.06,Pass
+11234,AAA,F,London,Post Graduate Qualification,35-55,180,0,53,41.2,-0.091,0.39,Fail
+11235,EEE,M,West Midlands,Lower Than A Level,0-35,150,0,1339,73.6,0.059,0.15,Pass
+11236,EEE,F,Scotland,No Formal quals,0-35,90,0,1312,54.2,0.207,0.11,Pass
+11237,DDD,M,West Midlands,A Level or Equivalent,0-35,180,0,2367,84.6,0.113,0.11,Pass
+11238,EEE,M,Scotland,Lower Than A Level,55<=,90,0,2069,89.6,0.03,0.02,Distinction
+11239,GGG,M,East Anglia,A Level or Equivalent,35-55,180,0,1273,55.1,0.326,0.21,Pass
+11240,DDD,M,South West Region,Lower Than A Level,35-55,60,0,1202,48.1,0.325,0.09,Pass
+11241,DDD,M,Scotland,Lower Than A Level,35-55,60,0,1625,90.6,0.022,0.04,Distinction
+11242,BBB,M,North Western Region,No Formal quals,0-35,90,0,146,28.3,-0.279,0.56,Withdrawn
+11243,DDD,M,East Anglia,A Level or Equivalent,0-35,120,2,1292,61.6,0.005,0.18,Pass
+11244,DDD,F,South West Region,A Level or Equivalent,0-35,30,0,959,70.9,0.038,0.17,Pass
+11245,FFF,M,South Region,A Level or Equivalent,0-35,60,0,400,25.7,-0.06,0.49,Withdrawn
+11246,AAA,M,South West Region,Lower Than A Level,35-55,120,0,847,58.4,0.045,0.07,Pass
+11247,DDD,F,South West Region,A Level or Equivalent,0-35,180,0,1323,39.8,-0.056,0.16,Fail
+11248,BBB,F,North Western Region,HE Qualification,0-35,90,0,762,73.0,0.063,0.16,Pass
+11249,BBB,F,London,HE Qualification,0-35,90,0,292,36.2,-0.191,0.64,Withdrawn
+11250,FFF,M,North Western Region,Lower Than A Level,35-55,120,2,1191,60.1,0.07,0.05,Pass
+11251,DDD,F,South Region,Post Graduate Qualification,0-35,180,1,2718,88.4,0.11,0.05,Distinction
+11252,GGG,F,South West Region,A Level or Equivalent,0-35,30,0,1529,60.6,0.076,0.19,Distinction
+11253,EEE,M,South West Region,A Level or Equivalent,0-35,60,2,1406,72.7,0.022,0.1,Pass
+11254,BBB,M,South West Region,Lower Than A Level,35-55,90,0,904,69.5,0.047,0.19,Pass
+11255,CCC,M,North Western Region,A Level or Equivalent,0-35,60,0,232,27.7,-0.278,0.52,Withdrawn
+11256,EEE,M,South West Region,Lower Than A Level,0-35,60,0,154,27.6,-0.19,0.72,Withdrawn
+11257,EEE,F,South West Region,Lower Than A Level,35-55,60,0,1247,96.4,0.073,0.12,Distinction
+11258,DDD,M,London,Lower Than A Level,0-35,30,0,1312,67.3,0.043,0.16,Pass
+11259,FFF,F,West Midlands,Lower Than A Level,35-55,180,0,160,36.5,-0.084,0.4,Withdrawn
+11260,BBB,F,London,A Level or Equivalent,0-35,90,0,1236,32.5,-0.067,0.16,Pass
+11261,CCC,M,South Region,HE Qualification,0-35,30,0,914,59.5,0.009,0.06,Pass
+11262,EEE,M,London,Lower Than A Level,35-55,60,0,439,23.1,-0.144,0.43,Withdrawn
+11263,BBB,F,North Western Region,No Formal quals,0-35,150,0,265,17.9,-0.121,0.46,Withdrawn
+11264,AAA,F,South Region,A Level or Equivalent,0-35,180,0,1987,51.0,0.041,0.2,Fail
+11265,CCC,F,South Region,HE Qualification,0-35,180,0,1035,52.1,0.312,0.16,Pass
+11266,EEE,M,South West Region,HE Qualification,35-55,60,0,1248,65.7,-0.011,0.14,Pass
+11267,BBB,M,South Region,A Level or Equivalent,0-35,30,0,1365,68.4,0.054,0.07,Pass
+11268,EEE,M,East Anglia,Lower Than A Level,35-55,150,1,1051,36.8,-0.008,0.11,Fail
+11269,CCC,F,Scotland,A Level or Equivalent,35-55,30,0,155,18.8,-0.113,0.7,Withdrawn
+11270,BBB,F,London,A Level or Equivalent,0-35,30,0,868,70.7,0.079,0.1,Pass
+11271,AAA,M,East Anglia,A Level or Equivalent,0-35,180,0,1475,72.1,0.044,0.06,Pass
+11272,DDD,M,North Western Region,HE Qualification,0-35,90,0,2138,32.5,-0.061,0.11,Pass
+11273,AAA,F,East Anglia,Lower Than A Level,0-35,150,1,2080,42.8,-0.043,0.14,Fail
+11274,BBB,M,East Anglia,HE Qualification,0-35,30,0,1219,65.0,-0.017,0.14,Pass
+11275,CCC,M,North Western Region,Lower Than A Level,0-35,90,0,853,64.3,0.036,0.09,Pass
+11276,CCC,M,Scotland,A Level or Equivalent,0-35,90,1,242,34.7,-0.184,0.37,Withdrawn
+11277,DDD,M,South Region,A Level or Equivalent,35-55,150,0,717,72.8,0.058,0.19,Distinction
+11278,EEE,M,South Region,Lower Than A Level,0-35,30,1,179,37.5,-0.313,0.63,Withdrawn
+11279,AAA,F,South West Region,A Level or Equivalent,55<=,180,0,1110,69.1,0.177,0.11,Pass
+11280,BBB,M,North Western Region,Lower Than A Level,0-35,30,0,1394,61.8,-0.003,0.14,Pass
+11281,FFF,F,North Western Region,Lower Than A Level,0-35,120,0,3364,86.6,0.034,0.12,Distinction
+11282,DDD,M,East Anglia,A Level or Equivalent,35-55,180,0,1468,63.6,0.009,0.18,Pass
+11283,GGG,M,South West Region,A Level or Equivalent,0-35,180,0,1586,76.0,-0.018,0.06,Pass
+11284,DDD,F,East Anglia,Lower Than A Level,0-35,150,0,1390,53.4,0.145,0.12,Pass
+11285,EEE,M,East Anglia,Post Graduate Qualification,0-35,60,0,81,33.2,-0.248,0.49,Withdrawn
+11286,GGG,F,South Region,Lower Than A Level,0-35,90,0,2102,38.3,0.012,0.12,Pass
+11287,BBB,M,London,Lower Than A Level,0-35,150,0,113,29.7,-0.168,0.45,Withdrawn
+11288,FFF,M,North Western Region,Lower Than A Level,0-35,90,3,2865,95.1,0.114,0.12,Pass
+11289,EEE,F,East Anglia,Post Graduate Qualification,55<=,30,0,1733,47.6,0.014,0.14,Pass
+11290,BBB,M,East Anglia,No Formal quals,35-55,150,0,107,29.8,-0.099,0.61,Withdrawn
+11291,FFF,F,Scotland,A Level or Equivalent,35-55,90,0,355,18.2,-0.133,0.56,Withdrawn
+11292,EEE,M,North Western Region,A Level or Equivalent,35-55,60,1,1490,94.2,0.133,0.08,Distinction
+11293,AAA,F,South Region,Lower Than A Level,0-35,90,1,1734,35.9,0.026,0.08,Pass
+11294,EEE,M,London,Lower Than A Level,0-35,90,0,1349,91.9,0.131,0.05,Distinction
+11295,DDD,M,East Anglia,A Level or Equivalent,0-35,90,0,1038,58.4,0.302,0.09,Pass
+11296,AAA,M,North Western Region,HE Qualification,0-35,30,2,78,29.0,-0.289,0.55,Fail
+11297,AAA,M,North Western Region,Lower Than A Level,0-35,90,2,879,72.7,0.005,0.1,Pass
+11298,DDD,M,North Western Region,A Level or Equivalent,0-35,120,0,1192,44.4,0.048,0.19,Pass
+11299,AAA,M,South Region,Lower Than A Level,0-35,150,2,225,23.1,-0.207,0.68,Withdrawn
+11300,EEE,M,North Western Region,No Formal quals,0-35,90,0,1619,91.3,0.079,0.09,Distinction
+11301,AAA,F,West Midlands,A Level or Equivalent,0-35,90,0,716,71.4,0.025,0.09,Pass
+11302,DDD,F,East Anglia,A Level or Equivalent,35-55,180,0,2138,47.2,0.017,0.16,Fail
+11303,GGG,F,London,HE Qualification,0-35,150,0,2064,37.0,-0.037,0.07,Pass
+11304,EEE,F,West Midlands,A Level or Equivalent,55<=,60,2,710,52.4,0.299,0.22,Pass
+11305,BBB,F,North Western Region,A Level or Equivalent,55<=,30,0,2042,41.5,-0.028,0.07,Fail
+11306,AAA,F,South Region,A Level or Equivalent,0-35,180,0,1567,45.4,-0.002,0.11,Pass
+11307,EEE,M,South West Region,HE Qualification,35-55,90,1,1017,69.3,0.147,0.1,Pass
+11308,EEE,F,Scotland,No Formal quals,35-55,60,0,328,33.3,-0.22,0.48,Fail
+11309,DDD,F,Scotland,A Level or Equivalent,0-35,60,0,1136,57.3,0.063,0.18,Pass
+11310,GGG,F,West Midlands,Lower Than A Level,35-55,30,0,973,64.2,-0.005,0.14,Pass
+11311,GGG,F,South West Region,HE Qualification,35-55,60,0,706,70.4,0.031,0.14,Distinction
+11312,DDD,M,London,Lower Than A Level,55<=,120,0,1991,94.3,0.064,0.12,Pass
+11313,AAA,M,North Western Region,A Level or Equivalent,0-35,90,0,1049,49.2,-0.038,0.13,Fail
+11314,GGG,M,East Anglia,A Level or Equivalent,0-35,120,0,2708,82.4,0.056,0.02,Distinction
+11315,DDD,F,North Western Region,Lower Than A Level,35-55,120,1,440,38.3,-0.149,0.65,Withdrawn
+11316,EEE,M,South West Region,HE Qualification,35-55,120,1,764,61.6,0.334,0.09,Pass
+11317,AAA,F,West Midlands,A Level or Equivalent,0-35,60,0,791,76.6,0.075,0.1,Pass
+11318,BBB,M,Scotland,HE Qualification,0-35,120,0,1243,82.1,0.149,0.11,Distinction
+11319,AAA,M,London,A Level or Equivalent,0-35,120,0,1550,34.6,-0.016,0.15,Pass
+11320,AAA,M,South Region,A Level or Equivalent,35-55,150,0,750,71.7,-0.003,0.14,Pass
+11321,GGG,F,Scotland,A Level or Equivalent,55<=,30,0,754,60.4,0.0,0.09,Pass
+11322,DDD,M,South Region,HE Qualification,35-55,120,0,1964,79.5,0.128,0.08,Pass
+11323,GGG,M,London,A Level or Equivalent,0-35,120,0,1906,47.7,0.009,0.12,Fail
+11324,GGG,M,East Anglia,HE Qualification,0-35,30,1,2504,86.2,0.064,0.08,Distinction
+11325,FFF,M,North Western Region,HE Qualification,0-35,180,0,821,65.4,0.05,0.11,Distinction
+11326,BBB,F,West Midlands,HE Qualification,0-35,30,0,3414,80.9,0.106,0.04,Distinction
+11327,CCC,F,South West Region,Lower Than A Level,55<=,180,1,1495,62.7,0.079,0.19,Pass
+11328,DDD,M,South West Region,Lower Than A Level,35-55,60,0,1570,43.4,0.046,0.18,Fail
+11329,EEE,F,South Region,A Level or Equivalent,0-35,90,0,131,18.4,-0.074,0.78,Fail
+11330,EEE,M,South West Region,HE Qualification,0-35,180,0,1939,51.4,0.004,0.1,Fail
+11331,GGG,M,South West Region,Lower Than A Level,0-35,180,0,1529,72.3,-0.016,0.15,Pass
+11332,BBB,M,West Midlands,A Level or Equivalent,0-35,60,0,791,48.6,0.262,0.13,Pass
+11333,EEE,M,South West Region,A Level or Equivalent,55<=,120,0,1254,58.4,0.042,0.19,Pass
+11334,FFF,M,East Anglia,HE Qualification,0-35,150,0,639,67.0,0.242,0.2,Pass
+11335,FFF,M,South West Region,A Level or Equivalent,0-35,30,0,1279,69.5,0.203,0.25,Pass
+11336,EEE,F,South West Region,A Level or Equivalent,0-35,180,0,1254,59.0,0.055,0.18,Pass
+11337,BBB,F,North Western Region,A Level or Equivalent,0-35,90,1,1280,44.8,0.002,0.07,Fail
+11338,EEE,F,East Anglia,A Level or Equivalent,35-55,60,0,1186,70.4,0.198,0.11,Pass
+11339,FFF,F,South Region,A Level or Equivalent,0-35,120,0,998,52.0,0.252,0.15,Pass
+11340,GGG,M,Scotland,A Level or Equivalent,35-55,90,0,308,17.9,-0.137,0.53,Withdrawn
+11341,FFF,F,West Midlands,Lower Than A Level,0-35,150,0,1898,47.5,-0.043,0.09,Pass
+11342,CCC,M,South West Region,HE Qualification,35-55,30,1,3171,90.0,0.041,0.04,Pass
+11343,CCC,M,Scotland,HE Qualification,0-35,90,0,1033,61.8,-0.009,0.17,Pass
+11344,BBB,M,Scotland,A Level or Equivalent,0-35,120,0,318,17.6,-0.11,0.57,Withdrawn
+11345,AAA,F,East Anglia,Lower Than A Level,35-55,30,0,94,16.0,-0.244,0.58,Withdrawn
+11346,AAA,F,West Midlands,Lower Than A Level,35-55,60,0,2678,80.6,0.13,0.07,Pass
+11347,CCC,F,South Region,HE Qualification,35-55,150,1,269,26.2,-0.063,0.78,Withdrawn
+11348,DDD,F,West Midlands,A Level or Equivalent,0-35,60,0,311,24.1,-0.128,0.68,Withdrawn
+11349,CCC,F,Scotland,HE Qualification,0-35,180,1,1214,58.0,0.076,0.19,Fail
+11350,GGG,F,Scotland,No Formal quals,35-55,30,1,2456,85.5,0.05,0.08,Distinction
+11351,BBB,M,South West Region,HE Qualification,35-55,30,0,85,20.6,-0.253,0.59,Withdrawn
+11352,FFF,F,West Midlands,A Level or Equivalent,35-55,90,0,318,31.7,-0.234,0.66,Fail
+11353,BBB,F,East Anglia,A Level or Equivalent,35-55,120,0,1803,46.4,-0.042,0.12,Fail
+11354,BBB,F,East Anglia,A Level or Equivalent,35-55,60,1,771,67.1,0.061,0.08,Pass
+11355,GGG,M,South West Region,Lower Than A Level,35-55,60,0,1229,90.5,0.101,0.03,Distinction
+11356,AAA,M,North Western Region,Lower Than A Level,0-35,180,0,1245,58.8,0.027,0.13,Pass
+11357,DDD,M,East Anglia,Lower Than A Level,0-35,120,0,235,30.2,-0.27,0.42,Withdrawn
+11358,EEE,M,Scotland,Lower Than A Level,0-35,180,0,1373,67.7,0.053,0.11,Pass
+11359,BBB,F,London,A Level or Equivalent,0-35,120,0,1506,71.5,0.002,0.13,Pass
+11360,BBB,M,Scotland,Lower Than A Level,0-35,150,1,1121,75.3,0.076,0.16,Pass
+11361,FFF,M,South West Region,Lower Than A Level,0-35,60,0,2689,92.0,0.052,0.08,Pass
+11362,BBB,F,West Midlands,HE Qualification,0-35,30,0,1909,36.4,0.025,0.1,Fail
+11363,EEE,F,Scotland,HE Qualification,0-35,120,0,142,39.1,-0.169,0.77,Withdrawn
+11364,AAA,M,West Midlands,Lower Than A Level,0-35,30,0,2120,41.4,-0.011,0.13,Pass
+11365,DDD,F,South Region,A Level or Equivalent,0-35,150,0,1603,80.7,0.067,0.09,Distinction
+11366,AAA,M,South Region,No Formal quals,0-35,150,0,401,38.9,-0.194,0.6,Withdrawn
+11367,CCC,M,South West Region,A Level or Equivalent,35-55,90,0,942,69.7,0.019,0.06,Distinction
+11368,GGG,M,South Region,No Formal quals,55<=,60,1,2072,49.1,-0.005,0.07,Pass
+11369,GGG,M,South Region,HE Qualification,0-35,30,0,1885,93.6,0.115,0.08,Distinction
+11370,AAA,M,Scotland,Lower Than A Level,0-35,180,0,2004,96.2,0.095,0.12,Distinction
+11371,FFF,F,London,A Level or Equivalent,0-35,120,0,1821,80.3,0.04,0.11,Pass
+11372,DDD,F,North Western Region,HE Qualification,0-35,30,0,95,18.1,-0.235,0.4,Fail
+11373,AAA,M,West Midlands,A Level or Equivalent,0-35,180,0,320,35.5,-0.07,0.45,Withdrawn
+11374,FFF,M,London,Lower Than A Level,0-35,120,0,1266,41.1,0.034,0.19,Fail
+11375,AAA,M,East Anglia,HE Qualification,0-35,30,0,399,25.7,-0.193,0.81,Fail
+11376,EEE,F,South Region,Lower Than A Level,0-35,60,0,149,33.9,-0.24,0.83,Fail
+11377,GGG,M,East Anglia,A Level or Equivalent,35-55,60,0,1607,34.6,0.01,0.13,Pass
+11378,AAA,M,North Western Region,Lower Than A Level,0-35,120,1,2005,39.3,-0.04,0.21,Pass
+11379,AAA,F,London,HE Qualification,35-55,30,0,755,64.7,0.016,0.07,Pass
+11380,DDD,F,London,Lower Than A Level,0-35,120,0,1041,58.2,0.256,0.15,Pass
+11381,GGG,F,West Midlands,A Level or Equivalent,35-55,90,0,762,67.9,0.277,0.19,Pass
+11382,FFF,F,London,Lower Than A Level,0-35,150,0,1108,61.5,0.297,0.16,Pass
+11383,GGG,F,West Midlands,Lower Than A Level,0-35,180,0,991,64.8,-0.003,0.09,Pass
+11384,AAA,M,East Anglia,HE Qualification,0-35,30,0,1142,47.9,-0.013,0.06,Pass
+11385,FFF,F,West Midlands,Lower Than A Level,0-35,90,0,1863,86.5,0.026,0.02,Distinction
+11386,FFF,F,North Western Region,Lower Than A Level,0-35,180,0,762,65.7,-0.0,0.06,Pass
+11387,BBB,M,North Western Region,A Level or Equivalent,0-35,30,1,1243,76.9,0.029,0.08,Pass
+11388,AAA,M,London,No Formal quals,0-35,90,0,1627,40.9,0.011,0.15,Fail
+11389,BBB,M,West Midlands,No Formal quals,0-35,180,1,360,25.9,-0.103,0.81,Withdrawn
+11390,CCC,F,North Western Region,A Level or Equivalent,0-35,90,0,1183,46.0,-0.018,0.06,Fail
+11391,DDD,F,North Western Region,Lower Than A Level,55<=,180,0,109,16.4,-0.173,0.68,Withdrawn
+11392,CCC,M,London,A Level or Equivalent,0-35,60,0,669,67.7,0.249,0.2,Pass
+11393,FFF,F,West Midlands,No Formal quals,0-35,180,0,71,21.9,-0.167,0.37,Withdrawn
+11394,FFF,F,North Western Region,HE Qualification,0-35,120,0,1306,41.3,-0.023,0.07,Fail
+11395,EEE,F,London,A Level or Equivalent,0-35,30,0,750,66.2,0.037,0.09,Distinction
+11396,GGG,F,North Western Region,Lower Than A Level,35-55,150,0,2093,43.4,-0.065,0.15,Fail
+11397,AAA,F,South Region,HE Qualification,35-55,180,0,752,66.9,0.062,0.13,Pass
+11398,AAA,F,London,HE Qualification,35-55,180,0,371,22.0,-0.095,0.8,Withdrawn
+11399,GGG,M,South Region,A Level or Equivalent,35-55,150,0,2097,41.0,-0.061,0.07,Fail
+11400,AAA,F,South West Region,A Level or Equivalent,35-55,30,2,866,55.3,0.152,0.21,Pass
+11401,CCC,M,West Midlands,Post Graduate Qualification,55<=,90,0,1906,79.2,0.023,0.07,Distinction
+11402,CCC,F,South West Region,Lower Than A Level,35-55,60,0,2851,79.8,0.104,0.03,Distinction
+11403,DDD,F,East Anglia,Lower Than A Level,35-55,150,1,2806,89.6,0.15,0.11,Distinction
+11404,FFF,M,Scotland,No Formal quals,0-35,180,0,690,67.0,0.217,0.14,Pass
+11405,EEE,M,South Region,A Level or Equivalent,35-55,180,0,1440,63.7,-0.009,0.19,Pass
+11406,GGG,F,South Region,Lower Than A Level,0-35,150,1,194,37.5,-0.237,0.62,Fail
+11407,EEE,F,London,Lower Than A Level,0-35,60,0,3497,84.8,0.07,0.04,Pass
+11408,EEE,M,East Anglia,A Level or Equivalent,0-35,150,0,2075,51.2,0.021,0.1,Fail
+11409,FFF,M,West Midlands,No Formal quals,0-35,90,0,3359,86.9,0.095,0.06,Distinction
+11410,AAA,M,Scotland,Lower Than A Level,55<=,30,0,421,21.7,-0.152,0.84,Withdrawn
+11411,BBB,M,South West Region,A Level or Equivalent,0-35,120,0,949,52.5,0.177,0.24,Pass
+11412,EEE,M,North Western Region,Lower Than A Level,35-55,30,1,985,72.3,0.03,0.09,Pass
+11413,DDD,F,South West Region,No Formal quals,0-35,90,0,263,25.9,-0.331,0.73,Withdrawn
+11414,FFF,M,East Anglia,A Level or Equivalent,35-55,150,0,372,16.1,-0.188,0.8,Withdrawn
+11415,DDD,F,East Anglia,A Level or Equivalent,0-35,30,0,1568,77.9,0.059,0.18,Pass
+11416,DDD,F,Scotland,A Level or Equivalent,0-35,150,0,1315,71.4,0.211,0.19,Pass
+11417,EEE,F,West Midlands,Lower Than A Level,35-55,30,0,1542,48.1,-0.074,0.07,Pass
+11418,EEE,M,London,HE Qualification,35-55,90,0,1311,49.1,0.146,0.16,Pass
+11419,FFF,M,South Region,HE Qualification,0-35,150,1,1021,60.7,0.078,0.15,Pass
+11420,EEE,F,Scotland,A Level or Equivalent,0-35,120,0,2433,94.1,0.059,0.12,Distinction
+11421,AAA,F,North Western Region,Post Graduate Qualification,35-55,90,0,335,31.6,-0.221,0.56,Withdrawn
+11422,DDD,F,South Region,No Formal quals,35-55,90,0,300,35.4,-0.248,0.8,Withdrawn
+11423,GGG,F,East Anglia,Lower Than A Level,0-35,150,1,1735,82.9,0.122,0.05,Distinction
+11424,DDD,M,East Anglia,A Level or Equivalent,35-55,90,0,2824,90.7,0.098,0.05,Pass
+11425,AAA,F,South Region,HE Qualification,0-35,60,0,1417,58.8,0.342,0.16,Pass
+11426,CCC,F,South Region,HE Qualification,0-35,120,0,2350,92.2,0.033,0.06,Pass
+11427,EEE,F,West Midlands,HE Qualification,0-35,30,0,1149,48.4,0.229,0.17,Pass
+11428,FFF,F,West Midlands,Lower Than A Level,35-55,60,0,966,58.7,0.301,0.08,Pass
+11429,DDD,M,South West Region,A Level or Equivalent,0-35,60,0,850,71.8,0.072,0.06,Pass
+11430,BBB,F,Scotland,Lower Than A Level,0-35,150,0,322,16.3,-0.184,0.84,Withdrawn
+11431,CCC,F,West Midlands,Lower Than A Level,0-35,180,0,307,23.8,-0.274,0.75,Fail
+11432,CCC,M,London,A Level or Equivalent,0-35,90,0,1178,62.8,-0.005,0.08,Distinction
+11433,AAA,M,South Region,Lower Than A Level,35-55,120,0,1906,45.6,0.001,0.19,Pass
+11434,DDD,F,East Anglia,Lower Than A Level,35-55,180,0,300,19.6,-0.293,0.77,Withdrawn
+11435,FFF,M,East Anglia,Lower Than A Level,0-35,180,0,1037,44.1,-0.03,0.09,Pass
+11436,CCC,M,London,A Level or Equivalent,55<=,60,0,1196,37.3,0.036,0.11,Pass
+11437,CCC,M,London,HE Qualification,35-55,180,0,1711,40.8,-0.014,0.14,Pass
+11438,DDD,F,South Region,Lower Than A Level,0-35,180,2,1137,56.2,0.033,0.17,Distinction
+11439,FFF,M,North Western Region,A Level or Equivalent,0-35,180,0,2512,82.8,0.097,0.03,Distinction
+11440,EEE,F,East Anglia,A Level or Equivalent,0-35,150,0,1300,67.1,0.058,0.18,Pass
+11441,EEE,M,Scotland,Post Graduate Qualification,0-35,150,0,103,22.4,-0.215,0.42,Withdrawn
+11442,AAA,M,East Anglia,A Level or Equivalent,0-35,180,2,139,22.2,-0.079,0.77,Withdrawn
+11443,EEE,F,South Region,A Level or Equivalent,0-35,30,0,3451,88.0,0.071,0.1,Pass
+11444,EEE,M,South Region,A Level or Equivalent,0-35,30,0,1334,35.4,-0.064,0.19,Pass
+11445,BBB,M,London,No Formal quals,35-55,120,0,746,75.9,0.031,0.14,Pass
+11446,EEE,F,South West Region,A Level or Equivalent,0-35,30,1,1092,73.3,0.009,0.19,Pass
+11447,EEE,F,Scotland,A Level or Equivalent,0-35,30,0,297,22.5,-0.115,0.73,Withdrawn
+11448,BBB,M,Scotland,Lower Than A Level,35-55,150,0,1100,32.7,-0.054,0.18,Pass
+11449,GGG,F,South Region,No Formal quals,35-55,90,2,1202,57.1,0.312,0.14,Distinction
+11450,AAA,F,North Western Region,Post Graduate Qualification,35-55,120,0,2809,96.3,0.059,0.03,Distinction
+11451,GGG,M,Scotland,No Formal quals,0-35,90,0,2111,37.4,0.0,0.06,Fail
+11452,CCC,M,North Western Region,A Level or Equivalent,0-35,150,0,2062,43.3,-0.027,0.12,Fail
+11453,AAA,M,West Midlands,A Level or Equivalent,0-35,180,0,1398,70.2,0.029,0.14,Pass
+11454,CCC,F,South Region,A Level or Equivalent,35-55,150,0,1409,68.7,-0.007,0.19,Pass
+11455,FFF,F,North Western Region,HE Qualification,0-35,150,0,244,15.4,-0.057,0.63,Withdrawn
+11456,EEE,F,South Region,HE Qualification,35-55,90,0,820,65.6,0.026,0.16,Pass
+11457,BBB,F,Scotland,A Level or Equivalent,0-35,30,0,2029,34.9,-0.068,0.17,Fail
+11458,BBB,F,Scotland,Lower Than A Level,0-35,120,0,1820,33.1,0.012,0.22,Fail
+11459,FFF,F,Scotland,HE Qualification,0-35,150,0,1197,74.2,-0.015,0.12,Pass
+11460,AAA,M,South Region,HE Qualification,0-35,30,0,1403,79.3,0.072,0.11,Pass
+11461,DDD,F,London,A Level or Equivalent,0-35,60,0,140,28.6,-0.074,0.66,Fail
+11462,GGG,F,London,Lower Than A Level,0-35,180,2,143,19.3,-0.271,0.58,Withdrawn
+11463,DDD,M,North Western Region,HE Qualification,0-35,90,0,2639,96.9,0.103,0.1,Distinction
+11464,AAA,F,London,A Level or Equivalent,35-55,30,2,1545,35.7,-0.069,0.2,Fail
+11465,BBB,F,London,HE Qualification,0-35,30,0,2962,89.9,0.108,0.02,Distinction
+11466,FFF,M,West Midlands,A Level or Equivalent,0-35,180,0,1530,69.9,0.06,0.13,Pass
+11467,EEE,M,East Anglia,HE Qualification,0-35,150,0,1384,50.8,0.312,0.09,Pass
+11468,FFF,M,North Western Region,Lower Than A Level,0-35,150,0,1342,66.6,0.128,0.14,Pass
+11469,GGG,F,South Region,A Level or Equivalent,0-35,90,0,1409,65.5,0.221,0.17,Distinction
+11470,BBB,F,East Anglia,HE Qualification,0-35,30,0,1258,65.0,0.055,0.12,Pass
+11471,BBB,F,Scotland,HE Qualification,0-35,150,0,2133,85.7,0.148,0.11,Pass
+11472,CCC,F,South Region,A Level or Equivalent,0-35,30,0,983,71.2,0.019,0.12,Pass
+11473,AAA,F,North Western Region,Lower Than A Level,0-35,180,1,2007,50.7,0.037,0.11,Pass
+11474,FFF,F,South West Region,No Formal quals,55<=,30,1,1541,97.9,0.08,0.07,Distinction
+11475,EEE,M,South Region,Lower Than A Level,0-35,120,0,1925,81.4,0.023,0.09,Distinction
+11476,BBB,F,East Anglia,HE Qualification,0-35,30,0,684,64.0,0.162,0.23,Pass
+11477,EEE,F,East Anglia,Post Graduate Qualification,0-35,120,0,1003,33.6,-0.066,0.09,Fail
+11478,BBB,F,East Anglia,A Level or Equivalent,35-55,90,0,947,48.8,0.185,0.24,Pass
+11479,GGG,F,South West Region,Lower Than A Level,0-35,150,0,1325,65.8,0.275,0.19,Distinction
+11480,FFF,M,London,No Formal quals,0-35,180,0,1391,65.3,0.167,0.23,Pass
+11481,CCC,F,South Region,HE Qualification,35-55,120,0,1482,33.3,-0.009,0.16,Fail
+11482,BBB,F,West Midlands,A Level or Equivalent,0-35,150,0,174,39.6,-0.144,0.52,Withdrawn
+11483,DDD,M,London,Lower Than A Level,55<=,150,2,1278,86.0,0.076,0.11,Pass
+11484,AAA,M,West Midlands,A Level or Equivalent,0-35,90,0,1394,51.9,-0.015,0.17,Pass
+11485,BBB,M,West Midlands,HE Qualification,0-35,180,2,930,55.5,0.019,0.12,Pass
+11486,GGG,M,Scotland,Lower Than A Level,0-35,180,0,3220,82.3,0.069,0.05,Pass
+11487,BBB,F,London,A Level or Equivalent,0-35,150,0,1286,71.2,-0.005,0.17,Pass
+11488,GGG,M,London,No Formal quals,35-55,150,0,1031,68.1,0.131,0.12,Pass
+11489,EEE,F,West Midlands,Lower Than A Level,0-35,30,0,925,73.3,0.042,0.05,Distinction
+11490,CCC,F,Scotland,HE Qualification,55<=,150,0,1562,49.1,0.032,0.06,Fail
+11491,EEE,F,Scotland,Lower Than A Level,0-35,60,0,141,36.5,-0.085,0.42,Withdrawn
+11492,EEE,M,London,Lower Than A Level,55<=,30,0,3022,80.3,0.124,0.1,Distinction
+11493,GGG,M,South Region,Lower Than A Level,35-55,60,0,421,32.8,-0.33,0.8,Withdrawn
+11494,AAA,F,South West Region,No Formal quals,0-35,30,0,307,26.8,-0.189,0.52,Withdrawn
+11495,FFF,F,West Midlands,A Level or Equivalent,35-55,120,0,1681,43.1,-0.074,0.06,Fail
+11496,CCC,M,North Western Region,A Level or Equivalent,35-55,150,1,2737,90.2,0.04,0.11,Distinction
+11497,BBB,F,Scotland,Post Graduate Qualification,0-35,30,0,741,52.0,0.293,0.11,Pass
+11498,EEE,M,West Midlands,Lower Than A Level,0-35,60,0,660,54.0,0.184,0.16,Pass
+11499,BBB,M,South West Region,HE Qualification,35-55,30,0,968,61.9,0.283,0.2,Pass
+11500,FFF,M,South Region,No Formal quals,0-35,30,0,126,20.9,-0.311,0.71,Withdrawn
+11501,GGG,M,South West Region,HE Qualification,0-35,180,0,1377,51.1,0.142,0.14,Pass
+11502,CCC,F,South Region,No Formal quals,55<=,30,0,168,40.2,-0.218,0.58,Withdrawn
+11503,EEE,M,West Midlands,A Level or Equivalent,0-35,30,0,2125,33.8,0.009,0.19,Fail
+11504,AAA,F,Scotland,A Level or Equivalent,0-35,60,0,823,50.9,0.301,0.12,Pass
+11505,FFF,F,London,A Level or Equivalent,0-35,60,0,153,40.3,-0.224,0.36,Withdrawn
+11506,DDD,F,East Anglia,A Level or Equivalent,55<=,120,0,70,25.3,-0.14,0.81,Withdrawn
+11507,EEE,F,Scotland,A Level or Equivalent,0-35,90,0,203,32.7,-0.218,0.57,Fail
+11508,FFF,F,West Midlands,HE Qualification,35-55,150,0,2743,81.3,0.045,0.1,Distinction
+11509,DDD,M,London,Lower Than A Level,0-35,60,0,1603,50.8,-0.008,0.1,Fail
+11510,AAA,M,West Midlands,A Level or Equivalent,35-55,150,2,2175,50.6,-0.061,0.09,Pass
+11511,GGG,M,South West Region,A Level or Equivalent,35-55,90,0,1390,49.7,0.014,0.21,Pass
+11512,DDD,M,Scotland,A Level or Equivalent,0-35,60,0,907,76.8,-0.017,0.15,Pass
+11513,FFF,F,East Anglia,A Level or Equivalent,0-35,30,0,239,38.3,-0.116,0.55,Fail
+11514,FFF,F,North Western Region,Lower Than A Level,0-35,150,0,187,34.5,-0.067,0.81,Withdrawn
+11515,BBB,F,South Region,A Level or Equivalent,0-35,90,0,1208,66.6,0.208,0.22,Pass
+11516,CCC,M,London,Lower Than A Level,0-35,30,0,1186,56.0,0.313,0.19,Distinction
+11517,EEE,M,East Anglia,Lower Than A Level,35-55,150,0,240,30.5,-0.231,0.77,Withdrawn
+11518,GGG,M,London,A Level or Equivalent,55<=,60,0,351,41.7,-0.27,0.54,Fail
+11519,CCC,M,South West Region,Post Graduate Qualification,35-55,150,0,130,40.4,-0.105,0.5,Withdrawn
+11520,CCC,M,South West Region,HE Qualification,0-35,120,0,165,17.8,-0.078,0.8,Withdrawn
+11521,FFF,M,North Western Region,HE Qualification,35-55,60,0,2708,92.6,0.078,0.11,Distinction
+11522,CCC,M,South Region,A Level or Equivalent,55<=,90,0,3270,94.0,0.054,0.1,Distinction
+11523,FFF,F,London,Lower Than A Level,0-35,60,1,1292,48.6,0.242,0.22,Distinction
+11524,GGG,M,South Region,HE Qualification,0-35,60,0,1031,64.4,-0.001,0.05,Pass
+11525,AAA,M,East Anglia,A Level or Equivalent,0-35,60,1,664,48.6,0.335,0.14,Pass
+11526,AAA,M,London,HE Qualification,0-35,180,0,2466,81.7,0.08,0.1,Distinction
+11527,DDD,M,West Midlands,Lower Than A Level,55<=,180,0,161,35.6,-0.191,0.66,Withdrawn
+11528,BBB,M,South Region,Lower Than A Level,0-35,90,0,2800,81.5,0.114,0.08,Distinction
+11529,FFF,F,East Anglia,Lower Than A Level,0-35,90,2,1580,70.2,0.001,0.09,Pass
+11530,FFF,F,South Region,A Level or Equivalent,0-35,150,0,2376,85.3,0.082,0.09,Pass
+11531,GGG,M,East Anglia,A Level or Equivalent,0-35,120,0,971,41.4,-0.068,0.06,Fail
+11532,AAA,M,North Western Region,A Level or Equivalent,35-55,30,0,152,25.3,-0.32,0.6,Withdrawn
+11533,AAA,F,South West Region,HE Qualification,35-55,150,0,1294,61.4,0.341,0.2,Distinction
+11534,DDD,F,South West Region,HE Qualification,0-35,90,0,1032,65.2,0.006,0.07,Fail
+11535,BBB,M,South Region,Post Graduate Qualification,35-55,150,0,2396,83.1,0.04,0.08,Distinction
+11536,FFF,M,South West Region,HE Qualification,55<=,180,1,2648,86.1,0.069,0.1,Distinction
+11537,CCC,M,Scotland,A Level or Equivalent,35-55,60,1,1880,49.3,-0.048,0.2,Pass
+11538,AAA,F,North Western Region,A Level or Equivalent,0-35,30,1,2491,82.6,0.093,0.05,Distinction
+11539,EEE,F,South Region,No Formal quals,35-55,60,0,1434,88.2,0.057,0.06,Distinction
+11540,FFF,F,South West Region,A Level or Equivalent,0-35,180,0,1070,62.3,0.037,0.17,Distinction
+11541,FFF,M,Scotland,Lower Than A Level,55<=,90,0,1600,38.6,-0.045,0.15,Fail
+11542,EEE,F,West Midlands,Post Graduate Qualification,0-35,120,0,889,56.4,0.06,0.17,Pass
+11543,BBB,F,South Region,A Level or Equivalent,0-35,180,0,1567,81.0,0.03,0.04,Distinction
+11544,FFF,F,West Midlands,A Level or Equivalent,0-35,180,0,3343,87.5,0.03,0.06,Pass
+11545,BBB,M,East Anglia,A Level or Equivalent,35-55,60,0,1482,55.7,0.076,0.15,Fail
+11546,EEE,F,South West Region,A Level or Equivalent,0-35,180,1,1301,61.7,0.331,0.2,Pass
+11547,EEE,M,South West Region,HE Qualification,0-35,60,0,2084,44.7,-0.056,0.07,Pass
+11548,AAA,M,Scotland,HE Qualification,35-55,120,1,989,67.9,0.026,0.19,Pass
+11549,FFF,M,London,Lower Than A Level,55<=,120,0,1381,72.5,0.03,0.09,Pass
+11550,DDD,F,London,A Level or Equivalent,0-35,90,0,863,68.6,0.128,0.15,Pass
+11551,FFF,M,North Western Region,Lower Than A Level,0-35,120,2,2162,35.7,-0.02,0.06,Fail
+11552,EEE,F,South Region,A Level or Equivalent,0-35,90,0,2115,41.3,-0.079,0.11,Pass
+11553,EEE,M,North Western Region,A Level or Equivalent,0-35,90,0,2486,90.3,0.139,0.08,Distinction
+11554,EEE,F,West Midlands,A Level or Equivalent,35-55,120,0,1038,72.3,0.067,0.19,Pass
+11555,BBB,F,South West Region,Lower Than A Level,0-35,90,0,1317,68.5,0.055,0.09,Pass
+11556,GGG,F,Scotland,A Level or Equivalent,0-35,150,1,185,15.5,-0.122,0.77,Fail
+11557,BBB,M,South Region,No Formal quals,0-35,120,0,420,40.2,-0.054,0.68,Withdrawn
+11558,GGG,F,London,Lower Than A Level,0-35,30,3,278,18.5,-0.143,0.41,Withdrawn
+11559,AAA,F,Scotland,Lower Than A Level,35-55,90,0,1745,39.4,-0.019,0.15,Fail
+11560,BBB,M,South Region,No Formal quals,0-35,150,0,765,58.4,0.041,0.13,Distinction
+11561,BBB,F,London,Lower Than A Level,0-35,180,1,1102,74.9,0.033,0.14,Pass
+11562,EEE,F,South West Region,A Level or Equivalent,0-35,30,0,1525,56.8,0.037,0.08,Pass
+11563,FFF,F,West Midlands,Lower Than A Level,0-35,90,0,774,60.1,0.034,0.11,Distinction
+11564,CCC,M,South Region,HE Qualification,0-35,180,0,2218,81.9,0.079,0.04,Distinction
+11565,FFF,M,London,Lower Than A Level,35-55,180,0,1711,47.6,-0.01,0.05,Fail
+11566,FFF,F,South West Region,A Level or Equivalent,0-35,90,0,1002,35.1,0.025,0.07,Fail
+11567,DDD,F,Scotland,Lower Than A Level,0-35,30,0,79,19.2,-0.189,0.75,Withdrawn
+11568,AAA,M,South Region,HE Qualification,0-35,90,0,1159,72.3,0.053,0.16,Pass
+11569,BBB,M,South Region,A Level or Equivalent,0-35,60,0,2552,86.0,0.149,0.04,Pass
+11570,BBB,M,South Region,Lower Than A Level,0-35,120,0,1776,47.7,-0.033,0.19,Fail
+11571,DDD,M,East Anglia,A Level or Equivalent,0-35,90,0,138,22.5,-0.239,0.38,Fail
+11572,BBB,M,South West Region,A Level or Equivalent,35-55,120,0,2309,92.3,0.144,0.03,Distinction
+11573,CCC,F,London,HE Qualification,35-55,180,0,616,50.2,0.285,0.24,Pass
+11574,BBB,F,London,HE Qualification,0-35,180,0,388,38.8,-0.211,0.74,Withdrawn
+11575,DDD,F,Scotland,HE Qualification,0-35,150,0,1274,50.5,-0.073,0.11,Fail
+11576,EEE,F,South Region,HE Qualification,0-35,60,0,82,19.9,-0.255,0.37,Fail
+11577,GGG,F,North Western Region,A Level or Equivalent,0-35,180,0,1201,50.9,-0.017,0.16,Fail
+11578,GGG,M,East Anglia,Lower Than A Level,0-35,30,2,3075,97.3,0.025,0.09,Pass
+11579,EEE,F,East Anglia,HE Qualification,0-35,180,1,675,58.9,0.131,0.22,Pass
+11580,AAA,M,West Midlands,Lower Than A Level,0-35,150,0,1264,44.0,0.016,0.2,Pass
+11581,AAA,M,South Region,Lower Than A Level,0-35,120,0,1270,65.5,-0.004,0.1,Pass
+11582,BBB,M,North Western Region,Lower Than A Level,35-55,180,1,1683,49.0,-0.055,0.08,Fail
+11583,FFF,M,South Region,Post Graduate Qualification,0-35,120,1,206,28.6,-0.194,0.6,Withdrawn
+11584,CCC,M,Scotland,A Level or Equivalent,35-55,30,1,1673,47.3,0.009,0.06,Fail
+11585,CCC,M,East Anglia,A Level or Equivalent,0-35,150,0,1137,69.6,0.001,0.19,Pass
+11586,CCC,F,South Region,Lower Than A Level,0-35,120,0,131,39.6,-0.18,0.36,Withdrawn
+11587,DDD,F,West Midlands,Lower Than A Level,35-55,60,0,1442,76.3,-0.005,0.09,Pass
+11588,GGG,F,South Region,No Formal quals,0-35,90,0,255,21.3,-0.277,0.68,Fail
+11589,FFF,F,South Region,HE Qualification,35-55,180,0,2967,85.5,0.064,0.05,Distinction
+11590,FFF,F,London,Lower Than A Level,35-55,60,0,70,16.2,-0.178,0.78,Withdrawn
+11591,GGG,M,London,HE Qualification,0-35,60,0,450,17.1,-0.125,0.61,Fail
+11592,AAA,F,West Midlands,Lower Than A Level,0-35,120,0,905,69.4,0.144,0.18,Pass
+11593,CCC,M,North Western Region,Lower Than A Level,0-35,60,1,987,47.9,-0.057,0.21,Fail
+11594,DDD,F,South West Region,A Level or Equivalent,0-35,90,0,248,32.2,-0.265,0.79,Fail
+11595,GGG,M,West Midlands,A Level or Equivalent,0-35,90,0,1777,92.3,0.077,0.03,Distinction
+11596,BBB,M,Scotland,A Level or Equivalent,0-35,60,0,1130,37.6,-0.017,0.14,Fail
+11597,GGG,M,London,A Level or Equivalent,0-35,60,1,1324,68.7,0.041,0.14,Pass
+11598,FFF,M,West Midlands,A Level or Equivalent,0-35,150,0,1142,64.7,-0.018,0.15,Pass
+11599,AAA,M,London,Lower Than A Level,0-35,60,0,1105,59.3,-0.01,0.1,Pass
+11600,GGG,M,Scotland,Lower Than A Level,0-35,60,0,2655,89.1,0.041,0.06,Pass
+11601,BBB,M,London,A Level or Equivalent,0-35,120,0,1146,76.5,0.066,0.08,Pass
+11602,BBB,F,South West Region,HE Qualification,55<=,60,1,1464,56.9,0.014,0.07,Pass
+11603,EEE,F,South Region,A Level or Equivalent,0-35,120,0,711,48.0,0.137,0.11,Pass
+11604,BBB,M,South Region,A Level or Equivalent,0-35,180,0,1358,39.0,-0.056,0.18,Fail
+11605,AAA,F,Scotland,A Level or Equivalent,35-55,180,0,1093,59.8,0.142,0.09,Pass
+11606,FFF,F,East Anglia,A Level or Equivalent,0-35,150,0,186,21.7,-0.327,0.41,Withdrawn
+11607,DDD,M,North Western Region,HE Qualification,35-55,90,2,1573,67.3,0.005,0.15,Pass
+11608,DDD,M,South West Region,A Level or Equivalent,55<=,180,0,1077,71.0,0.062,0.13,Pass
+11609,EEE,F,West Midlands,HE Qualification,0-35,120,0,2114,43.3,0.044,0.11,Pass
+11610,CCC,F,South West Region,A Level or Equivalent,35-55,180,0,1292,86.9,0.102,0.03,Distinction
+11611,DDD,F,London,HE Qualification,0-35,120,0,2033,47.6,-0.021,0.17,Fail
+11612,EEE,F,South West Region,A Level or Equivalent,0-35,120,0,798,67.3,0.304,0.22,Pass
+11613,DDD,M,Scotland,HE Qualification,0-35,180,0,1295,67.3,0.033,0.2,Pass
+11614,EEE,M,Scotland,Lower Than A Level,0-35,150,0,1707,49.5,-0.038,0.08,Fail
+11615,AAA,M,North Western Region,Lower Than A Level,0-35,120,0,1025,32.4,-0.009,0.1,Fail
+11616,CCC,M,East Anglia,Lower Than A Level,0-35,150,0,1381,73.5,0.013,0.1,Pass
+11617,EEE,M,West Midlands,A Level or Equivalent,0-35,180,3,1751,51.7,-0.049,0.08,Fail
+11618,GGG,F,London,No Formal quals,0-35,180,0,1395,64.3,0.039,0.18,Pass
+11619,FFF,M,London,HE Qualification,55<=,120,0,2057,35.8,-0.023,0.14,Fail
+11620,CCC,F,North Western Region,A Level or Equivalent,0-35,120,1,1269,50.8,0.229,0.15,Pass
+11621,AAA,M,London,A Level or Equivalent,0-35,90,1,2145,83.4,0.058,0.11,Distinction
+11622,EEE,M,North Western Region,A Level or Equivalent,35-55,120,0,1438,70.0,0.158,0.24,Pass
+11623,GGG,M,London,Lower Than A Level,0-35,150,0,1022,76.4,0.057,0.08,Distinction
+11624,AAA,M,Scotland,Lower Than A Level,35-55,180,0,730,60.9,0.011,0.19,Pass
+11625,CCC,F,Scotland,A Level or Equivalent,0-35,90,0,168,29.4,-0.256,0.59,Withdrawn
+11626,BBB,F,Scotland,A Level or Equivalent,0-35,60,0,355,16.5,-0.128,0.55,Fail
+11627,AAA,M,South West Region,HE Qualification,0-35,180,0,1106,51.8,0.298,0.17,Pass
+11628,BBB,F,West Midlands,Lower Than A Level,35-55,150,0,1384,62.0,0.048,0.1,Pass
+11629,CCC,M,North Western Region,Lower Than A Level,0-35,120,0,1472,79.1,0.139,0.07,Distinction
+11630,CCC,F,West Midlands,Lower Than A Level,0-35,90,0,1074,69.7,0.016,0.07,Pass
+11631,EEE,F,London,HE Qualification,35-55,30,0,1525,77.5,0.026,0.09,Distinction
+11632,EEE,M,London,Lower Than A Level,0-35,150,0,1242,60.0,-0.012,0.17,Pass
+11633,BBB,M,North Western Region,HE Qualification,0-35,150,0,3480,79.4,0.123,0.07,Distinction
+11634,AAA,F,East Anglia,A Level or Equivalent,0-35,180,0,1155,70.9,0.021,0.17,Pass
+11635,CCC,M,North Western Region,HE Qualification,35-55,30,0,1119,39.1,0.009,0.08,Pass
+11636,DDD,F,London,A Level or Equivalent,0-35,120,1,1714,43.8,-0.072,0.1,Pass
+11637,DDD,M,West Midlands,A Level or Equivalent,0-35,120,0,1049,56.2,0.039,0.14,Pass
+11638,AAA,M,London,A Level or Equivalent,0-35,120,0,2158,94.7,0.109,0.05,Distinction
+11639,AAA,F,South West Region,A Level or Equivalent,35-55,60,0,1453,76.6,0.058,0.09,Pass
+11640,GGG,F,West Midlands,A Level or Equivalent,0-35,90,1,936,63.2,0.251,0.21,Pass
+11641,EEE,M,East Anglia,A Level or Equivalent,0-35,30,0,2003,44.2,0.037,0.19,Fail
+11642,GGG,M,Scotland,A Level or Equivalent,0-35,150,1,783,65.6,0.073,0.16,Pass
+11643,CCC,F,East Anglia,Lower Than A Level,0-35,60,0,131,29.1,-0.233,0.61,Withdrawn
+11644,FFF,M,South West Region,No Formal quals,0-35,90,0,108,35.9,-0.177,0.65,Fail
+11645,GGG,M,Scotland,HE Qualification,0-35,30,1,1883,94.7,0.078,0.08,Distinction
+11646,BBB,F,North Western Region,A Level or Equivalent,0-35,90,0,210,35.1,-0.188,0.36,Fail
+11647,FFF,M,East Anglia,HE Qualification,0-35,60,0,1697,80.4,0.051,0.08,Distinction
+11648,GGG,M,East Anglia,A Level or Equivalent,0-35,60,0,824,60.6,0.023,0.14,Pass
+11649,CCC,M,East Anglia,A Level or Equivalent,0-35,90,0,203,20.7,-0.212,0.55,Fail
+11650,FFF,F,South Region,A Level or Equivalent,0-35,120,0,1943,46.4,-0.028,0.09,Pass
+11651,GGG,M,South West Region,No Formal quals,0-35,90,2,1461,71.3,0.141,0.19,Pass
+11652,FFF,M,London,A Level or Equivalent,35-55,120,0,890,63.2,0.059,0.07,Pass
+11653,BBB,F,South West Region,A Level or Equivalent,35-55,150,1,886,65.5,0.066,0.13,Pass
+11654,GGG,F,North Western Region,No Formal quals,35-55,90,0,2244,83.1,0.126,0.09,Distinction
+11655,AAA,F,Scotland,A Level or Equivalent,0-35,150,1,1513,40.2,-0.045,0.22,Fail
+11656,AAA,M,South West Region,A Level or Equivalent,0-35,120,2,1784,87.7,0.047,0.03,Pass
+11657,GGG,M,Scotland,A Level or Equivalent,35-55,120,0,167,31.0,-0.112,0.81,Withdrawn
+11658,EEE,M,North Western Region,A Level or Equivalent,0-35,180,1,907,43.4,-0.057,0.14,Fail
+11659,EEE,F,East Anglia,Lower Than A Level,0-35,90,0,442,23.9,-0.125,0.58,Fail
+11660,AAA,F,Scotland,HE Qualification,0-35,120,1,722,66.9,0.294,0.22,Pass
+11661,GGG,M,South Region,Lower Than A Level,0-35,150,0,1119,59.8,0.246,0.16,Pass
+11662,EEE,M,South West Region,Lower Than A Level,0-35,120,0,98,21.3,-0.347,0.36,Fail
+11663,CCC,M,West Midlands,HE Qualification,35-55,30,0,1745,85.0,0.122,0.12,Pass
+11664,AAA,M,East Anglia,HE Qualification,35-55,150,0,1822,41.2,-0.079,0.18,Pass
+11665,AAA,F,South West Region,A Level or Equivalent,35-55,30,0,2720,98.0,0.051,0.08,Distinction
+11666,EEE,F,South West Region,A Level or Equivalent,0-35,180,1,2334,88.9,0.081,0.08,Distinction
+11667,DDD,M,South West Region,A Level or Equivalent,0-35,150,0,1082,56.8,0.03,0.09,Pass
+11668,CCC,M,Scotland,HE Qualification,35-55,180,0,810,67.3,0.042,0.06,Pass
+11669,EEE,F,London,A Level or Equivalent,0-35,120,0,1818,45.9,-0.058,0.21,Pass
+11670,AAA,M,West Midlands,Lower Than A Level,35-55,120,1,838,56.6,0.016,0.11,Pass
+11671,AAA,M,Scotland,A Level or Equivalent,0-35,30,0,839,62.7,0.06,0.19,Pass
+11672,DDD,M,West Midlands,A Level or Equivalent,0-35,30,0,1583,80.2,0.09,0.06,Distinction
+11673,EEE,F,London,A Level or Equivalent,0-35,60,0,179,23.5,-0.073,0.74,Fail
+11674,GGG,M,North Western Region,Lower Than A Level,0-35,30,0,2251,84.1,0.073,0.12,Distinction
+11675,BBB,F,Scotland,HE Qualification,35-55,60,0,2827,78.3,0.065,0.04,Distinction
+11676,GGG,M,South Region,Post Graduate Qualification,35-55,180,0,1524,46.8,-0.022,0.19,Fail
+11677,DDD,M,South Region,A Level or Equivalent,0-35,180,0,1734,87.4,0.03,0.07,Pass
+11678,FFF,M,South West Region,Lower Than A Level,35-55,180,0,1129,39.6,-0.063,0.07,Fail
+11679,CCC,M,South Region,HE Qualification,0-35,120,3,425,31.4,-0.189,0.56,Withdrawn
+11680,DDD,F,South Region,Lower Than A Level,0-35,30,1,1451,38.2,-0.046,0.14,Pass
+11681,GGG,M,West Midlands,Lower Than A Level,0-35,90,0,1075,40.7,-0.074,0.12,Fail
+11682,GGG,M,North Western Region,A Level or Equivalent,35-55,60,1,167,22.5,-0.269,0.57,Withdrawn
+11683,AAA,M,London,Lower Than A Level,55<=,120,0,851,71.4,-0.019,0.06,Pass
+11684,FFF,F,South West Region,HE Qualification,0-35,30,0,1599,59.8,0.002,0.06,Pass
+11685,EEE,F,South Region,HE Qualification,35-55,120,0,2153,32.1,-0.013,0.15,Fail
+11686,AAA,M,Scotland,Lower Than A Level,35-55,30,0,97,25.4,-0.124,0.66,Fail
+11687,BBB,F,South Region,HE Qualification,35-55,150,0,1191,65.4,0.29,0.19,Pass
+11688,EEE,F,Scotland,A Level or Equivalent,35-55,30,2,330,26.5,-0.05,0.54,Withdrawn
+11689,AAA,F,South West Region,Lower Than A Level,0-35,30,0,1156,56.9,-0.01,0.18,Pass
+11690,FFF,F,South West Region,Lower Than A Level,0-35,150,2,718,59.3,0.006,0.18,Pass
+11691,CCC,M,Scotland,HE Qualification,0-35,120,0,1288,69.0,0.005,0.14,Pass
+11692,GGG,F,North Western Region,A Level or Equivalent,35-55,30,0,1265,94.2,0.112,0.07,Distinction
+11693,EEE,M,South Region,A Level or Equivalent,0-35,150,1,701,58.4,0.069,0.07,Pass
+11694,EEE,M,North Western Region,Lower Than A Level,0-35,60,0,233,32.2,-0.292,0.51,Fail
+11695,BBB,F,North Western Region,No Formal quals,0-35,60,0,1173,70.8,0.247,0.14,Pass
+11696,FFF,F,London,A Level or Equivalent,35-55,90,0,2828,80.3,0.024,0.07,Distinction
+11697,AAA,F,North Western Region,A Level or Equivalent,0-35,60,0,1838,33.7,-0.068,0.2,Fail
+11698,BBB,M,West Midlands,A Level or Equivalent,35-55,120,0,1320,91.1,0.054,0.07,Distinction
+11699,DDD,F,North Western Region,HE Qualification,0-35,180,1,209,25.3,-0.336,0.79,Fail
+11700,BBB,F,North Western Region,Post Graduate Qualification,35-55,90,0,709,62.9,0.197,0.08,Pass
+11701,FFF,M,South West Region,Lower Than A Level,35-55,90,0,1763,33.7,0.05,0.14,Pass
+11702,CCC,M,South West Region,A Level or Equivalent,35-55,180,2,703,66.7,0.065,0.16,Pass
+11703,CCC,F,South Region,HE Qualification,0-35,30,2,1805,49.7,-0.027,0.14,Fail
+11704,GGG,F,East Anglia,A Level or Equivalent,0-35,30,0,1325,39.2,-0.075,0.22,Pass
+11705,EEE,F,West Midlands,A Level or Equivalent,55<=,60,0,978,73.7,0.011,0.1,Pass
+11706,FFF,F,West Midlands,Lower Than A Level,0-35,30,0,1417,44.1,0.018,0.08,Pass
+11707,GGG,M,London,Post Graduate Qualification,35-55,90,1,1080,47.3,-0.067,0.17,Fail
+11708,BBB,M,West Midlands,Lower Than A Level,0-35,180,0,1045,70.6,0.059,0.13,Distinction
+11709,GGG,M,South West Region,Lower Than A Level,0-35,150,1,1729,40.1,0.033,0.05,Fail
+11710,GGG,M,London,Lower Than A Level,0-35,90,0,1471,33.6,0.014,0.09,Pass
+11711,FFF,F,London,Lower Than A Level,35-55,150,0,172,28.4,-0.32,0.71,Fail
+11712,DDD,M,London,Lower Than A Level,0-35,180,0,2027,48.6,0.001,0.21,Pass
+11713,AAA,F,London,HE Qualification,0-35,120,1,1468,70.9,0.055,0.14,Pass
+11714,FFF,F,London,HE Qualification,0-35,180,0,759,66.3,0.336,0.2,Pass
+11715,GGG,M,South West Region,A Level or Equivalent,0-35,180,0,1077,67.7,0.196,0.14,Pass
+11716,AAA,M,South Region,Post Graduate Qualification,0-35,90,0,61,27.8,-0.3,0.61,Fail
+11717,DDD,M,North Western Region,Lower Than A Level,0-35,30,0,1125,57.4,-0.017,0.15,Pass
+11718,EEE,F,East Anglia,Lower Than A Level,35-55,180,0,374,41.7,-0.275,0.6,Withdrawn
+11719,BBB,F,Scotland,HE Qualification,0-35,120,0,1228,81.6,0.057,0.02,Distinction
+11720,EEE,F,East Anglia,A Level or Equivalent,35-55,150,0,2252,91.4,0.058,0.1,Distinction
+11721,DDD,M,South Region,Post Graduate Qualification,0-35,150,0,1216,64.1,0.208,0.14,Pass
+11722,DDD,F,London,A Level or Equivalent,0-35,180,0,1406,57.7,0.038,0.2,Distinction
+11723,FFF,M,London,Lower Than A Level,35-55,120,1,248,17.0,-0.206,0.35,Withdrawn
+11724,AAA,F,East Anglia,Lower Than A Level,35-55,180,0,3404,95.3,0.095,0.05,Pass
+11725,EEE,M,South Region,No Formal quals,0-35,30,0,1052,48.3,-0.039,0.09,Pass
+11726,CCC,M,North Western Region,A Level or Equivalent,0-35,180,0,997,64.3,0.059,0.08,Distinction
+11727,EEE,F,South Region,Lower Than A Level,0-35,30,0,439,22.5,-0.2,0.48,Fail
+11728,DDD,F,East Anglia,Post Graduate Qualification,0-35,60,0,1483,76.0,-0.009,0.13,Pass
+11729,DDD,F,Scotland,HE Qualification,0-35,150,0,1937,34.0,-0.033,0.08,Fail
+11730,FFF,M,East Anglia,A Level or Equivalent,0-35,60,0,857,61.8,0.009,0.16,Distinction
+11731,CCC,F,North Western Region,HE Qualification,0-35,30,0,727,65.6,-0.014,0.13,Pass
+11732,DDD,F,East Anglia,A Level or Equivalent,0-35,180,0,1440,56.4,-0.01,0.1,Fail
+11733,EEE,M,East Anglia,Lower Than A Level,0-35,30,1,1564,46.1,0.007,0.12,Pass
+11734,BBB,F,Scotland,HE Qualification,0-35,150,0,3046,81.7,0.087,0.05,Distinction
+11735,DDD,F,Scotland,Lower Than A Level,0-35,120,0,1476,95.2,0.112,0.11,Distinction
+11736,EEE,F,North Western Region,A Level or Equivalent,0-35,150,0,1041,65.3,0.312,0.18,Pass
+11737,FFF,M,East Anglia,Lower Than A Level,35-55,150,3,1378,35.5,0.01,0.18,Fail
+11738,CCC,M,Scotland,HE Qualification,35-55,150,0,1291,64.6,-0.012,0.19,Pass
+11739,DDD,F,Scotland,HE Qualification,0-35,180,0,1161,56.3,0.027,0.14,Pass
+11740,FFF,F,Scotland,Lower Than A Level,0-35,30,0,173,37.4,-0.192,0.42,Withdrawn
+11741,BBB,F,South West Region,HE Qualification,0-35,60,0,139,40.5,-0.306,0.4,Fail
+11742,GGG,F,East Anglia,A Level or Equivalent,35-55,120,0,709,58.2,0.133,0.13,Pass
+11743,EEE,F,London,Lower Than A Level,35-55,120,0,1083,59.0,-0.01,0.11,Pass
+11744,BBB,M,South Region,No Formal quals,0-35,120,3,1413,61.2,0.142,0.25,Pass
+11745,FFF,F,Scotland,A Level or Equivalent,0-35,120,0,280,27.5,-0.084,0.36,Withdrawn
+11746,AAA,F,South Region,A Level or Equivalent,35-55,90,0,898,62.0,0.168,0.15,Pass
+11747,CCC,F,North Western Region,A Level or Equivalent,35-55,120,0,1154,65.0,0.004,0.13,Pass
+11748,EEE,M,South West Region,A Level or Equivalent,35-55,90,0,1230,65.5,0.308,0.17,Pass
+11749,EEE,M,South West Region,A Level or Equivalent,0-35,180,0,142,29.6,-0.324,0.8,Withdrawn
+11750,DDD,M,Scotland,A Level or Equivalent,0-35,150,1,2963,92.4,0.079,0.08,Pass
+11751,DDD,M,West Midlands,A Level or Equivalent,0-35,60,0,1466,69.4,0.017,0.12,Pass
+11752,GGG,F,Scotland,HE Qualification,0-35,120,3,61,19.6,-0.186,0.68,Fail
+11753,EEE,M,West Midlands,No Formal quals,0-35,30,1,203,38.8,-0.279,0.37,Withdrawn
+11754,EEE,M,West Midlands,Lower Than A Level,35-55,90,2,877,55.2,-0.003,0.1,Pass
+11755,GGG,F,South West Region,HE Qualification,0-35,30,0,831,71.7,0.185,0.22,Pass
+11756,AAA,M,East Anglia,A Level or Equivalent,0-35,150,1,1502,59.8,-0.001,0.17,Pass
+11757,BBB,F,East Anglia,Lower Than A Level,35-55,150,0,3401,78.5,0.093,0.09,Pass
+11758,BBB,M,South Region,HE Qualification,35-55,90,0,79,27.0,-0.25,0.65,Withdrawn
+11759,GGG,M,London,Lower Than A Level,0-35,120,0,3083,84.2,0.068,0.04,Pass
+11760,DDD,M,West Midlands,HE Qualification,0-35,30,0,950,62.9,0.303,0.18,Pass
+11761,DDD,M,South West Region,Lower Than A Level,0-35,60,0,2934,95.1,0.056,0.05,Distinction
+11762,EEE,F,Scotland,A Level or Equivalent,35-55,60,0,1035,50.9,0.306,0.12,Pass
+11763,EEE,M,South West Region,A Level or Equivalent,0-35,90,0,1450,81.8,0.112,0.03,Distinction
+11764,GGG,F,Scotland,No Formal quals,0-35,60,0,1630,84.0,0.107,0.02,Pass
+11765,DDD,F,South West Region,Lower Than A Level,0-35,60,0,117,19.1,-0.322,0.62,Fail
+11766,CCC,F,South West Region,HE Qualification,35-55,150,0,607,55.3,0.245,0.16,Pass
+11767,FFF,F,East Anglia,A Level or Equivalent,55<=,60,0,2043,40.6,-0.068,0.2,Fail
+11768,BBB,F,North Western Region,A Level or Equivalent,35-55,120,0,941,63.3,0.301,0.14,Pass
+11769,BBB,M,East Anglia,Lower Than A Level,0-35,120,0,59,35.0,-0.27,0.59,Fail
+11770,GGG,M,Scotland,Lower Than A Level,0-35,180,1,91,36.2,-0.232,0.63,Withdrawn
+11771,GGG,F,London,HE Qualification,0-35,90,0,1730,35.4,0.035,0.1,Pass
+11772,DDD,M,West Midlands,HE Qualification,35-55,180,0,136,36.4,-0.276,0.49,Withdrawn
+11773,EEE,M,West Midlands,No Formal quals,0-35,180,0,1551,71.0,-0.016,0.11,Pass
+11774,GGG,F,East Anglia,HE Qualification,55<=,90,0,1188,74.2,0.045,0.05,Pass
+11775,AAA,M,South West Region,HE Qualification,0-35,60,0,1334,59.1,-0.004,0.18,Pass
+11776,EEE,M,North Western Region,HE Qualification,35-55,120,2,747,59.1,0.272,0.13,Pass
+11777,AAA,F,East Anglia,HE Qualification,0-35,120,1,923,71.3,0.051,0.1,Pass
+11778,CCC,M,North Western Region,Lower Than A Level,0-35,30,0,850,74.7,0.047,0.08,Distinction
+11779,BBB,F,London,No Formal quals,35-55,150,0,272,23.1,-0.068,0.71,Withdrawn
+11780,CCC,F,London,HE Qualification,0-35,60,0,1695,42.5,-0.018,0.12,Fail
+11781,AAA,F,East Anglia,A Level or Equivalent,35-55,150,0,992,48.4,0.034,0.19,Fail
+11782,GGG,F,London,A Level or Equivalent,0-35,30,1,1330,68.0,-0.003,0.15,Pass
+11783,BBB,F,West Midlands,Lower Than A Level,0-35,90,0,924,61.2,0.023,0.1,Pass
+11784,GGG,F,West Midlands,Lower Than A Level,0-35,30,0,445,29.5,-0.126,0.54,Fail
+11785,DDD,M,Scotland,A Level or Equivalent,0-35,150,0,82,32.6,-0.056,0.35,Withdrawn
+11786,EEE,F,South West Region,HE Qualification,0-35,90,0,985,60.4,0.058,0.14,Distinction
+11787,AAA,M,North Western Region,A Level or Equivalent,0-35,120,0,1363,69.6,0.054,0.09,Pass
+11788,EEE,F,Scotland,Lower Than A Level,0-35,180,0,1824,48.9,0.045,0.11,Fail
+11789,DDD,F,South Region,A Level or Equivalent,0-35,60,0,1400,49.6,0.272,0.23,Pass
+11790,CCC,M,London,Lower Than A Level,0-35,180,0,55,36.0,-0.258,0.37,Withdrawn
+11791,GGG,F,London,Lower Than A Level,0-35,120,0,1045,75.7,0.003,0.09,Pass
+11792,DDD,M,South Region,No Formal quals,0-35,120,0,2857,87.4,0.123,0.11,Distinction
+11793,BBB,M,South West Region,Lower Than A Level,0-35,120,1,1066,44.3,0.02,0.13,Fail
+11794,DDD,F,South Region,A Level or Equivalent,0-35,150,1,3128,93.0,0.094,0.04,Distinction
+11795,BBB,F,North Western Region,No Formal quals,35-55,180,0,2439,89.4,0.038,0.03,Distinction
+11796,CCC,F,East Anglia,A Level or Equivalent,0-35,120,0,1116,64.0,-0.001,0.06,Pass
+11797,GGG,M,West Midlands,HE Qualification,35-55,30,0,1194,62.0,0.296,0.17,Pass
+11798,FFF,M,North Western Region,Lower Than A Level,0-35,180,0,808,66.5,0.174,0.1,Pass
+11799,AAA,F,East Anglia,HE Qualification,0-35,60,0,730,59.7,0.05,0.13,Fail
+11800,BBB,M,South West Region,HE Qualification,55<=,90,0,939,34.3,-0.033,0.15,Fail
+11801,DDD,M,North Western Region,A Level or Equivalent,0-35,90,1,702,63.5,0.08,0.13,Fail
+11802,CCC,M,West Midlands,HE Qualification,35-55,90,0,755,71.0,0.058,0.15,Distinction
+11803,AAA,F,South West Region,A Level or Equivalent,0-35,150,1,2743,97.1,0.055,0.04,Distinction
+11804,FFF,M,London,A Level or Equivalent,35-55,150,1,1946,33.9,-0.08,0.21,Fail
+11805,AAA,F,London,HE Qualification,55<=,120,0,1396,82.1,0.087,0.07,Distinction
+11806,GGG,M,North Western Region,Lower Than A Level,0-35,60,0,878,70.0,0.057,0.17,Distinction
+11807,CCC,M,South West Region,HE Qualification,0-35,150,0,1594,51.0,-0.056,0.16,Fail
+11808,AAA,M,North Western Region,A Level or Equivalent,0-35,150,0,247,38.2,-0.299,0.59,Withdrawn
+11809,AAA,M,West Midlands,Lower Than A Level,0-35,150,0,1917,97.9,0.075,0.09,Pass
+11810,CCC,F,South Region,Lower Than A Level,0-35,180,0,1584,52.0,0.008,0.2,Fail
+11811,AAA,M,London,A Level or Equivalent,0-35,180,1,1864,91.2,0.069,0.06,Distinction
+11812,AAA,M,South Region,A Level or Equivalent,0-35,60,0,1162,64.3,0.062,0.16,Pass
+11813,DDD,F,London,Lower Than A Level,35-55,60,0,2462,78.8,0.066,0.09,Distinction
+11814,EEE,M,South West Region,A Level or Equivalent,0-35,90,0,716,77.3,0.067,0.17,Pass
+11815,EEE,M,London,A Level or Equivalent,35-55,120,3,1078,61.4,0.051,0.11,Fail
+11816,BBB,M,North Western Region,No Formal quals,0-35,120,0,1983,40.2,-0.004,0.07,Fail
+11817,EEE,F,East Anglia,HE Qualification,35-55,60,0,790,62.5,0.209,0.11,Pass
+11818,EEE,M,London,A Level or Equivalent,0-35,120,2,1735,35.5,0.036,0.11,Fail
+11819,EEE,M,West Midlands,HE Qualification,0-35,180,0,1469,67.7,0.028,0.2,Pass
+11820,DDD,F,North Western Region,A Level or Equivalent,0-35,120,0,2243,88.5,0.026,0.11,Pass
+11821,EEE,M,London,Lower Than A Level,0-35,180,0,93,19.2,-0.312,0.35,Withdrawn
+11822,AAA,F,Scotland,No Formal quals,55<=,180,0,1560,69.2,0.055,0.06,Pass
+11823,FFF,M,East Anglia,No Formal quals,0-35,150,0,717,59.7,0.061,0.12,Pass
+11824,FFF,F,South Region,No Formal quals,0-35,120,0,246,23.0,-0.127,0.68,Fail
+11825,CCC,M,Scotland,A Level or Equivalent,35-55,60,0,1044,74.1,-0.017,0.19,Fail
+11826,DDD,M,West Midlands,HE Qualification,0-35,150,0,1182,70.6,0.31,0.17,Distinction
+11827,GGG,M,South West Region,Post Graduate Qualification,0-35,150,0,3140,91.2,0.052,0.11,Distinction
+11828,DDD,F,London,HE Qualification,0-35,90,2,2389,95.0,0.021,0.04,Pass
+11829,DDD,F,London,A Level or Equivalent,0-35,30,0,1333,62.3,0.02,0.05,Pass
+11830,DDD,M,South West Region,Lower Than A Level,0-35,90,0,1475,68.2,0.046,0.19,Pass
+11831,CCC,M,West Midlands,Lower Than A Level,0-35,60,0,1449,59.2,0.009,0.2,Pass
+11832,DDD,F,West Midlands,A Level or Equivalent,35-55,120,0,1247,64.6,-0.007,0.08,Fail
+11833,AAA,F,North Western Region,Lower Than A Level,35-55,150,0,734,77.5,0.049,0.18,Fail
+11834,AAA,F,South West Region,Lower Than A Level,35-55,150,0,2640,85.7,0.146,0.02,Pass
+11835,EEE,F,West Midlands,No Formal quals,0-35,180,0,98,23.7,-0.099,0.48,Fail
+11836,EEE,F,South West Region,A Level or Equivalent,0-35,30,1,3214,94.4,0.02,0.05,Distinction
+11837,GGG,M,South West Region,Lower Than A Level,35-55,30,0,1379,54.0,0.332,0.2,Pass
+11838,AAA,M,South West Region,Lower Than A Level,0-35,60,0,70,21.4,-0.238,0.76,Withdrawn
+11839,FFF,F,South West Region,Post Graduate Qualification,35-55,180,0,1210,39.8,-0.06,0.17,Pass
+11840,DDD,F,South West Region,A Level or Equivalent,0-35,60,0,1127,58.0,-0.014,0.08,Fail
+11841,CCC,F,East Anglia,No Formal quals,35-55,30,0,299,16.1,-0.134,0.65,Withdrawn
+11842,AAA,M,London,Post Graduate Qualification,35-55,150,0,2355,95.3,0.03,0.04,Pass
+11843,BBB,F,North Western Region,Lower Than A Level,0-35,90,0,1602,35.3,-0.028,0.08,Pass
+11844,EEE,F,London,Lower Than A Level,0-35,180,0,1274,84.3,0.098,0.07,Distinction
+11845,DDD,F,Scotland,A Level or Equivalent,0-35,180,0,322,33.3,-0.146,0.42,Withdrawn
+11846,BBB,M,North Western Region,HE Qualification,0-35,180,0,1594,46.6,-0.005,0.12,Fail
+11847,GGG,F,North Western Region,Lower Than A Level,0-35,60,0,242,39.9,-0.241,0.84,Withdrawn
+11848,DDD,M,South West Region,A Level or Equivalent,0-35,90,0,1818,32.1,0.038,0.14,Pass
+11849,GGG,M,North Western Region,Lower Than A Level,0-35,60,0,1380,80.6,0.089,0.08,Distinction
+11850,DDD,F,East Anglia,No Formal quals,0-35,30,0,744,68.6,0.079,0.06,Pass
+11851,FFF,M,South Region,A Level or Equivalent,0-35,90,0,1842,47.1,-0.006,0.17,Pass
+11852,GGG,M,West Midlands,A Level or Equivalent,0-35,120,0,1992,40.6,-0.063,0.21,Pass
+11853,GGG,F,Scotland,A Level or Equivalent,0-35,90,2,1180,32.9,-0.043,0.14,Fail
+11854,FFF,F,Scotland,Lower Than A Level,0-35,150,0,2022,43.9,-0.035,0.11,Pass
+11855,GGG,F,East Anglia,Lower Than A Level,55<=,60,1,1659,35.0,-0.016,0.13,Pass
+11856,DDD,F,London,Lower Than A Level,35-55,30,1,208,29.6,-0.341,0.36,Withdrawn
+11857,FFF,M,East Anglia,A Level or Equivalent,35-55,30,0,764,63.4,0.017,0.06,Fail
+11858,FFF,M,London,A Level or Equivalent,35-55,180,2,1528,57.2,0.022,0.1,Pass
+11859,AAA,F,South Region,Lower Than A Level,0-35,60,0,1152,68.0,-0.014,0.11,Pass
+11860,FFF,F,South Region,Lower Than A Level,35-55,180,1,1197,49.3,0.286,0.1,Distinction
+11861,AAA,F,North Western Region,Post Graduate Qualification,35-55,180,0,1038,63.9,-0.008,0.09,Distinction
+11862,FFF,F,Scotland,A Level or Equivalent,0-35,120,0,3119,79.0,0.044,0.04,Distinction
+11863,DDD,F,East Anglia,A Level or Equivalent,0-35,60,1,101,30.2,-0.301,0.65,Withdrawn
+11864,BBB,M,South Region,HE Qualification,0-35,180,0,1505,70.7,0.001,0.2,Pass
+11865,CCC,M,South Region,HE Qualification,35-55,90,0,2817,96.7,0.136,0.07,Distinction
+11866,EEE,M,Scotland,Lower Than A Level,0-35,60,0,164,34.5,-0.09,0.68,Withdrawn
+11867,BBB,M,London,A Level or Equivalent,0-35,30,0,1366,47.2,-0.057,0.1,Pass
+11868,CCC,F,South West Region,Lower Than A Level,0-35,60,1,3179,84.6,0.062,0.03,Pass
+11869,FFF,F,South Region,HE Qualification,0-35,120,0,2147,44.4,-0.054,0.21,Pass
+11870,AAA,F,East Anglia,Lower Than A Level,0-35,180,0,271,41.8,-0.133,0.43,Withdrawn
+11871,DDD,F,North Western Region,Lower Than A Level,35-55,120,1,969,51.1,-0.028,0.1,Fail
+11872,GGG,F,London,Lower Than A Level,0-35,60,0,2482,81.4,0.085,0.05,Distinction
+11873,AAA,M,South West Region,A Level or Equivalent,35-55,180,0,876,48.4,0.269,0.15,Pass
+11874,CCC,M,North Western Region,A Level or Equivalent,0-35,150,1,270,37.4,-0.346,0.37,Fail
+11875,BBB,F,South West Region,HE Qualification,35-55,120,1,260,34.7,-0.265,0.57,Withdrawn
+11876,DDD,M,London,A Level or Equivalent,0-35,150,0,1892,47.0,0.029,0.17,Fail
+11877,EEE,M,Scotland,A Level or Equivalent,35-55,120,0,211,37.0,-0.346,0.49,Fail
+11878,FFF,M,South Region,HE Qualification,35-55,120,0,2111,97.5,0.053,0.06,Distinction
+11879,BBB,M,South West Region,HE Qualification,0-35,150,0,833,54.0,0.121,0.09,Pass
+11880,DDD,M,South Region,HE Qualification,35-55,150,0,1209,61.9,0.063,0.19,Pass
+11881,DDD,F,South West Region,A Level or Equivalent,0-35,150,0,1163,36.1,-0.012,0.14,Fail
+11882,CCC,F,London,A Level or Equivalent,0-35,180,0,407,34.5,-0.177,0.54,Withdrawn
+11883,FFF,F,North Western Region,No Formal quals,35-55,150,0,975,68.0,0.06,0.08,Pass
+11884,BBB,M,East Anglia,A Level or Equivalent,35-55,60,0,75,37.7,-0.332,0.79,Withdrawn
+11885,DDD,F,South Region,No Formal quals,0-35,90,1,400,28.7,-0.065,0.52,Fail
+11886,EEE,F,Scotland,Lower Than A Level,35-55,120,0,776,54.1,0.219,0.08,Pass
+11887,EEE,F,Scotland,A Level or Equivalent,35-55,150,1,758,63.2,0.021,0.1,Pass
+11888,BBB,M,Scotland,HE Qualification,0-35,150,0,1003,55.1,0.06,0.17,Pass
+11889,DDD,F,London,A Level or Equivalent,0-35,90,1,423,16.7,-0.344,0.47,Withdrawn
+11890,EEE,F,East Anglia,HE Qualification,0-35,60,0,877,56.0,0.049,0.16,Pass
+11891,FFF,M,London,Post Graduate Qualification,35-55,90,0,1384,68.3,0.038,0.11,Pass
+11892,EEE,F,West Midlands,A Level or Equivalent,35-55,150,1,2317,84.7,0.04,0.05,Distinction
+11893,DDD,F,West Midlands,No Formal quals,0-35,30,0,1488,63.7,0.049,0.09,Pass
+11894,AAA,F,North Western Region,A Level or Equivalent,55<=,150,0,2579,89.7,0.102,0.07,Distinction
+11895,DDD,M,South Region,A Level or Equivalent,0-35,60,0,72,36.6,-0.059,0.53,Withdrawn
+11896,GGG,M,Scotland,A Level or Equivalent,0-35,30,0,128,16.1,-0.321,0.72,Fail
+11897,DDD,F,West Midlands,A Level or Equivalent,0-35,90,2,2464,79.3,0.137,0.09,Pass
+11898,FFF,M,South Region,No Formal quals,0-35,180,0,1964,49.5,0.011,0.19,Pass
+11899,EEE,F,South Region,Lower Than A Level,35-55,60,2,1454,69.8,0.052,0.11,Pass
+11900,CCC,M,North Western Region,A Level or Equivalent,0-35,150,0,277,20.2,-0.349,0.55,Fail
+11901,BBB,M,Scotland,Lower Than A Level,35-55,30,0,1503,47.6,0.035,0.19,Fail
+11902,EEE,F,North Western Region,A Level or Equivalent,0-35,30,1,841,51.2,0.287,0.12,Pass
+11903,DDD,M,South Region,HE Qualification,0-35,180,1,2954,84.3,0.055,0.1,Distinction
+11904,FFF,F,London,A Level or Equivalent,0-35,120,2,1431,33.4,0.023,0.12,Pass
+11905,BBB,M,East Anglia,HE Qualification,0-35,150,0,433,20.7,-0.196,0.53,Withdrawn
+11906,DDD,M,West Midlands,A Level or Equivalent,0-35,150,0,1243,40.1,-0.009,0.14,Fail
+11907,DDD,F,South Region,A Level or Equivalent,35-55,30,0,854,60.5,0.02,0.07,Pass
+11908,FFF,M,South West Region,HE Qualification,35-55,150,1,1216,50.6,0.004,0.14,Fail
+11909,GGG,M,West Midlands,HE Qualification,35-55,30,0,1111,63.9,0.056,0.19,Pass
+11910,AAA,M,North Western Region,A Level or Equivalent,0-35,60,0,3466,90.1,0.05,0.05,Distinction
+11911,FFF,F,South West Region,Lower Than A Level,35-55,30,0,1130,66.3,0.026,0.14,Distinction
+11912,GGG,M,South Region,Lower Than A Level,35-55,30,1,1457,57.3,-0.003,0.17,Distinction
+11913,BBB,M,Scotland,Lower Than A Level,0-35,180,1,1392,75.8,0.016,0.15,Pass
+11914,EEE,M,West Midlands,Lower Than A Level,35-55,90,0,1221,67.4,-0.01,0.06,Pass
+11915,DDD,M,South West Region,HE Qualification,0-35,60,1,1412,55.7,0.131,0.15,Distinction
+11916,AAA,F,South West Region,HE Qualification,35-55,150,0,348,32.2,-0.086,0.58,Withdrawn
+11917,AAA,M,South Region,A Level or Equivalent,0-35,180,0,998,61.1,0.078,0.14,Pass
+11918,GGG,M,East Anglia,HE Qualification,35-55,120,2,83,26.7,-0.069,0.66,Withdrawn
+11919,GGG,F,West Midlands,A Level or Equivalent,35-55,90,0,1163,71.2,-0.004,0.19,Pass
+11920,FFF,F,South Region,Lower Than A Level,0-35,150,0,738,58.1,0.063,0.1,Pass
+11921,FFF,F,South West Region,Lower Than A Level,35-55,60,0,2727,79.4,0.065,0.09,Distinction
+11922,EEE,F,East Anglia,A Level or Equivalent,35-55,60,0,291,34.1,-0.233,0.71,Withdrawn
+11923,FFF,F,West Midlands,Lower Than A Level,0-35,180,0,362,18.1,-0.331,0.35,Withdrawn
+11924,BBB,M,London,A Level or Equivalent,0-35,150,0,1487,49.8,-0.067,0.18,Pass
+11925,CCC,F,North Western Region,A Level or Equivalent,0-35,150,0,1897,48.2,-0.043,0.18,Pass
+11926,GGG,M,West Midlands,A Level or Equivalent,35-55,60,2,64,36.9,-0.223,0.78,Withdrawn
+11927,FFF,M,West Midlands,A Level or Equivalent,0-35,180,1,1972,86.3,0.079,0.03,Distinction
+11928,DDD,F,North Western Region,Post Graduate Qualification,0-35,90,0,884,52.2,0.339,0.09,Pass
+11929,GGG,M,South Region,A Level or Equivalent,55<=,90,0,1048,50.0,-0.053,0.12,Fail
+11930,BBB,F,North Western Region,A Level or Equivalent,35-55,30,0,773,62.5,0.044,0.09,Pass
+11931,CCC,F,London,A Level or Equivalent,0-35,90,0,1104,75.9,0.023,0.1,Distinction
+11932,DDD,M,London,A Level or Equivalent,0-35,60,0,2661,92.7,0.104,0.11,Distinction
+11933,CCC,M,South West Region,Lower Than A Level,35-55,120,1,794,61.9,-0.016,0.08,Distinction
+11934,GGG,F,London,Post Graduate Qualification,35-55,90,0,156,37.5,-0.115,0.49,Withdrawn
+11935,FFF,F,West Midlands,A Level or Equivalent,0-35,150,1,700,61.9,0.056,0.19,Pass
+11936,CCC,F,North Western Region,A Level or Equivalent,35-55,90,0,1549,59.6,0.016,0.07,Pass
+11937,EEE,F,West Midlands,A Level or Equivalent,0-35,90,0,1233,83.8,0.096,0.05,Distinction
+11938,FFF,F,North Western Region,Lower Than A Level,0-35,180,0,752,56.4,0.052,0.13,Fail
+11939,AAA,F,South Region,A Level or Equivalent,0-35,30,0,1247,64.5,0.043,0.19,Pass
+11940,GGG,M,West Midlands,A Level or Equivalent,0-35,180,0,1766,38.0,-0.037,0.13,Pass
+11941,FFF,M,South Region,HE Qualification,35-55,180,0,1338,49.7,0.337,0.11,Pass
+11942,AAA,F,London,Lower Than A Level,0-35,60,2,1043,77.5,0.049,0.1,Pass
+11943,FFF,F,East Anglia,Lower Than A Level,0-35,30,0,63,25.9,-0.206,0.4,Withdrawn
+11944,CCC,M,London,Lower Than A Level,35-55,120,1,1457,66.9,-0.007,0.18,Pass
+11945,AAA,F,South Region,HE Qualification,0-35,60,0,2747,80.8,0.024,0.12,Distinction
+11946,GGG,M,East Anglia,Lower Than A Level,35-55,90,0,1289,57.3,0.003,0.08,Pass
+11947,DDD,M,East Anglia,Lower Than A Level,0-35,150,0,260,33.3,-0.25,0.46,Withdrawn
+11948,DDD,F,East Anglia,HE Qualification,0-35,120,0,3297,86.6,0.045,0.04,Distinction
+11949,GGG,F,South Region,A Level or Equivalent,0-35,180,0,1440,53.8,0.272,0.17,Pass
+11950,BBB,F,East Anglia,Lower Than A Level,0-35,30,0,2771,97.6,0.073,0.1,Distinction
+11951,AAA,F,North Western Region,HE Qualification,0-35,60,0,1354,66.8,0.042,0.11,Pass
+11952,CCC,F,East Anglia,Post Graduate Qualification,0-35,120,1,1226,37.8,-0.023,0.22,Pass
+11953,GGG,F,North Western Region,A Level or Equivalent,35-55,90,0,1735,34.5,0.002,0.18,Fail
+11954,CCC,M,South Region,Lower Than A Level,35-55,180,0,1306,58.5,-0.01,0.12,Pass
+11955,DDD,F,South Region,A Level or Equivalent,0-35,60,0,1375,61.6,0.035,0.13,Pass
+11956,FFF,M,North Western Region,HE Qualification,0-35,150,0,2108,44.8,0.0,0.18,Fail
+11957,GGG,M,North Western Region,Lower Than A Level,35-55,180,2,2812,95.9,0.087,0.04,Distinction
+11958,AAA,M,London,A Level or Equivalent,0-35,60,0,870,72.8,0.057,0.19,Pass
+11959,EEE,F,East Anglia,A Level or Equivalent,0-35,180,0,995,65.6,0.252,0.1,Distinction
+11960,CCC,F,East Anglia,Lower Than A Level,35-55,120,0,984,74.3,0.055,0.2,Pass
+11961,DDD,F,Scotland,HE Qualification,0-35,60,0,1466,76.4,0.066,0.14,Distinction
+11962,AAA,M,North Western Region,HE Qualification,0-35,180,0,1271,44.8,0.011,0.12,Pass
+11963,DDD,M,West Midlands,A Level or Equivalent,55<=,30,0,829,53.2,0.171,0.1,Pass
+11964,DDD,M,South Region,Lower Than A Level,35-55,30,0,176,30.3,-0.268,0.64,Fail
+11965,AAA,M,South Region,Lower Than A Level,55<=,60,0,1887,45.1,-0.053,0.17,Fail
+11966,AAA,F,London,HE Qualification,0-35,180,0,86,38.4,-0.202,0.46,Withdrawn
+11967,CCC,M,London,A Level or Equivalent,55<=,150,0,1070,47.4,-0.074,0.1,Fail
+11968,BBB,M,South Region,A Level or Equivalent,35-55,120,1,1013,70.0,0.35,0.21,Pass
+11969,EEE,M,South Region,Lower Than A Level,0-35,60,0,937,55.3,0.18,0.11,Pass
+11970,CCC,M,London,A Level or Equivalent,35-55,150,2,1608,82.1,0.091,0.03,Distinction
+11971,DDD,M,East Anglia,A Level or Equivalent,0-35,120,0,450,34.0,-0.175,0.5,Fail
+11972,AAA,M,Scotland,HE Qualification,35-55,30,0,1168,67.3,0.14,0.1,Pass
+11973,EEE,F,East Anglia,A Level or Equivalent,0-35,120,1,2072,97.4,0.082,0.07,Distinction
+11974,CCC,F,South Region,A Level or Equivalent,0-35,30,0,1517,44.3,-0.066,0.22,Pass
+11975,EEE,F,South Region,Lower Than A Level,0-35,90,0,2172,79.6,0.064,0.05,Distinction
+11976,FFF,F,South West Region,Lower Than A Level,0-35,150,0,871,78.0,-0.002,0.15,Pass
+11977,AAA,M,South Region,A Level or Equivalent,0-35,180,1,1077,62.0,0.257,0.18,Pass
+11978,CCC,F,North Western Region,A Level or Equivalent,0-35,150,0,2712,80.1,0.149,0.09,Distinction
+11979,DDD,F,South West Region,HE Qualification,0-35,90,0,849,74.6,-0.002,0.15,Pass
+11980,BBB,F,North Western Region,Lower Than A Level,35-55,120,0,1594,55.2,-0.018,0.06,Pass
+11981,FFF,F,London,HE Qualification,0-35,120,0,1031,68.7,0.18,0.21,Pass
+11982,GGG,M,London,No Formal quals,0-35,120,0,1456,51.8,0.025,0.07,Pass
+11983,BBB,M,North Western Region,A Level or Equivalent,0-35,180,0,1511,70.2,-0.006,0.07,Pass
+11984,BBB,M,Scotland,No Formal quals,0-35,90,1,1633,52.0,-0.003,0.1,Pass
+11985,AAA,M,South West Region,HE Qualification,0-35,150,1,1500,57.3,-0.008,0.09,Pass
+11986,GGG,F,South Region,Lower Than A Level,35-55,120,1,3373,89.8,0.14,0.02,Pass
+11987,CCC,M,South West Region,A Level or Equivalent,35-55,120,0,3102,88.5,0.024,0.11,Distinction
+11988,AAA,M,Scotland,Lower Than A Level,0-35,180,2,779,69.1,0.067,0.07,Pass
+11989,GGG,M,South West Region,Lower Than A Level,0-35,120,0,1343,58.0,-0.016,0.06,Pass
+11990,EEE,M,London,A Level or Equivalent,35-55,120,2,951,45.5,-0.05,0.14,Fail
+11991,FFF,M,London,Lower Than A Level,35-55,180,1,945,73.9,0.02,0.14,Pass
+11992,CCC,F,Scotland,HE Qualification,35-55,150,0,942,42.9,-0.044,0.15,Fail
+11993,GGG,F,West Midlands,Post Graduate Qualification,0-35,30,0,856,67.0,0.06,0.11,Pass
+11994,FFF,M,North Western Region,Lower Than A Level,0-35,60,0,1154,75.6,-0.012,0.1,Pass
+11995,AAA,M,North Western Region,A Level or Equivalent,0-35,150,1,2665,82.4,0.023,0.05,Distinction
+11996,DDD,M,South West Region,A Level or Equivalent,0-35,90,0,305,38.2,-0.296,0.75,Fail
+11997,EEE,F,South West Region,Lower Than A Level,35-55,90,0,704,72.6,0.007,0.12,Pass
+11998,AAA,F,Scotland,Lower Than A Level,35-55,150,0,1545,41.2,0.03,0.15,Pass
+11999,BBB,F,West Midlands,HE Qualification,0-35,90,0,944,77.9,0.001,0.15,Pass
+12000,CCC,F,Scotland,Lower Than A Level,0-35,30,0,1185,42.5,-0.051,0.1,Fail

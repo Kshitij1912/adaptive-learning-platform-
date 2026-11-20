@@ -1,0 +1,81 @@
+{
+  "version": "dev-v1",
+  "trained_on": "dev_standin",
+  "features": [
+    "week",
+    "clicks_cum",
+    "clicks_week",
+    "clicks_trend",
+    "active_ratio",
+    "inactivity_streak",
+    "engagement",
+    "n_assessments",
+    "avg_score",
+    "last_score",
+    "score_trend",
+    "score_missing"
+  ],
+  "cluster_features": [
+    "engagement",
+    "avg_score",
+    "score_trend",
+    "active_ratio",
+    "inactivity_streak"
+  ],
+  "classes": [
+    "Distinction",
+    "Fail",
+    "Pass",
+    "Withdrawn"
+  ],
+  "cluster_labels": {
+    "0": "Low engagement, at risk",
+    "1": "High engagement, strong scores",
+    "2": "Low engagement, at risk (B)",
+    "3": "High engagement, strong scores (B)"
+  },
+  "weeks": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    12,
+    16,
+    20,
+    24
+  ],
+  "n_enrollments": 3000,
+  "n_rows": 33000,
+  "seed": 42,
+  "metrics": {
+    "classifier": {
+      "holdout_accuracy": 0.6126,
+      "holdout_macro_f1": 0.4656,
+      "majority_baseline_accuracy": 0.675,
+      "accuracy_by_week": {
+        "1": 0.46,
+        "2": 0.5467,
+        "3": 0.56,
+        "4": 0.5833,
+        "6": 0.555,
+        "8": 0.595,
+        "10": 0.6167,
+        "12": 0.6367,
+        "16": 0.6917,
+        "20": 0.735,
+        "24": 0.7583
+      }
+    },
+    "risk": {
+      "holdout_roc_auc": 0.7836
+    },
+    "clustering": {
+      "silhouette": 0.2902,
+      "k": 4
+    }
+  },
+  "created_at": "2026-11-20T12:34:40.175071+00:00"
+}

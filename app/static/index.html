@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Adaptive Learning Platform</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--tx:#1c1c1a;--mu:#6b6b66;--bd:#dcdcd6;--ac:#2f5fd0;--wn:#b45309}
+@media(prefers-color-scheme:dark){:root{--bg:#161615;--card:#1f1f1e;--tx:#ececea;--mu:#9a9a94;--bd:#33332f;--ac:#7fa2ff;--wn:#f0b25a}}
+*{box-sizing:border-box}body{margin:0;font:14px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--tx)}
+main{max-width:1100px;margin:0 auto;padding:16px}h1{font-size:20px;margin:0 0 4px}h2{font-size:15px;margin:0 0 10px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px;margin-bottom:14px}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:end}label{display:flex;flex-direction:column;font-size:12px;color:var(--mu);gap:3px}
+input,select,button{font:inherit;padding:6px 8px;border:1px solid var(--bd);border-radius:6px;background:var(--card);color:var(--tx)}
+button{background:var(--ac);color:#fff;border:0;cursor:pointer}button:disabled{opacity:.5}
+.note{color:var(--mu);font-size:12px}.warn{color:var(--wn);font-size:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:4px 6px;border-bottom:1px solid var(--bd);vertical-align:top}
+canvas{max-height:260px}.pill{padding:1px 8px;border-radius:99px;border:1px solid var(--bd);font-size:12px}
+</style></head><body><main>
+<h1>Adaptive Learning Platform</h1>
+<div id="status" class="note">Checking model…</div>
+<p class="warn">Outcomes shown are model predictions, not actual results. A changing prediction does not prove a recommendation caused improvement. Simulation responses to recommendations are an assumption.</p>
+
+<div class="card"><h2>1. Run a simulation</h2><div class="row">
+<label>Course<select id="course"></select></label>
+<label>Learners<input id="n" type="number" value="300" min="1" max="10000" style="width:90px"></label>
+<label>Weeks<input id="weeks" type="number" value="8" min="1" max="52" style="width:70px"></label>
+<label>Seed<input id="seed" type="number" value="42" style="width:80px"></label>
+<label>Recommendation effect (0 to 1)<input id="effect" type="number" value="0.5" step="0.1" min="0" max="1" style="width:90px"></label>
+<button id="go">Run</button></div><div id="runmsg" class="note"></div></div>
+
+<div class="card"><h2>2. Compare runs (predicted, this page session)</h2>
+<table id="runs"><thead><tr><th>Run</th><th>Effect</th><th>Learners</th><th>Predicted pass/distinction</th><th>High risk</th></tr></thead><tbody></tbody></table>
+<div class="note">Same seed with effect 0 vs. higher shows the simulated influence of guidance under the stated assumption.</div></div>
+
+<div class="card"><h2>3. Cohort report <span id="rid" class="note"></span></h2><div class="grid">
+<div><canvas id="cTrend"></canvas></div><div><canvas id="cOutcome"></canvas></div>
+<div><canvas id="cRisk"></canvas></div><div><table id="clusters"><thead><tr><th>Cluster</th><th>Size</th><th>Eng.</th><th>Score</th></tr></thead><tbody></tbody></table></div></div></div>
+
+<div class="card"><h2>4. Learner journey</h2><div class="row"><label>Learner<select id="learner"></select></label><span id="lmeta" class="note"></span></div>
+<div class="grid"><div><canvas id="cJourney"></canvas></div><div><table id="jt"><thead><tr><th>Wk</th><th>Predicted</th><th>Risk</th><th>Recommendation</th></tr></thead><tbody></tbody></table></div></div></div>
+</main>
+<script>
+const API='/api/v1',$=id=>document.getElementById(id),charts={},runs=[];
+const j=async(p,o)=>{const r=await fetch(API+p,o);const b=await r.json().catch(()=>({}));if(!r.ok)throw new Error(b.detail||r.statusText);return b};
+const pct=(a,b)=>b?Math.round(100*a/b)+'%':'-';
+function draw(id,cfg){if(charts[id])charts[id].destroy();charts[id]=new Chart($(id),cfg)}
+const OUT=['pass','distinction','fail','withdrawn'],COL={pass:'#2f9e6b',distinction:'#2f5fd0',fail:'#d9534f',withdrawn:'#9a9a94',low:'#2f9e6b',medium:'#e0a030',high:'#d9534f'};
+
+async function init(){
+  const h=await j('/health');
+  $('status').textContent=h.active_model?`Model active (trained on: ${h.model_trained_on})`:'No active model: run python -m scripts.train first.';
+  if(h.model_trained_on==='dev_standin')$('status').innerHTML+=' <span class="warn">dev stand-in data, metrics are not meaningful</span>';
+  $('go').disabled=!h.active_model;
+  const c=await j('/courses');$('course').innerHTML=c.items.map(x=>`<option value="${x.id}">${x.title}</option>`).join('');
+}
+$('go').onclick=async()=>{
+  $('go').disabled=true;$('runmsg').textContent='Starting…';
+  try{
+    const body={course_id:+$('course').value,n_learners:+$('n').value,weeks:+$('weeks').value,seed:+$('seed').value,recommendation_effect:+$('effect').value};
+    const {sim_run_id}=await j('/simulate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+    for(;;){const s=await j('/simulate/'+sim_run_id);$('runmsg').textContent=`${s.status}: ${s.learners_created}/${s.n_learners} learners`;
+      if(s.status==='failed')throw new Error(s.error);if(s.status==='done')break;await new Promise(r=>setTimeout(r,1000))}
+    await show(sim_run_id,body.recommendation_effect);
+  }catch(e){$('runmsg').textContent='Error: '+e.message}finally{$('go').disabled=false}
+};
+async function show(id,effect){
+  const r=await j('/reports/cohort?sim_run_id='+id);$('rid').textContent='('+id.slice(0,8)+')';
+  const o=r.latest_outcome_distribution,good=o.pass+o.distinction;
+  runs.push(id);const tb=document.querySelector('#runs tbody');
+  tb.insertAdjacentHTML('beforeend',`<tr><td>${id.slice(0,8)}</td><td>${effect}</td><td>${r.n_learners}</td><td>${pct(good,r.n_learners)}</td><td>${pct(r.risk_distribution.high,r.n_learners)}</td></tr>`);
+  const w=r.weekly_trend.map(x=>x.week);
+  draw('cTrend',{type:'line',data:{labels:w,datasets:[{label:'Avg engagement',data:r.weekly_trend.map(x=>x.avg_engagement),borderColor:'#2f5fd0'},{label:'Avg assessment',data:r.weekly_trend.map(x=>x.avg_assessment_score),borderColor:'#2f9e6b'}]},options:{plugins:{title:{display:true,text:'Weekly averages (0 to 1)'}},scales:{y:{min:0,max:1}}}});
+  draw('cOutcome',{type:'bar',data:{labels:w,datasets:OUT.map(k=>({label:k,data:r.weekly_trend.map(x=>x.outcome_distribution[k]),backgroundColor:COL[k]}))},options:{plugins:{title:{display:true,text:'Predicted outcome by week'}},scales:{x:{stacked:true},y:{stacked:true}}}});
+  draw('cRisk',{type:'doughnut',data:{labels:['low','medium','high'],datasets:[{data:['low','medium','high'].map(k=>r.risk_distribution[k]),backgroundColor:['low','medium','high'].map(k=>COL[k])}]},options:{plugins:{title:{display:true,text:'Latest risk flag'}}}});
+  document.querySelector('#clusters tbody').innerHTML=r.clusters.map(c=>`<tr><td>${c.label||c.cluster_id}</td><td>${c.size}</td><td>${c.avg_engagement.toFixed(2)}</td><td>${c.avg_assessment_score==null?'-':c.avg_assessment_score.toFixed(2)}</td></tr>`).join('');
+  const l=await j('/learners?sim_run_id='+id+'&limit=200');
+  $('learner').innerHTML=l.items.map(x=>`<option value="${x.id}">#${x.id} ${x.archetype||''}</option>`).join('');
+  if(l.items.length)await journey();
+}
+$('learner').onchange=journey;
+async function journey(){
+  const id=$('learner').value;if(!id)return;const d=await j('/journey/'+id);
+  $('lmeta').textContent=`simulated ground truth: ${d.actual_outcome||'n/a'} (a simulator rule, not real data)`;
+  const p=d.points,w=p.map(x=>x.checkpoint.week);
+  draw('cJourney',{type:'line',data:{labels:w,datasets:[{label:'Engagement',data:p.map(x=>x.checkpoint.engagement),borderColor:'#2f5fd0'},{label:'Assessment',data:p.map(x=>x.checkpoint.assessment_score),borderColor:'#2f9e6b'},{label:'P(pass or distinction)',data:p.map(x=>x.checkpoint.outcome_probs.pass+x.checkpoint.outcome_probs.distinction),borderColor:'#e0a030',borderDash:[5,4]}]},options:{plugins:{title:{display:true,text:'Learning journey (predictions dashed)'}},scales:{y:{min:0,max:1}}}});
+  document.querySelector('#jt tbody').innerHTML=p.map(x=>`<tr><td>${x.checkpoint.week}</td><td>${x.checkpoint.predicted_outcome}</td><td><span class="pill">${x.checkpoint.risk}</span></td><td>${x.recommendations.map(r=>r.action.replace('_',' ')+(r.content_item?': '+r.content_item.title:'')+' ('+r.status+')').join('<br>')||'-'}</td></tr>`).join('');
+}
+init().catch(e=>$('status').textContent='Error: '+e.message);
+</script></body></html>
